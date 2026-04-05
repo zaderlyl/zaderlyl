@@ -1,5 +1,5 @@
 # 💫 About Me:
-je suis etudiant en MMI ( métier du multimédia et de l'internet)  a L'IUT de Béziers, j'ai 18ans je suis passionné par le monde du numérique que se soit le devellopement web ou le Game designer. mon coté créatif me permet de pouvoir facilement allier esthétisme ergonomie et technique dans mes projet pour leur donner une vrai identité original.<br>je suis actuellement sur mon projet de portfolio, je reste ouvert a d'autre projet que se soit en collaboration ou en contrat
+Je suis étudiant en MMI ( métier du multimédia et de l'internet) à l'IUT de Béziers, j'ai 18 ans. Je suis passionné par le monde du numérique que ce soit le développement web ou le Game designer. Mon côté créatif me permet de pouvoir facilement allier esthétisme, ergonomie et technique dans mes projets pour leur donner une vraie identité originale.<br>je suis actuellement sur mon projet de portfolio, je reste ouvert à d'autres projets que ce soit en collaboration ou en contrat
 
 
 ## 🌐 Socials:
