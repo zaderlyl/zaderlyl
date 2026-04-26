@@ -1,6 +1,6 @@
 # 💫 About Me:
-Je suis étudiant en MMI ( métier du multimédia et de l'internet) à l'IUT de Béziers, j'ai 18 ans. Je suis passionné par le monde du numérique que ce soit le développement web ou le Game designer. Mon côté créatif me permet de pouvoir facilement allier esthétisme, ergonomie et technique dans mes projets pour leur donner une vraie identité originale.<br>je suis actuellement sur mon projet de portfolio, je reste ouvert à d'autres projets que ce soit en collaboration ou en contrat
-
+Je suis étudiant en MMI (Métiers du Multimédia et de l’Internet) à l’IUT de Béziers et j’ai 18 ans. Je suis passionné par le monde du numérique, que ce soit le développement web ou le game design. Mon côté créatif me permet d’allier facilement esthétisme, ergonomie et technique dans mes projets, afin de leur donner une véritable identité originale.
+<br>Je travaille actuellement sur mon portfolio et reste ouvert à d’autres projets, que ce soit en collaboration ou en contrat. Je suis également à la recherche d’un stage étudiant ou d’une alternance.
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/ryu_trg) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Zaderlyl) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/lilian-cornet-8923bb3b2/) [![Codepen](https://img.shields.io/badge/Codepen-000000?logo=codepen&logoColor=white)](https://codepen.io/https://codepen.io/lilian-cornet) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:Lcornet38@gmail.com) 
