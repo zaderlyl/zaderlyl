@@ -16,6 +16,11 @@ identité, interface, mise en page.
 
 <br clear="right">
 
+<br clear="left">
+
+<img align="left" width="180" src="assets/imgforgithub2.png" alt="">
+
+
 ## Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lilian-cornet-8923bb3b2/)
@@ -41,13 +46,11 @@ identité, interface, mise en page.
 
 ## Projets
 
-<img align="left" width="180" src="assets/imgforgithub2.png" alt="">
 
 Un noyau maison en Rust, un jeu de plateforme, une app de notes en temps réel,
 un dashboard Spotify, de la 3D dans le navigateur. Le tableau ci-dessous est
 **généré automatiquement** et trié par dernière mise à jour.
 
-<br clear="left">
 
 <!-- PROJECTS:START -->
 <!-- Généré automatiquement — voir projects.config.json -->
