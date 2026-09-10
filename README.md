@@ -1,83 +1,49 @@
-<h1 align="center">Salut, moi c'est Lilian 👋</h1>
+# Lilian Cornet
 
-<p align="center">
-  Étudiant en <b>MMI</b> à l'IUT de Béziers · Développeur web & game design · 18 ans
-</p>
+Étudiant en MMI (Métiers du Multimédia et de l'Internet) à l'IUT de Béziers.
+Je travaille sur deux axes complémentaires : le **développement** — web front et
+back, applications mobiles, systèmes bas niveau — et la **création visuelle** —
+identité, interface, mise en page.
 
-<p align="center">
-  <a href="https://ton-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/liliancornet/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://codepen.io/lilian-cornet"><img src="https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen"></a>
-  <a href="https://www.instagram.com/zaderlyl/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="mailto:lcornet38@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
+**Recherche une alternance ou un stage.** Ouvert aux projets en collaboration.
 
----
+- Développement web : interfaces soignées, back PHP / Node, bases de données
+- Applications : Android (Java / Capacitor), iOS (Swift / SwiftUI)
+- Exploration bas niveau : noyau x86_64 en Rust (voir *Nothing-OS* ci-dessous)
+- Création : Illustrator, InDesign, Affinity Photo
 
-## 💫 À propos
+## Contact
 
-Passionné par le numérique sous toutes ses formes — du **développement web** au **game design**.
-Mon côté créatif me permet d'allier facilement **esthétique, ergonomie et technique**, pour donner
-à chaque projet une véritable identité.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lilian-cornet-8923bb3b2/)
+[![CodePen](https://img.shields.io/badge/CodePen-1a1a1a?style=flat-square&logo=codepen&logoColor=white)](https://codepen.io/lilian-cornet)
+[![Email](https://img.shields.io/badge/lcornet38@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:lcornet38@gmail.com)
 
-- 🌐 Je travaille actuellement sur mon **portfolio**
-- 🎯 En recherche d'un **stage** ou d'une **alternance**
-- 🤝 Ouvert aux projets en **collaboration** ou en **contrat**
-- 🎮 J'aime autant coder une interface soignée que prototyper un petit jeu
-- 📫 Le plus simple pour me joindre : **lcornet38@gmail.com**
-
----
-
-## 💻 Stack
+## Compétences
 
 **Langages**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+`Python` · `JavaScript` · `TypeScript` · `PHP` · `SQL` · `Rust` · `Java` · `Swift` · `C` · `C++` · `HTML` · `CSS`
 
 **Frameworks & outils**
+`Node.js` · `Express` · `Vite` · `Firebase` · `Three.js` · `Phaser` · `Capacitor` · `Git` · `Tiled`
 
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+**Création**
+`Illustrator` · `InDesign` · `Affinity Photo` · `Canva`
 
-**Design**
+## Projets sélectionnés
 
-![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)
-![InDesign](https://img.shields.io/badge/InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=FF3366)
-![Affinity Photo](https://img.shields.io/badge/Affinity%20Photo-7E4DD2?style=for-the-badge&logo=affinity-photo&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
+<!-- PROJECTS:START -->
+<!-- Généré automatiquement — voir projects.config.json -->
 
----
+| Projet | Description | Stack | Maj |
+|---|---|---|---|
+| **[sans-couleurs](https://github.com/zaderlyl/sans-couleurs)** | Jeu de plateforme 2D pixel art (Phaser 3). Cartes, PNJ et dialogues définis dans Tiled plutôt que codés en dur. | `JavaScript · Phaser` | 2026-09-09 |
+| **[Nothing-OS](https://github.com/zaderlyl/Nothing-OS)** | Noyau x86_64 bare-metal écrit en Rust, bootable dans QEMU : système de fichiers persistant, pilotes ATA/PCI, partage de dossier hôte via virtio-9p, interface entièrement au clavier. | `Rust · ASM` | 2026-09-04 |
+| **[Note-2-](https://github.com/zaderlyl/Note-2-)** | Application de prise de notes partagées à deux en temps réel (Firebase), packagée en app Android avec Capacitor. Design inspiré du Nothing Phone. | `Java · Firebase` | 2026-08-19 |
+| **[Musee--FABI](https://github.com/Bebbou/Musee--FABI)** | Projet de groupe (SAÉ) : site d'un musée avec back PHP/MySQL et visite en 3D dans le navigateur (Three.js, modèles glTF). | `PHP · SQL · Three.js` · ★ 1 | 2026-06-19 |
+| **[Spoti-Stat](https://github.com/zaderlyl/Spoti-Stat)** | Tableau de bord de statistiques d'écoute Spotify (API Spotify). | `JavaScript` | 2026-06-15 |
+| **[dystopia-europa](https://github.com/zaderlyl/dystopia-europa)** | _(pas encore de description)_ | `HTML` | 2026-05-24 |
+| **[WebGPU-test](https://github.com/zaderlyl/WebGPU-test)** | _(pas encore de description)_ | `HTML` | 2026-04-03 |
+| **[Portfolio](https://github.com/zaderlyl/Portfolio)** | _(pas encore de description)_ | `CSS` | 2026-04-02 |
+| **[SAE105](https://github.com/zaderlyl/SAE105)** | _(pas encore de description)_ | `CSS` | 2026-03-09 |
 
-## 🚀 Projets
-
-| Projet | Description | Stack |
-|---|---|---|
-| **[Nothing-OS](https://github.com/zaderlyl/Nothing-OS)** | _Décris en une phrase ce que c'est_ | `JS` `CSS` |
-| **[Projet 2](#)** | _…_ | `…` |
-| **[Projet 3](#)** | _…_ | `…` |
-
-> 👉 Retrouve l'ensemble de mon travail sur mon **[portfolio](https://ton-portfolio.com)**.
-
----
-
-## 📊 GitHub
-
-Mes projets principaux sont **épinglés en haut de ce profil**, et le graphe de
-contributions ci-dessous résume mon activité.
-
-<!--
-  Carte de stats retirée : l'instance publique github-readme-stats est
-  saturée en permanence. Pour la remettre, héberge ta propre instance
-  sur Vercel puis décommente en remplaçant le domaine :
-  ![](https://TON-INSTANCE.vercel.app/api?username=zaderlyl&theme=blueberry&hide_border=true&count_private=true)
--->
-
+<!-- PROJECTS:END -->

@@ -1,0 +1,39 @@
+{
+  "_comment": "Config du tableau 'Projets sélectionnés'. Tous les repos publics de 'user' sont listés automatiquement, triés par date de dernière modification (le plus récent en haut). Un repo créé ou modifié remonte donc tout seul.",
+
+  "user": "zaderlyl",
+
+  "_include": "Repos supplémentaires à afficher même s'ils ne t'appartiennent pas (projets de groupe). Format owner/name.",
+  "include": ["Bebbou/Musee--FABI"],
+
+  "_exclude": "Repos à ne jamais afficher. Le dépôt de profil est exclu d'office.",
+  "exclude": ["zaderlyl/zaderlyl", "zaderlyl/Lilian-CORNET"],
+
+  "_options": "Filtres. Les repos vides (0 Ko) sont toujours ignorés.",
+  "includeForks": false,
+  "includeArchived": false,
+
+  "_overrides": "Par repo : 'note' remplace la description GitHub, 'stack' remplace le langage détecté. Si absent, le script prend la description 'About' et le langage principal du repo.",
+  "overrides": {
+    "zaderlyl/Nothing-OS": {
+      "note": "Noyau x86_64 bare-metal écrit en Rust, bootable dans QEMU : système de fichiers persistant, pilotes ATA/PCI, partage de dossier hôte via virtio-9p, interface entièrement au clavier.",
+      "stack": "Rust · ASM"
+    },
+    "zaderlyl/Note-2-": {
+      "note": "Application de prise de notes partagées à deux en temps réel (Firebase), packagée en app Android avec Capacitor. Design inspiré du Nothing Phone.",
+      "stack": "Java · Firebase"
+    },
+    "zaderlyl/sans-couleurs": {
+      "note": "Jeu de plateforme 2D pixel art (Phaser 3). Cartes, PNJ et dialogues définis dans Tiled plutôt que codés en dur.",
+      "stack": "JavaScript · Phaser"
+    },
+    "zaderlyl/Spoti-Stat": {
+      "note": "Tableau de bord de statistiques d'écoute Spotify (API Spotify).",
+      "stack": "JavaScript"
+    },
+    "Bebbou/Musee--FABI": {
+      "note": "Projet de groupe (SAÉ) : site d'un musée avec back PHP/MySQL et visite en 3D dans le navigateur (Three.js, modèles glTF).",
+      "stack": "PHP · SQL · Three.js"
+    }
+  }
+}
