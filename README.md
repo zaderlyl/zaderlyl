@@ -1,5 +1,7 @@
 # Lilian Cornet
 
+<img align="right" width="120" src="assets/imgforgithub.png" alt="">
+
 Étudiant en MMI (Métiers du Multimédia et de l'Internet) à l'IUT de Béziers.
 Je travaille sur deux axes complémentaires : le **développement** — web front et
 back, applications mobiles, systèmes bas niveau — et la **création visuelle** —
@@ -9,14 +11,20 @@ identité, interface, mise en page.
 
 - Développement web : interfaces soignées, back PHP / Node, bases de données
 - Applications : Android (Java / Capacitor), iOS (Swift / SwiftUI)
-- Exploration bas niveau : noyau x86_64 en Rust (voir *Nothing-OS* ci-dessous)
+- Exploration bas niveau : noyau x86_64 en Rust
 - Création : Illustrator, InDesign, Affinity Photo
+
+<br clear="right">
 
 ## Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lilian-cornet-8923bb3b2/)
 [![CodePen](https://img.shields.io/badge/CodePen-1a1a1a?style=flat-square&logo=codepen&logoColor=white)](https://codepen.io/lilian-cornet)
 [![Email](https://img.shields.io/badge/lcornet38@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:lcornet38@gmail.com)
+
+<!-- Image de gauche : ajoute assets/screen-2.png (largeur >= 660 px) puis décommente
+<img align="left" width="330" src="assets/screen-2.png" alt="">
+-->
 
 ## Compétences
 
@@ -29,7 +37,19 @@ identité, interface, mise en page.
 **Création**
 `Illustrator` · `InDesign` · `Affinity Photo` · `Canva`
 
-## Projets sélectionnés
+<!-- <br clear="left"> -->
+
+## Projets
+
+<!-- Image de droite : ajoute assets/screen-3.png (largeur >= 660 px) puis décommente
+<img align="right" width="330" src="assets/screen-3.png" alt="">
+-->
+
+Un noyau maison en Rust, un jeu de plateforme, une app de notes en temps réel,
+un dashboard Spotify, de la 3D dans le navigateur. Le tableau ci-dessous est
+**généré automatiquement** et trié par dernière mise à jour.
+
+<!-- <br clear="right"> -->
 
 <!-- PROJECTS:START -->
 <!-- Généré automatiquement — voir projects.config.json -->
