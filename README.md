@@ -1,5 +1,7 @@
 # Lilian Cornet
 
+<img align="right" width="150" src="assets/imgforgithub.png" alt="">
+
 Étudiant en MMI (Métiers du Multimédia et de l'Internet) à l'IUT de Béziers.
 Je travaille sur deux axes complémentaires : le **développement** — web front et
 back, applications mobiles, systèmes bas niveau — et la **création visuelle** —
@@ -39,13 +41,13 @@ identité, interface, mise en page.
 
 ## Projets
 
-<img align="right" width="180" src="assets/imgforgithub2.png" alt="">
+<img align="left" width="180" src="assets/imgforgithub2.png" alt="">
 
 Un noyau maison en Rust, un jeu de plateforme, une app de notes en temps réel,
 un dashboard Spotify, de la 3D dans le navigateur. Le tableau ci-dessous est
 **généré automatiquement** et trié par dernière mise à jour.
 
-<br clear="right">
+<br clear="left">
 
 <!-- PROJECTS:START -->
 <!-- Généré automatiquement — voir projects.config.json -->
