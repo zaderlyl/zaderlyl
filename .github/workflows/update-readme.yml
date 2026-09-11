@@ -1,4 +1,4 @@
-name: Update README projects
+name: Update README
 
 on:
   schedule:
@@ -9,6 +9,7 @@ on:
     paths:
       - projects.config.json
       - scripts/update-projects.mjs
+      - scripts/update-stats.mjs
       - .github/workflows/update-readme.yml
 
 permissions:
@@ -29,14 +30,23 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update-projects.mjs
 
-      - name: Commit si le README a changé
+      - name: Régénérer les stats (contributions, streaks, langages)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Si ce token par défaut n'a pas accès au calendrier de contributions,
+          # crée un token personnel (scope "read:user") et ajoute-le comme
+          # secret du repo sous le nom STATS_TOKEN.
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: node scripts/update-stats.mjs
+
+      - name: Commit si quelque chose a changé
         run: |
-          if [[ -n "$(git status --porcelain README.md)" ]]; then
+          if [[ -n "$(git status --porcelain README.md assets/stats.svg)" ]]; then
             git config user.name  "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git commit -m "chore: mise à jour auto du tableau des projets"
+            git add README.md assets/stats.svg
+            git commit -m "chore: mise à jour auto (projets + stats)"
             git push
           else
-            echo "README inchangé."
+            echo "Rien à mettre à jour."
           fi

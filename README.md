@@ -1,38 +1,18 @@
-# Lilian Cornet
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="Terminal : lilian@zaderlyl:~$ whoami — Cornet Lilian, MMI, IUT de Béziers, dev web, systèmes bas niveau, game design, en recherche d'alternance">
+</p>
 
-<img align="right" width="150" src="assets/imgforgithub.png" alt="">
+<p align="center">
+  <a href="https://www.linkedin.com/in/lilian-cornet-8923bb3b2/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://codepen.io/lilian-cornet"><img src="https://img.shields.io/badge/CodePen-1a1a1a?style=flat-square&logo=codepen&logoColor=white" alt="CodePen"></a>
+  <a href="mailto:lcornet38@gmail.com"><img src="https://img.shields.io/badge/lcornet38@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-Étudiant en MMI (Métiers du Multimédia et de l'Internet) à l'IUT de Béziers.
-Je travaille sur deux axes complémentaires : le **développement** — web front et
-back, applications mobiles, systèmes bas niveau — et la **création visuelle** —
-identité, interface, mise en page.
+### `$ cat about.md`
 
-**Recherche une alternance ou un stage.** Ouvert aux projets en collaboration.
+Étudiant en MMI (Métiers du Multimédia et de l'Internet) à l'IUT de Béziers. Deux axes complémentaires : le **développement** — web front/back, applications mobiles, systèmes bas niveau — et la **création visuelle** — identité, interface, mise en page.
 
-- Développement web : interfaces soignées, back PHP / Node, bases de données
-- Applications : Android (Java / Capacitor), iOS (Swift / SwiftUI)
-- Exploration bas niveau : noyau x86_64 en Rust
-- Création : Illustrator, InDesign, Affinity Photo
-
-<br clear="right">
-
-<img align="left" width="180" src="assets/imgforgithub2.png" alt="">
-
-
-<br clear="left">
-
-
-## Contact
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lilian-cornet-8923bb3b2/)
-[![CodePen](https://img.shields.io/badge/CodePen-1a1a1a?style=flat-square&logo=codepen&logoColor=white)](https://codepen.io/lilian-cornet)
-[![Email](https://img.shields.io/badge/lcornet38@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:lcornet38@gmail.com)
-
-<!-- Image de gauche : ajoute assets/screen-2.png (largeur >= 660 px) puis décommente
-<img align="left" width="330" src="assets/screen-2.png" alt="">
--->
-
-## Compétences
+### `$ ls skills/`
 
 **Langages**
 `Python` · `JavaScript` · `TypeScript` · `PHP` · `SQL` · `Rust` · `Java` · `Swift` · `C` · `C++` · `HTML` · `CSS`
@@ -43,42 +23,15 @@ identité, interface, mise en page.
 **Création**
 `Illustrator` · `InDesign` · `Affinity Photo` · `Canva`
 
-<!-- <br clear="left"> -->
+### `$ gh stats --user zaderlyl`
 
-## Historique git en 3D
+<p align="center">
+  <img src="assets/stats.svg" width="100%" alt="Statistiques GitHub : contributions, streaks et langages les plus utilisés">
+</p>
 
-Une petite fenêtre par projet : chaque bloc est un jour de travail, chaque point un commit relié à son parent. Clique une image pour l'ouvrir en interactif (glisser = pivoter, molette = zoom, clic sur un point = ouvre le commit sur GitHub).
+### `$ ls ./projects --sort=updated`
 
-<table>
-<tr>
-<td width="50%">
-<a href="https://zaderlyl.github.io/zaderlyl/nothing-os.html"><img src="assets/win-nothing-os.jpg" width="100%" alt="Nothing-OS — historique 3D"></a><br>
-<b>Nothing-OS</b> — 65 commits · 2 nuits · <code>Rust</code>
-</td>
-<td width="50%">
-<a href="https://zaderlyl.github.io/zaderlyl/sans-couleurs.html"><img src="assets/win-sans-couleurs.jpg" width="100%" alt="sans-couleurs — historique 3D"></a><br>
-<b>sans-couleurs</b> — 41 commits · 4 nuits · <code>Phaser</code>
-</td>
-</tr>
-<tr>
-<td width="50%">
-<a href="https://zaderlyl.github.io/zaderlyl/spoti-stat.html"><img src="assets/win-spoti-stat.jpg" width="100%" alt="Spoti-Stat — historique 3D"></a><br>
-<b>Spoti-Stat</b> — 38 commits · 10 jours · <code>JavaScript</code>
-</td>
-<td width="50%">
-<a href="https://zaderlyl.github.io/zaderlyl/note-2.html"><img src="assets/win-note-2.jpg" width="100%" alt="Note-2- — historique 3D"></a><br>
-<b>Note-2-</b> — 5 commits · 1 jour · <code>Java</code>
-</td>
-</tr>
-</table>
-
-## Projets
-
-
-Un noyau maison en Rust, un jeu de plateforme, une app de notes en temps réel,
-un dashboard Spotify, de la 3D dans le navigateur. Le tableau ci-dessous est
-**généré automatiquement** et trié par dernière mise à jour.
-
+Tous mes dépôts publics, triés par dernière modification. Ce tableau se met à jour tout seul (toutes les 6h, ou dès qu'un projet bouge) — voir [`projects.config.json`](projects.config.json).
 
 <!-- PROJECTS:START -->
 <!-- Généré automatiquement — voir projects.config.json -->
@@ -95,3 +48,10 @@ un dashboard Spotify, de la 3D dans le navigateur. Le tableau ci-dessous est
 | **[SAE105](https://github.com/zaderlyl/SAE105)** | Site de visite virtuelle des Halles de Béziers : parcours 360° du marché couvert en A-Frame (WebVR), présentation des commerçants, pages À propos et contact. Projet SAÉ 105 — BUT MMI. HTML / CSS / JS. | `CSS` | 2026-03-09 |
 
 <!-- PROJECTS:END -->
+
+### `$ whereis me`
+
+**Recherche une alternance ou un stage.** Ouvert aux projets en collaboration.
+[LinkedIn](https://www.linkedin.com/in/lilian-cornet-8923bb3b2/) · [CodePen](https://codepen.io/lilian-cornet) · [lcornet38@gmail.com](mailto:lcornet38@gmail.com)
+
+<sub>readme --version · dernière régénération automatique via GitHub Actions</sub>

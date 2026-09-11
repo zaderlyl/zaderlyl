@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 230" width="860" height="230" role="img" aria-label="Terminal : Lilian Cornet, etudiant MMI, developpeur web et game design">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111318"/>
+      <stop offset="1" stop-color="#0a0b0d"/>
+    </linearGradient>
+    <clipPath id="round"><rect x="0" y="0" width="860" height="230" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="860" height="230" fill="url(#bg)"/>
+
+    <!-- titlebar -->
+    <rect x="0" y="0" width="860" height="36" fill="#1c1f26"/>
+    <line x1="0" y1="36" x2="860" y2="36" stroke="#2a2e37" stroke-width="1"/>
+    <circle cx="22" cy="18" r="5.5" fill="#e6675f"/>
+    <circle cx="41" cy="18" r="5.5" fill="#e6b95f"/>
+    <circle cx="60" cy="18" r="5.5" fill="#5fbf6e"/>
+    <text x="430" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#7b8394">zaderlyl@github — zsh</text>
+
+    <!-- body -->
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19">
+
+      <text x="26" y="72" fill="#3987e5">
+        <tspan fill="#3987e5">lilian</tspan><tspan fill="#7b8394">@</tspan><tspan fill="#3987e5">zaderlyl</tspan><tspan fill="#eef0f4">:~$ whoami</tspan>
+        <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.01s" fill="freeze"/>
+      </text>
+
+      <text x="26" y="106" fill="#eef0f4" opacity="0">
+        <tspan fill="#4fbf8a">›</tspan> Cornet Lilian — MMI, IUT de Béziers
+        <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.01s" fill="freeze"/>
+      </text>
+
+      <text x="26" y="136" fill="#eef0f4" opacity="0">
+        <tspan fill="#4fbf8a">›</tspan> dev web · systemes bas niveau · game design
+        <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.01s" fill="freeze"/>
+      </text>
+
+      <text x="26" y="166" fill="#aeb3bf" opacity="0" font-size="17">
+        <tspan fill="#4fbf8a">›</tspan> boot: Nothing-OS · load: sans-couleurs · sync: Note-2-
+        <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.01s" fill="freeze"/>
+      </text>
+
+      <text x="26" y="200" fill="#eef0f4" opacity="0">
+        <tspan fill="#3987e5">›</tspan> status: <tspan fill="#eda100">en recherche d'alternance</tspan><tspan fill="#eef0f4" dx="6">▌<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.501;0.99;1" begin="2.9s" dur="1s" repeatCount="indefinite"/></tspan>
+        <animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.01s" fill="freeze"/>
+      </text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="859" height="229" rx="14" fill="none" stroke="#2a2e37"/>
+</svg>
