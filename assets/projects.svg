@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 670" width="860" height="670" role="img" aria-label="Vue d'ensemble des 8 projets publics : commits, branches et activité des 8 dernières semaines">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111318"/>
+      <stop offset="1" stop-color="#0a0b0d"/>
+    </linearGradient>
+    <clipPath id="round3"><rect x="0" y="0" width="860" height="670" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#round3)">
+    <rect width="860" height="670" fill="url(#bg3)"/>
+    <rect x="0" y="0" width="860" height="36" fill="#1c1f26"/>
+    <line x1="0" y1="36" x2="860" y2="36" stroke="#2a2e37" stroke-width="1"/>
+    <circle cx="22" cy="18" r="5.5" fill="#e6675f"/>
+    <circle cx="41" cy="18" r="5.5" fill="#e6b95f"/>
+    <circle cx="60" cy="18" r="5.5" fill="#5fbf6e"/>
+    <text x="430" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#7b8394">ls ./projects --sort=updated</text>
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+      
+    <text x="24" y="70" font-size="15" font-weight="700" fill="#eef0f4">sans-couleurs</text>
+    <text x="145.8" y="70" font-size="11.5" fill="#7b8394">Jeu de plateforme 2D pixel art (Phaser 3). Ca…</text>
+    <text x="836" y="70" text-anchor="end" font-size="11.5" fill="#7b8394">38 commits · 5 branches</text>
+    <rect x="24" y="80" width="420" height="8" rx="4" fill="#1c1f26"/>
+    <rect x="24" y="80" width="137.6" height="8" rx="4" fill="#3987e5"/>
+    <rect x="470" y="100.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="486" y="100.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="502" y="100.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="518" y="100.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="534" y="100.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="550" y="100.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="566" y="100.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="582" y="82.0" width="10" height="20.0" rx="2" fill="#3987e5"/>
+    <text x="470" y="118" font-size="9.5" fill="#4a4f5c">8 dernières semaines</text>
+    <line x1="24" y1="118" x2="836" y2="118" stroke="#1c1f26" stroke-width="1"/>
+  
+
+    <text x="24" y="144" font-size="15" font-weight="700" fill="#eef0f4">Nothing-OS</text>
+    <text x="120" y="144" font-size="11.5" fill="#7b8394">Noyau x86_64 bare-metal écrit en Rust, bootab…</text>
+    <text x="836" y="144" text-anchor="end" font-size="11.5" fill="#7b8394">65 commits · 1 branche</text>
+    <rect x="24" y="154" width="420" height="8" rx="4" fill="#1c1f26"/>
+    <rect x="24" y="154" width="235.3" height="8" rx="4" fill="#3987e5"/>
+    <rect x="470" y="174.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="486" y="174.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="502" y="174.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="518" y="174.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="534" y="174.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="550" y="174.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="566" y="156.0" width="10" height="20.0" rx="2" fill="#3987e5"/><rect x="582" y="174.0" width="10" height="2.0" rx="2" fill="#2a2e37"/>
+    <text x="470" y="192" font-size="9.5" fill="#4a4f5c">8 dernières semaines</text>
+    <line x1="24" y1="192" x2="836" y2="192" stroke="#1c1f26" stroke-width="1"/>
+  
+
+    <text x="24" y="218" font-size="15" font-weight="700" fill="#eef0f4">Note-2-</text>
+    <text x="94.19999999999999" y="218" font-size="11.5" fill="#7b8394">Application de prise de notes partagées à deu…</text>
+    <text x="836" y="218" text-anchor="end" font-size="11.5" fill="#7b8394">5 commits · 1 branche</text>
+    <rect x="24" y="228" width="420" height="8" rx="4" fill="#1c1f26"/>
+    <rect x="24" y="228" width="18.1" height="8" rx="4" fill="#3987e5"/>
+    <rect x="470" y="248.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="486" y="248.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="502" y="248.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="518" y="248.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="534" y="230.0" width="10" height="20.0" rx="2" fill="#3987e5"/><rect x="550" y="248.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="566" y="248.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="582" y="248.0" width="10" height="2.0" rx="2" fill="#2a2e37"/>
+    <text x="470" y="266" font-size="9.5" fill="#4a4f5c">8 dernières semaines</text>
+    <line x1="24" y1="266" x2="836" y2="266" stroke="#1c1f26" stroke-width="1"/>
+  
+
+    <text x="24" y="292" font-size="15" font-weight="700" fill="#eef0f4">Musee--FABI</text>
+    <text x="128.6" y="292" font-size="11.5" fill="#7b8394">Projet de groupe (SAÉ) : site d'un musée avec…</text>
+    <text x="836" y="292" text-anchor="end" font-size="11.5" fill="#7b8394">116 commits · 18 branches</text>
+    <rect x="24" y="302" width="420" height="8" rx="4" fill="#1c1f26"/>
+    <rect x="24" y="302" width="420.0" height="8" rx="4" fill="#3987e5"/>
+    <rect x="470" y="322.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="486" y="322.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="502" y="322.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="518" y="322.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="534" y="322.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="550" y="322.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="566" y="322.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="582" y="322.0" width="10" height="2.0" rx="2" fill="#2a2e37"/>
+    <text x="470" y="340" font-size="9.5" fill="#4a4f5c">8 dernières semaines</text>
+    <line x1="24" y1="340" x2="836" y2="340" stroke="#1c1f26" stroke-width="1"/>
+  
+
+    <text x="24" y="366" font-size="15" font-weight="700" fill="#eef0f4">Spoti-Stat</text>
+    <text x="120" y="366" font-size="11.5" fill="#7b8394">Tableau de bord de statistiques d'écoute Spot…</text>
+    <text x="836" y="366" text-anchor="end" font-size="11.5" fill="#7b8394">38 commits · 1 branche</text>
+    <rect x="24" y="376" width="420" height="8" rx="4" fill="#1c1f26"/>
+    <rect x="24" y="376" width="137.6" height="8" rx="4" fill="#3987e5"/>
+    <rect x="470" y="396.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="486" y="396.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="502" y="396.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="518" y="396.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="534" y="396.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="550" y="396.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="566" y="396.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="582" y="396.0" width="10" height="2.0" rx="2" fill="#2a2e37"/>
+    <text x="470" y="414" font-size="9.5" fill="#4a4f5c">8 dernières semaines</text>
+    <line x1="24" y1="414" x2="836" y2="414" stroke="#1c1f26" stroke-width="1"/>
+  
+
+    <text x="24" y="440" font-size="15" font-weight="700" fill="#eef0f4">WebGPU-test</text>
+    <text x="128.6" y="440" font-size="11.5" fill="#7b8394">(pas encore de description)</text>
+    <text x="836" y="440" text-anchor="end" font-size="11.5" fill="#7b8394">4 commits · 1 branche</text>
+    <rect x="24" y="450" width="420" height="8" rx="4" fill="#1c1f26"/>
+    <rect x="24" y="450" width="14.5" height="8" rx="4" fill="#3987e5"/>
+    <rect x="470" y="470.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="486" y="470.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="502" y="470.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="518" y="470.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="534" y="470.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="550" y="470.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="566" y="470.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="582" y="470.0" width="10" height="2.0" rx="2" fill="#2a2e37"/>
+    <text x="470" y="488" font-size="9.5" fill="#4a4f5c">8 dernières semaines</text>
+    <line x1="24" y1="488" x2="836" y2="488" stroke="#1c1f26" stroke-width="1"/>
+  
+
+    <text x="24" y="514" font-size="15" font-weight="700" fill="#eef0f4">PortfolioV1</text>
+    <text x="128.6" y="514" font-size="11.5" fill="#7b8394">(pas encore de description)</text>
+    <text x="836" y="514" text-anchor="end" font-size="11.5" fill="#7b8394">53 commits · 1 branche</text>
+    <rect x="24" y="524" width="420" height="8" rx="4" fill="#1c1f26"/>
+    <rect x="24" y="524" width="191.9" height="8" rx="4" fill="#3987e5"/>
+    <rect x="470" y="544.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="486" y="544.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="502" y="544.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="518" y="544.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="534" y="544.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="550" y="544.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="566" y="544.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="582" y="544.0" width="10" height="2.0" rx="2" fill="#2a2e37"/>
+    <text x="470" y="562" font-size="9.5" fill="#4a4f5c">8 dernières semaines</text>
+    <line x1="24" y1="562" x2="836" y2="562" stroke="#1c1f26" stroke-width="1"/>
+  
+
+    <text x="24" y="588" font-size="15" font-weight="700" fill="#eef0f4">SAE105</text>
+    <text x="85.6" y="588" font-size="11.5" fill="#7b8394">Site de visite virtuelle des Halles de Bézier…</text>
+    <text x="836" y="588" text-anchor="end" font-size="11.5" fill="#7b8394">4 commits · 1 branche</text>
+    <rect x="24" y="598" width="420" height="8" rx="4" fill="#1c1f26"/>
+    <rect x="24" y="598" width="14.5" height="8" rx="4" fill="#3987e5"/>
+    <rect x="470" y="618.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="486" y="618.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="502" y="618.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="518" y="618.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="534" y="618.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="550" y="618.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="566" y="618.0" width="10" height="2.0" rx="2" fill="#2a2e37"/><rect x="582" y="618.0" width="10" height="2.0" rx="2" fill="#2a2e37"/>
+    <text x="470" y="636" font-size="9.5" fill="#4a4f5c">8 dernières semaines</text>
+    
+  
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="859" height="669" rx="14" fill="none" stroke="#2a2e37"/>
+</svg>
