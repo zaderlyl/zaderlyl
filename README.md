@@ -45,11 +45,32 @@ identité, interface, mise en page.
 
 <!-- <br clear="left"> -->
 
-## Visualisation
+## Historique git en 3D
 
-[![Retour en couleur — historique 3D de sans-couleurs](assets/retour-en-couleur.jpg)](https://zaderlyl.github.io/zaderlyl/sans-couleurs.html)
+Une petite fenêtre par projet : chaque bloc est un jour de travail, chaque point un commit relié à son parent. Clique une image pour l'ouvrir en interactif (glisser = pivoter, molette = zoom, clic sur un point = ouvre le commit sur GitHub).
 
-Historique git de **sans-couleurs** en 3D : chaque bloc est un jour de travail, chaque point un commit relié à son parent, coloré par branche. [Ouvrir la version interactive](https://zaderlyl.github.io/zaderlyl/sans-couleurs.html) (glisser pour pivoter, molette pour zoomer, clic sur un point pour lire le commit).
+<table>
+<tr>
+<td width="50%">
+<a href="https://zaderlyl.github.io/zaderlyl/nothing-os.html"><img src="assets/win-nothing-os.jpg" width="100%" alt="Nothing-OS — historique 3D"></a><br>
+<b>Nothing-OS</b> — 65 commits · 2 nuits · <code>Rust</code>
+</td>
+<td width="50%">
+<a href="https://zaderlyl.github.io/zaderlyl/sans-couleurs.html"><img src="assets/win-sans-couleurs.jpg" width="100%" alt="sans-couleurs — historique 3D"></a><br>
+<b>sans-couleurs</b> — 41 commits · 4 nuits · <code>Phaser</code>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<a href="https://zaderlyl.github.io/zaderlyl/spoti-stat.html"><img src="assets/win-spoti-stat.jpg" width="100%" alt="Spoti-Stat — historique 3D"></a><br>
+<b>Spoti-Stat</b> — 38 commits · 10 jours · <code>JavaScript</code>
+</td>
+<td width="50%">
+<a href="https://zaderlyl.github.io/zaderlyl/note-2.html"><img src="assets/win-note-2.jpg" width="100%" alt="Note-2- — historique 3D"></a><br>
+<b>Note-2-</b> — 5 commits · 1 jour · <code>Java</code>
+</td>
+</tr>
+</table>
 
 ## Projets
 
