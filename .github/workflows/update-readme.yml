@@ -47,10 +47,10 @@ jobs:
 
       - name: Commit si quelque chose a changé
         run: |
-          if [[ -n "$(git status --porcelain README.md assets/stats.svg)" ]]; then
+          if [[ -n "$(git status --porcelain README.md assets/stats.svg assets/projects.svg)" ]]; then
             git config user.name  "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add README.md assets/stats.svg
+            git add README.md assets/stats.svg assets/projects.svg
             git commit -m "chore: mise à jour auto (projets + stats)"
             git pull --rebase origin main
             git push
