@@ -45,6 +45,12 @@ identité, interface, mise en page.
 
 <!-- <br clear="left"> -->
 
+## Visualisation
+
+[![Retour en couleur — historique 3D de sans-couleurs](assets/retour-en-couleur.jpg)](https://zaderlyl.github.io/zaderlyl/sans-couleurs.html)
+
+Historique git de **sans-couleurs** en 3D : chaque bloc est un jour de travail, chaque point un commit relié à son parent, coloré par branche. [Ouvrir la version interactive](https://zaderlyl.github.io/zaderlyl/sans-couleurs.html) (glisser pour pivoter, molette pour zoomer, clic sur un point pour lire le commit).
+
 ## Projets
 
 

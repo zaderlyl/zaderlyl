@@ -1,0 +1,683 @@
+<meta charset="utf-8">
+<title>Retour en couleur</title>
+<meta name="description" content="Historique git de sans-couleurs en 3D">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+  :root{
+    --void:#0a0b0d;
+    --surface:#14161bf2;
+    --surface-2:#1c1f26cc;
+    --line:#2a2e37;
+    --fog:#7b8394;
+    --paper:#eef0f4;
+    --paper-dim:#aeb3bf;
+    --blue:#3987e5;
+    --orange:#d95926;
+    --aqua:#199e70;
+    --radius:10px;
+  }
+  *{box-sizing:border-box;}
+  html,body{height:100%;}
+  body{
+    margin:0;
+    background:var(--void);
+    color:var(--paper);
+    font-family:'Manrope',system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    overflow:hidden;
+  }
+  #app{position:fixed;inset:0;background:var(--void);}
+  canvas#gl{position:absolute;inset:0;display:block;touch-action:none;cursor:grab;}
+  canvas#gl.dragging{cursor:grabbing;}
+
+  .hud{position:absolute;pointer-events:none;}
+  .glass{
+    background:var(--surface);
+    backdrop-filter:blur(10px);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+  }
+
+  header.hud-top{
+    top:0;left:0;right:0;
+    display:flex;justify-content:space-between;align-items:flex-start;
+    flex-wrap:wrap;
+    gap:10px 16px;
+    padding:16px 18px;
+  }
+  .brand{pointer-events:auto;max-width:52ch;}
+  .eyebrow{
+    display:block;
+    font-family:'JetBrains Mono',monospace;
+    font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--fog);margin-bottom:5px;
+  }
+  h1{
+    margin:0;
+    font-family:'JetBrains Mono',monospace;
+    font-weight:800;
+    font-size:clamp(19px,3.2vw,30px);
+    letter-spacing:-.01em;
+    text-wrap:balance;
+  }
+  .sub{
+    margin:6px 0 0;
+    font-size:12.5px;
+    line-height:1.45;
+    color:var(--paper-dim);
+    max-width:44ch;
+  }
+
+  .stats{
+    pointer-events:auto;
+    display:flex;flex-wrap:wrap;justify-content:flex-end;
+    gap:6px;
+    max-width:min(420px,100%);
+  }
+  .tile{
+    flex:1 1 92px;
+    padding:7px 10px;
+    display:flex;flex-direction:column;gap:1px;
+  }
+  .tile .n{
+    font-family:'JetBrains Mono',monospace;
+    font-variant-numeric:tabular-nums;
+    font-size:16px;font-weight:700;
+    line-height:1.15;
+    white-space:nowrap;
+  }
+  .tile .l{
+    font-size:9.5px;letter-spacing:.05em;text-transform:uppercase;
+    color:var(--fog);
+    white-space:nowrap;
+  }
+  .tile.add .n{color:var(--aqua);}
+  .tile.del .n{color:var(--orange);}
+
+  aside.legend{
+    left:22px;bottom:22px;
+    pointer-events:auto;
+    padding:12px;
+    display:flex;flex-direction:column;gap:6px;
+    max-width:280px;
+  }
+  .legend-title{
+    font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--fog);margin:0 0 4px 2px;
+  }
+  .chip{
+    display:flex;align-items:center;gap:8px;
+    background:transparent;border:1px solid transparent;
+    border-radius:7px;padding:6px 8px;
+    font-size:12.5px;color:var(--paper);
+    cursor:pointer;text-align:left;
+    font-family:inherit;
+    transition:background .15s ease, border-color .15s ease, opacity .15s ease;
+  }
+  .chip:hover{background:var(--surface-2);}
+  .chip.active{border-color:var(--line);background:var(--surface-2);}
+  .chip.dim{opacity:.4;}
+  .chip .dot{width:9px;height:9px;border-radius:50%;flex:none;}
+  .chip .name{flex:1;font-weight:600;}
+  .chip .count{
+    font-family:'JetBrains Mono',monospace;
+    color:var(--paper-dim);font-size:11.5px;
+  }
+
+  .controls-hint{
+    right:22px;bottom:22px;
+    pointer-events:none;
+    display:flex;gap:14px;
+    font-size:11px;color:var(--paper-dim);
+    padding:8px 12px;
+  }
+  .controls-hint span{white-space:nowrap;}
+  .controls-hint kbd{
+    font-family:'JetBrains Mono',monospace;
+    color:var(--paper);
+  }
+
+  .zoom-btns{
+    right:22px;top:50%;transform:translateY(-50%);
+    pointer-events:auto;
+    display:flex;flex-direction:column;gap:6px;
+  }
+  .zoom-btns button{
+    width:34px;height:34px;
+    background:var(--surface);border:1px solid var(--line);
+    color:var(--paper);border-radius:8px;
+    font-size:16px;cursor:pointer;line-height:1;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'JetBrains Mono',monospace;
+    transition:background .15s ease,border-color .15s ease;
+  }
+  .zoom-btns button:hover{background:var(--surface-2);border-color:var(--fog);}
+  .zoom-btns button[aria-pressed="true"]{color:var(--aqua);border-color:var(--aqua);}
+  .zoom-btns button:focus-visible, .chip:focus-visible, .detail-close:focus-visible, .detail a:focus-visible {
+    outline:2px solid var(--aqua);outline-offset:2px;
+  }
+
+  .tooltip{
+    position:absolute;pointer-events:none;
+    transform:translate(-50%,calc(-100% - 14px));
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:8px;padding:8px 10px;
+    font-size:12px;max-width:240px;
+    box-shadow:0 8px 24px rgba(0,0,0,.4);
+  }
+  .tooltip .msg{color:var(--paper);font-weight:600;margin-bottom:2px;}
+  .tooltip .meta{color:var(--paper-dim);font-family:'JetBrains Mono',monospace;font-size:11px;}
+
+  .detail{
+    position:absolute;left:50%;bottom:22px;
+    transform:translate(-50%,calc(100% + 30px));
+    transition:transform .28s cubic-bezier(.2,.8,.2,1);
+    pointer-events:auto;
+    width:min(480px,88vw);
+    padding:18px 20px;
+  }
+  .detail.open{transform:translate(-50%,0);}
+  .detail-close{
+    position:absolute;top:10px;right:12px;
+    background:none;border:none;color:var(--paper-dim);
+    font-size:18px;cursor:pointer;line-height:1;padding:4px;
+  }
+  .detail-close:hover{color:var(--paper);}
+  .detail-branch{
+    display:inline-flex;align-items:center;gap:6px;
+    font-family:'JetBrains Mono',monospace;font-size:11px;
+    letter-spacing:.04em;color:var(--paper-dim);margin-bottom:8px;
+  }
+  .detail-branch .dot{width:8px;height:8px;border-radius:50%;}
+  .detail h2{
+    margin:0 0 12px;font-size:16px;font-weight:700;line-height:1.4;
+    font-family:'Manrope',sans-serif;text-wrap:balance;
+  }
+  .detail dl{
+    display:grid;grid-template-columns:auto 1fr;gap:6px 14px;
+    margin:0 0 14px;font-size:12.5px;
+  }
+  .detail dt{color:var(--fog);}
+  .detail dd{margin:0;color:var(--paper);font-family:'JetBrains Mono',monospace;font-size:12px;}
+  .detail a{
+    display:inline-block;color:var(--void);background:var(--paper);
+    text-decoration:none;font-size:12.5px;font-weight:700;
+    padding:8px 14px;border-radius:7px;
+    transition:opacity .15s ease;
+  }
+  .detail a:hover{opacity:.85;}
+
+  footer.credit{
+    left:50%;top:22px;transform:translateX(-50%);
+    pointer-events:none;
+    font-size:11px;color:var(--fog);
+    font-family:'JetBrains Mono',monospace;
+    display:none;
+  }
+
+  @media (max-width:720px){
+    header.hud-top{flex-direction:column;padding:14px;}
+    .stats{max-width:100%;justify-content:flex-start;}
+    aside.legend{max-width:64vw;}
+    .controls-hint{display:none;}
+    .zoom-btns{right:14px;}
+  }
+  @media (max-height:740px){
+    .sub{display:none;}
+    header.hud-top{padding:12px 16px;}
+    h1{font-size:18px;}
+    .eyebrow{margin-bottom:3px;}
+    .tile{padding:5px 9px;}
+    .tile .n{font-size:14px;}
+    aside.legend{padding:9px;gap:3px;}
+    .legend-title{margin-bottom:2px;}
+    .chip{padding:4px 7px;font-size:11.5px;}
+  }
+  @media (max-height:560px){
+    .stats{display:none;}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    .detail{transition:none;}
+  }
+</style>
+
+<div id="app">
+  <canvas id="gl"></canvas>
+
+  <header class="hud hud-top">
+    <div class="brand">
+      <span class="eyebrow">sans-couleurs · historique git</span>
+      <h1>Retour en couleur</h1>
+      <p class="sub">41 commits sur 4 nuits, du 8 au 11 septembre 2026 — chaque point est un commit réel, ouvre-le pour lire son message.</p>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <aside class="hud legend glass" id="legend">
+    <p class="legend-title">Branches</p>
+  </aside>
+
+  <div class="hud controls-hint">
+    <span><kbd>glisser</kbd> pivoter</span>
+    <span><kbd>molette</kbd> zoomer</span>
+    <span><kbd>clic</kbd> détail du commit</span>
+  </div>
+
+  <div class="hud zoom-btns">
+    <button id="zoomIn" aria-label="Zoomer" title="Zoomer">+</button>
+    <button id="zoomOut" aria-label="Dézoomer" title="Dézoomer">−</button>
+    <button id="autoBtn" aria-label="Rotation automatique" title="Rotation automatique" aria-pressed="true">⟳</button>
+  </div>
+
+  <div class="tooltip glass" id="tooltip" hidden></div>
+
+  <section class="detail glass" id="detail">
+    <button class="detail-close" id="detailClose" aria-label="Fermer le détail">×</button>
+    <div class="detail-branch"><span class="dot" id="detailDot"></span><span id="detailBranch"></span></div>
+    <h2 id="detailMsg"></h2>
+    <dl>
+      <dt>Date</dt><dd id="detailDate"></dd>
+      <dt>Lignes</dt><dd id="detailLines"></dd>
+      <dt>SHA</dt><dd id="detailSha"></dd>
+    </dl>
+    <a id="detailLink" href="#" target="_blank" rel="noopener">Voir le commit sur GitHub ↗</a>
+  </section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js"></script>
+<script>
+(function(){
+  "use strict";
+  var DATA = {"repo":"zaderlyl/sans-couleurs","branchColor":{"Restructuration-projet":"#3987e5","decoration-map-enfance":"#d95926","feature-maps-college":"#199e70"},"commits":[{"sha":"32d738c","t":1788897999000,"day":"2026-09-08","author":"Lilian CORNET","msg":"Premier commit : Sans Couleurs","branch":"Restructuration-projet","parents":[],"add":3305,"del":0},{"sha":"527866f","t":1788901816000,"day":"2026-09-08","author":"Lilian CORNET","msg":"Relie debut a enfance par le train, gare generalisee a n'importe quelle carte","branch":"Restructuration-projet","parents":["32d738c"],"add":576,"del":107},{"sha":"1f55a4c","t":1788941741000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Mises a jour des cartes (debut, enfance) et des tilesets","branch":"Restructuration-projet","parents":["527866f"],"add":34,"del":34},{"sha":"636f79f","t":1788942058000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Systeme d'issues personnalise : templates + panel admin","branch":"Restructuration-projet","parents":["1f55a4c"],"add":910,"del":0},{"sha":"9c57538","t":1788951541000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Panel admin : token chiffre localement, code de verrouillage court","branch":"Restructuration-projet","parents":["636f79f"],"add":418,"del":88},{"sha":"ec532e4","t":1788952526000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Ajout du README","branch":"Restructuration-projet","parents":["9c57538"],"add":120,"del":0},{"sha":"05d1219","t":1788953684000,"day":"2026-09-09","author":"Lilian CORNET","msg":"README : mention de copyright explicite","branch":"Restructuration-projet","parents":["ec532e4"],"add":8,"del":4},{"sha":"0593e28","t":1788956084000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Ajustements carte de depart et vitesse de deplacement, mise a jour enfance","branch":"Restructuration-projet","parents":["05d1219"],"add":16,"del":16},{"sha":"1951023","t":1788956451000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Leger tremblement de camera pendant la marche","branch":"Restructuration-projet","parents":["0593e28"],"add":32,"del":3},{"sha":"2613cfa","t":1788956461000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Fusion : leger tremblement de camera pendant la marche","branch":"Restructuration-projet","parents":["0593e28","1951023"],"add":0,"del":0},{"sha":"55bfcdd","t":1788957113000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Remplace le tremblement de camera par 3 effets de marche plus fins","branch":"Restructuration-projet","parents":["2613cfa"],"add":52,"del":30},{"sha":"0fd8651","t":1788957123000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Fusion : effets de marche (anticipation camera, tangage, poussiere)","branch":"Restructuration-projet","parents":["2613cfa","55bfcdd"],"add":0,"del":0},{"sha":"672ac74","t":1788957838000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Refait le son de saut (souffle + poids grave, plus de sifflement montant)","branch":"Restructuration-projet","parents":["0fd8651"],"add":37,"del":10},{"sha":"19379f2","t":1788958145000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Retire completement le systeme de saut","branch":"Restructuration-projet","parents":["672ac74"],"add":12,"del":74},{"sha":"4f29645","t":1788958606000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Fusion : retrait complet du systeme de saut","branch":"Restructuration-projet","parents":["0fd8651","19379f2"],"add":0,"del":0},{"sha":"412c93d","t":1788958964000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Corrige le decalage entre la mosaique Tiled et le sprite anime de la gare","branch":"Restructuration-projet","parents":["4f29645"],"add":25,"del":12},{"sha":"bd032b1","t":1788960497000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Generalise le mecanisme d'arrivee (calque \"derriere\") a n'importe quelle carte","branch":"Restructuration-projet","parents":["412c93d"],"add":123,"del":99},{"sha":"70f9ce6","t":1788963546000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Corrige la mise en cache navigateur de game.js lui-meme","branch":"Restructuration-projet","parents":["bd032b1"],"add":13,"del":1},{"sha":"b038a30","t":1788964688000,"day":"2026-09-09","author":"Lilian CORNET","msg":"Respecte le sens de la mosaique \"gare\" propre a chaque carte","branch":"Restructuration-projet","parents":["70f9ce6"],"add":96,"del":63},{"sha":"d50f95d","t":1789028935000,"day":"2026-09-10","author":"Lilian CORNET","msg":"Arrivee en train : superposee sur le bloc \"gare\" de la carte, flip-aware","branch":"Restructuration-projet","parents":["b038a30"],"add":72,"del":66},{"sha":"e75c503","t":1789035485000,"day":"2026-09-10","author":"Lilian CORNET","msg":"final fix train /  debut -> enfance","branch":"Restructuration-projet","parents":["d50f95d"],"add":78,"del":147},{"sha":"d6a8a22","t":1789035656000,"day":"2026-09-10","author":"Lilian CORNET","msg":"Merge pull request #2 from zaderlyl/feature/deplacement-train","branch":"Restructuration-projet","parents":["4f29645","e75c503"],"add":0,"del":0},{"sha":"c0df9ee","t":1789065846000,"day":"2026-09-10","author":"Lilian CORNET","msg":"Restructuration du projet : dossiers propres, assets tries","branch":"Restructuration-projet","parents":["d6a8a22"],"add":68,"del":39},{"sha":"9a20668","t":1789067046000,"day":"2026-09-10","author":"Lilian CORNET","msg":"Decoupe game.js : 1re passe (player, config, chargement, controles, index)","branch":"Restructuration-projet","parents":["c0df9ee"],"add":426,"del":311},{"sha":"d58d1a5","t":1789067738000,"day":"2026-09-10","author":"Lilian CORNET","msg":"Nettoie les fichiers de src/js/ : structure, commentaires, valeurs nommees","branch":"Restructuration-projet","parents":["9a20668"],"add":197,"del":249},{"sha":"8c73db5","t":1789068910000,"day":"2026-09-10","author":"Lilian CORNET","msg":"player.js : ternaires ecrits en if/else + note [appris]","branch":"Restructuration-projet","parents":["d58d1a5"],"add":27,"del":3},{"sha":"2955be4","t":1789071242000,"day":"2026-09-10","author":"Lilian CORNET","msg":"Restructuration des cartes : un dossier par map + registre","branch":"Restructuration-projet","parents":["8c73db5"],"add":423,"del":371},{"sha":"0cfea43","t":1789073436000,"day":"2026-09-10","author":"Lilian CORNET","msg":"Features : mecanisme features:[...] par carte + textes de zone & tele extraits","branch":"Restructuration-projet","parents":["2955be4"],"add":466,"del":473},{"sha":"cadb1aa","t":1789074394000,"day":"2026-09-10","author":"Lilian CORNET","msg":"LICENSE MIT + config.js / sons.js / camera.js sortis de game.js","branch":"Restructuration-projet","parents":["0cfea43"],"add":272,"del":232},{"sha":"098a865","t":1789075278000,"day":"2026-09-10","author":"Lilian CORNET","msg":"Features herbe + tunnel : sorties de game.js","branch":"Restructuration-projet","parents":["cadb1aa"],"add":180,"del":170},{"sha":"49ae363","t":1789075292000,"day":"2026-09-10","author":"Lilian CORNET","msg":"README : game.js ne contient plus herbe/tunnel","branch":"Restructuration-projet","parents":["098a865"],"add":1,"del":1},{"sha":"859fc25","t":1789076132000,"day":"2026-09-10","author":"Lilian CORNET","msg":"Feature dialogue-pnj : sortie de game.js","branch":"Restructuration-projet","parents":["49ae363"],"add":464,"del":535},{"sha":"f5214c8","t":1789076901000,"day":"2026-09-10","author":"Lilian CORNET","msg":"Feature gare/train + util.js + icone-interaction.js : game.js -> squelette","branch":"Restructuration-projet","parents":["859fc25"],"add":485,"del":624},{"sha":"985943f","t":1789077699000,"day":"2026-09-11","author":"Lilian CORNET","msg":"Conversion en modules ES (import/export)","branch":"Restructuration-projet","parents":["f5214c8"],"add":261,"del":219},{"sha":"0723044","t":1789078412000,"day":"2026-09-11","author":"Lilian CORNET","msg":"Nettoie les references \"game.js\" dans les commentaires","branch":"Restructuration-projet","parents":["985943f"],"add":8,"del":8},{"sha":"57fa2e4","t":1789079242000,"day":"2026-09-11","author":"Lilian CORNET","msg":"Merge pull request #3 from zaderlyl/Restructuration-projet","branch":"decoration-map-enfance","parents":["d6a8a22","0723044"],"add":0,"del":0},{"sha":"a80ccbe","t":1789079670000,"day":"2026-09-11","author":"Lilian CORNET","msg":"Reapplique le travail de decoration sur la nouvelle structure","branch":"decoration-map-enfance","parents":["57fa2e4"],"add":573,"del":2},{"sha":"5a5bf4b","t":1789080716000,"day":"2026-09-11","author":"Lilian CORNET","msg":"Add glitch zones to college map and finish map","branch":"decoration-map-enfance","parents":["a80ccbe"],"add":134,"del":42},{"sha":"f6cf6c6","t":1789081572000,"day":"2026-09-11","author":"Lilian CORNET","msg":"Active les features standard sur map-3-debut-college","branch":"feature-maps-college","parents":["5a5bf4b"],"add":7,"del":3},{"sha":"23db2c0","t":1789081883000,"day":"2026-09-11","author":"Lilian CORNET","msg":"Gare en entree seule sur map-3-debut-college","branch":"feature-maps-college","parents":["f6cf6c6"],"add":29,"del":10},{"sha":"e1535ae","t":1789082253000,"day":"2026-09-11","author":"Lilian CORNET","msg":"Teleportation enfance -> college a la case (51, 9)","branch":"feature-maps-college","parents":["23db2c0"],"add":55,"del":5}]};
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // ---------- derive stats ----------
+  var commits = DATA.commits;
+  var days = [];
+  var dayIndex = {};
+  commits.forEach(function(c){
+    if (!(c.day in dayIndex)) { dayIndex[c.day] = days.length; days.push(c.day); }
+  });
+  var byDay = days.map(function(d){ return commits.filter(function(c){return c.day===d;}); });
+  var maxDayCount = Math.max.apply(null, byDay.map(function(a){return a.length;}));
+
+  var totalAdd = 0, totalDel = 0;
+  var branchCount = {};
+  commits.forEach(function(c){
+    totalAdd += c.add; totalDel += c.del;
+    branchCount[c.branch] = (branchCount[c.branch]||0) + 1;
+  });
+  var branchNames = Object.keys(DATA.branchColor);
+
+  function fmt(n){ return n.toLocaleString('fr-FR'); }
+
+  // ---------- HUD: stats ----------
+  var statsEl = document.getElementById('stats');
+  [
+    {n: commits.length, l:'Commits'},
+    {n: days.length, l:'Nuits actives'},
+    {n:'+'+fmt(totalAdd), l:'Lignes ajoutées', cls:'add'},
+    {n:'−'+fmt(totalDel), l:'Lignes supprimées', cls:'del'}
+  ].forEach(function(s){
+    var d = document.createElement('div');
+    d.className = 'tile glass' + (s.cls ? ' '+s.cls : '');
+    d.innerHTML = '<span class="n">'+s.n+'</span><span class="l">'+s.l+'</span>';
+    statsEl.appendChild(d);
+  });
+
+  // ---------- HUD: legend ----------
+  var legendEl = document.getElementById('legend');
+  var activeBranch = null;
+  var chips = {};
+  branchNames.forEach(function(name){
+    var btn = document.createElement('button');
+    btn.className = 'chip';
+    btn.innerHTML = '<span class="dot" style="background:'+DATA.branchColor[name]+'"></span>'+
+      '<span class="name">'+name+'</span>'+
+      '<span class="count">'+(branchCount[name]||0)+'</span>';
+    btn.addEventListener('click', function(){
+      activeBranch = (activeBranch === name) ? null : name;
+      applyFilter();
+    });
+    legendEl.appendChild(btn);
+    chips[name] = btn;
+  });
+
+  function applyFilter(){
+    branchNames.forEach(function(name){
+      chips[name].classList.toggle('active', activeBranch === name);
+      chips[name].classList.toggle('dim', !!activeBranch && activeBranch !== name);
+    });
+    nodeMeshes.forEach(function(m){
+      var on = !activeBranch || m.userData.commit.branch === activeBranch;
+      m.material.opacity = on ? 1 : 0.12;
+      m.material.transparent = !on;
+    });
+    edgeLines.forEach(function(l){
+      var on = !activeBranch || l.userData.branch === activeBranch;
+      l.material.opacity = on ? 0.55 : 0.04;
+    });
+  }
+
+  // ---------- three.js scene ----------
+  var canvas = document.getElementById('gl');
+  var renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha:false, preserveDrawingBuffer: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  var VOID = 0x0a0b0d;
+  renderer.setClearColor(VOID, 1);
+
+  var scene = new THREE.Scene();
+  scene.fog = new THREE.FogExp2(VOID, 0.016);
+
+  var camera = new THREE.PerspectiveCamera(45, 1, 0.1, 400);
+
+  var hemi = new THREE.HemisphereLight(0x3a4258, 0x08090b, 0.75);
+  scene.add(hemi);
+  var dir = new THREE.DirectionalLight(0xeef0f4, 0.95);
+  dir.position.set(18, 26, 14);
+  scene.add(dir);
+  var amb = new THREE.AmbientLight(0x8891a3, 0.25);
+  scene.add(amb);
+
+  // ground grid
+  var grid = new THREE.GridHelper(120, 40, 0x2a2e37, 0x1c1f26);
+  grid.position.y = 0;
+  scene.add(grid);
+
+  // ---------- layout ----------
+  var PITCH = 15, SLOT_W = 10.5;
+  var branchZ = {};
+  branchNames.forEach(function(name, i){
+    branchZ[name] = (i - (branchNames.length-1)/2) * 3.4;
+  });
+
+  function dayX(i){ return (i - (days.length-1)/2) * PITCH; }
+
+  var grayMin = new THREE.Color(0x1c1f26), grayMax = new THREE.Color(0x7b8394);
+  var barHeights = [];
+  var dayGroup = new THREE.Group();
+  byDay.forEach(function(list, i){
+    var h = 0.5 + list.length * 0.34;
+    barHeights.push(h);
+    var w = SLOT_W, depth = (branchNames.length) * 3.4 + 3;
+    var geo = new THREE.BoxGeometry(w, h, depth);
+    var t = list.length / maxDayCount;
+    var col = grayMin.clone().lerp(grayMax, 0.15 + t*0.55);
+    var mat = new THREE.MeshStandardMaterial({ color: col, roughness:0.95, metalness:0.02 });
+    var mesh = new THREE.Mesh(geo, mat);
+    mesh.position.set(dayX(i), h/2, 0);
+    dayGroup.add(mesh);
+
+    // day label sprite (simple plane w/ canvas texture)
+    var lbl = makeLabel(list[0].day.slice(8,10)+'/'+list[0].day.slice(5,7));
+    lbl.position.set(dayX(i), h + 1.1, depth/2 + 0.2);
+    dayGroup.add(lbl);
+  });
+  scene.add(dayGroup);
+
+  function makeLabel(text){
+    var c = document.createElement('canvas');
+    c.width = 128; c.height = 64;
+    var ctx = c.getContext('2d');
+    ctx.fillStyle = 'rgba(0,0,0,0)';
+    ctx.fillRect(0,0,c.width,c.height);
+    ctx.font = '700 34px "JetBrains Mono", monospace';
+    ctx.fillStyle = '#aeb3bf';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(text, c.width/2, c.height/2);
+    var tex = new THREE.CanvasTexture(c);
+    tex.minFilter = THREE.LinearFilter;
+    var mat = new THREE.SpriteMaterial({ map: tex, transparent:true, depthWrite:false });
+    var sprite = new THREE.Sprite(mat);
+    sprite.scale.set(3.2, 1.6, 1);
+    return sprite;
+  }
+
+  // ---------- commit nodes ----------
+  var positions = {};
+  var nodeMeshes = [];
+  var edgeLines = [];
+  var nodeGroup = new THREE.Group();
+  var edgeGroup = new THREE.Group();
+
+  var timeMin = commits[0].t, timeMax = commits[commits.length-1].t;
+
+  byDay.forEach(function(list, i){
+    var dMin = Math.min.apply(null, list.map(function(c){return c.t;}));
+    var dMax = Math.max.apply(null, list.map(function(c){return c.t;}));
+    list.forEach(function(c){
+      var frac = dMax > dMin ? (c.t - dMin)/(dMax - dMin) : 0.5;
+      var x = dayX(i) + (frac - 0.5) * SLOT_W * 0.72;
+      var z = branchZ[c.branch];
+      var mag = Math.log2(1 + c.add + c.del);
+      var y = barHeights[i] + 0.55 + Math.min(3.0, mag * 0.33);
+      var r = 0.14 + Math.min(0.24, mag*0.032);
+      positions[c.sha] = new THREE.Vector3(x, y, z);
+
+      var color = new THREE.Color(DATA.branchColor[c.branch]);
+      var geo = new THREE.SphereGeometry(r, 16, 16);
+      var mat = new THREE.MeshStandardMaterial({
+        color: color, emissive: color, emissiveIntensity:0.42,
+        roughness:0.35, metalness:0.15, transparent:true, opacity:1
+      });
+      var mesh = new THREE.Mesh(geo, mat);
+      mesh.position.copy(positions[c.sha]);
+      mesh.userData = { commit: c, baseScale:1, baseEmissive:0.42 };
+      nodeGroup.add(mesh);
+      nodeMeshes.push(mesh);
+    });
+  });
+
+  // edges (parent -> child), drawn after all positions known
+  commits.forEach(function(c){
+    var to = positions[c.sha];
+    (c.parents||[]).forEach(function(p){
+      var from = positions[p];
+      if (!from) return;
+      var mid = from.clone().lerp(to, 0.5);
+      mid.y += 0.6 + from.distanceTo(to)*0.05;
+      var curve = new THREE.QuadraticBezierCurve3(from, mid, to);
+      var pts = curve.getPoints(16);
+      var geo = new THREE.BufferGeometry().setFromPoints(pts);
+      var color = new THREE.Color(DATA.branchColor[c.branch]);
+      var mat = new THREE.LineBasicMaterial({ color: color, transparent:true, opacity:0.55 });
+      var line = new THREE.Line(geo, mat);
+      line.userData = { branch: c.branch };
+      edgeGroup.add(line);
+      edgeLines.push(line);
+    });
+  });
+
+  scene.add(nodeGroup);
+  scene.add(edgeGroup);
+
+  // ---------- camera orbit (custom, no external controls lib) ----------
+  var target = new THREE.Vector3(0, 3, 0);
+  var camState = { theta: 0.7, phi: 1.05, radius: 42, autoRotate: !reduceMotion };
+  var MIN_R = 14, MAX_R = 95, MIN_PHI = 0.32, MAX_PHI = 1.48;
+
+  function updateCamera(){
+    var s = camState;
+    camera.position.set(
+      target.x + s.radius * Math.sin(s.phi) * Math.sin(s.theta),
+      target.y + s.radius * Math.cos(s.phi),
+      target.z + s.radius * Math.sin(s.phi) * Math.cos(s.theta)
+    );
+    camera.lookAt(target);
+  }
+
+  var dragging = false, lastX=0, lastY=0, moved=0, idleTimer=null;
+  var pointers = {};
+
+  function wake(){
+    if (idleTimer) clearTimeout(idleTimer);
+    if (userAutoRotate && !reduceMotion){
+      idleTimer = setTimeout(function(){ camState.autoRotate = true; }, 4200);
+    }
+  }
+  var userAutoRotate = !reduceMotion;
+
+  canvas.addEventListener('pointerdown', function(e){
+    canvas.setPointerCapture(e.pointerId);
+    pointers[e.pointerId] = {x:e.clientX, y:e.clientY};
+    if (Object.keys(pointers).length === 1){
+      dragging = true; moved = 0;
+      lastX = e.clientX; lastY = e.clientY;
+      canvas.classList.add('dragging');
+      camState.autoRotate = false;
+    }
+  });
+  canvas.addEventListener('pointermove', function(e){
+    if (pointers[e.pointerId]) pointers[e.pointerId] = {x:e.clientX, y:e.clientY};
+    var ids = Object.keys(pointers);
+
+    if (ids.length === 2){
+      var p = ids.map(function(id){return pointers[id];});
+      var dist = Math.hypot(p[0].x-p[1].x, p[0].y-p[1].y);
+      if (canvas._pinchDist){
+        var delta = canvas._pinchDist - dist;
+        camState.radius = Math.min(MAX_R, Math.max(MIN_R, camState.radius + delta*0.06));
+      }
+      canvas._pinchDist = dist;
+      return;
+    }
+
+    if (!dragging) { handleHover(e); return; }
+    var dx = e.clientX - lastX, dy = e.clientY - lastY;
+    lastX = e.clientX; lastY = e.clientY;
+    moved += Math.abs(dx)+Math.abs(dy);
+    camState.theta -= dx * 0.0062;
+    camState.phi = Math.min(MAX_PHI, Math.max(MIN_PHI, camState.phi - dy * 0.0062));
+    hideTooltip();
+  });
+  function endDrag(e){
+    delete pointers[e.pointerId];
+    canvas._pinchDist = null;
+    if (Object.keys(pointers).length === 0){
+      dragging = false;
+      canvas.classList.remove('dragging');
+      if (moved < 5) handleClick(e);
+      wake();
+    }
+  }
+  canvas.addEventListener('pointerup', endDrag);
+  canvas.addEventListener('pointercancel', endDrag);
+  canvas.addEventListener('wheel', function(e){
+    e.preventDefault();
+    camState.radius = Math.min(MAX_R, Math.max(MIN_R, camState.radius + e.deltaY*0.028));
+  }, { passive:false });
+
+  document.getElementById('zoomIn').addEventListener('click', function(){
+    camState.radius = Math.max(MIN_R, camState.radius - 7);
+  });
+  document.getElementById('zoomOut').addEventListener('click', function(){
+    camState.radius = Math.min(MAX_R, camState.radius + 7);
+  });
+  var autoBtn = document.getElementById('autoBtn');
+  autoBtn.addEventListener('click', function(){
+    userAutoRotate = !userAutoRotate;
+    camState.autoRotate = userAutoRotate;
+    autoBtn.setAttribute('aria-pressed', String(userAutoRotate));
+  });
+  if (reduceMotion){
+    userAutoRotate = false;
+    autoBtn.setAttribute('aria-pressed','false');
+  }
+
+  // ---------- hover / click ----------
+  var raycaster = new THREE.Raycaster();
+  var mouseNdc = new THREE.Vector2();
+  var tooltipEl = document.getElementById('tooltip');
+  var hovered = null;
+
+  function handleHover(e){
+    var rect = canvas.getBoundingClientRect();
+    mouseNdc.x = ((e.clientX-rect.left)/rect.width)*2-1;
+    mouseNdc.y = -((e.clientY-rect.top)/rect.height)*2+1;
+    raycaster.setFromCamera(mouseNdc, camera);
+    var hits = raycaster.intersectObjects(nodeMeshes);
+    if (hits.length){
+      var m = hits[0].object;
+      if (hovered !== m){
+        if (hovered) setHoverState(hovered,false);
+        hovered = m; setHoverState(m,true);
+      }
+      showTooltip(e.clientX, e.clientY, m.userData.commit);
+      canvas.style.cursor = 'pointer';
+    } else {
+      if (hovered){ setHoverState(hovered,false); hovered=null; }
+      hideTooltip();
+      canvas.style.cursor = dragging ? 'grabbing' : 'grab';
+    }
+  }
+  function setHoverState(m, on){
+    m.material.emissiveIntensity = on ? 0.9 : m.userData.baseEmissive;
+    var s = on ? 1.6 : 1;
+    m.scale.setScalar(s);
+  }
+  function showTooltip(x,y,c){
+    tooltipEl.hidden = false;
+    tooltipEl.style.left = x+'px';
+    tooltipEl.style.top = y+'px';
+    tooltipEl.innerHTML = '<div class="msg">'+escapeHtml(c.msg)+'</div>'+
+      '<div class="meta">'+fmtDate(c.t)+' · '+c.branch+'</div>';
+  }
+  function hideTooltip(){ tooltipEl.hidden = true; }
+
+  var detailEl = document.getElementById('detail');
+  function handleClick(e){
+    var rect = canvas.getBoundingClientRect();
+    mouseNdc.x = ((e.clientX-rect.left)/rect.width)*2-1;
+    mouseNdc.y = -((e.clientY-rect.top)/rect.height)*2+1;
+    raycaster.setFromCamera(mouseNdc, camera);
+    var hits = raycaster.intersectObjects(nodeMeshes);
+    if (!hits.length) return;
+    var c = hits[0].object.userData.commit;
+    document.getElementById('detailDot').style.background = DATA.branchColor[c.branch];
+    document.getElementById('detailBranch').textContent = c.branch;
+    document.getElementById('detailMsg').textContent = c.msg;
+    document.getElementById('detailDate').textContent = fmtDate(c.t);
+    document.getElementById('detailLines').textContent = '+'+c.add+' / −'+c.del;
+    document.getElementById('detailSha').textContent = c.sha;
+    document.getElementById('detailLink').href = 'https://github.com/'+DATA.repo+'/commit/'+c.sha;
+    detailEl.classList.add('open');
+  }
+  document.getElementById('detailClose').addEventListener('click', function(){
+    detailEl.classList.remove('open');
+  });
+
+  function fmtDate(t){
+    var d = new Date(t);
+    return d.toLocaleDateString('fr-FR', { day:'2-digit', month:'short' }) + ' · ' +
+      d.toLocaleTimeString('fr-FR', { hour:'2-digit', minute:'2-digit' });
+  }
+  function escapeHtml(s){
+    return s.replace(/[&<>"]/g, function(ch){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch];
+    });
+  }
+
+  // ---------- resize ----------
+  function resize(){
+    var w = window.innerWidth, h = window.innerHeight;
+    renderer.setSize(w, h);
+    camera.aspect = w/h;
+    camera.updateProjectionMatrix();
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  // ---------- render loop ----------
+  var clock = new THREE.Clock();
+  function tick(){
+    var dt = clock.getDelta();
+    if (camState.autoRotate) camState.theta += dt * 0.055;
+    updateCamera();
+    renderer.render(scene, camera);
+    requestAnimationFrame(tick);
+  }
+  tick();
+})();
+</script>
