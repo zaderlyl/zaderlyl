@@ -16,13 +16,10 @@ identité, interface, mise en page.
 
 <br clear="right">
 
-<br clear="left">
-
 <img align="left" width="180" src="assets/imgforgithub2.png" alt="">
 
 
-
-
+<br clear="left">
 
 
 ## Contact
