@@ -63,9 +63,8 @@ un dashboard Spotify, de la 3D dans le navigateur. Le tableau ci-dessous est
 | **[Note-2-](https://github.com/zaderlyl/Note-2-)** | Application de prise de notes partagées à deux en temps réel (Firebase), packagée en app Android avec Capacitor. Design inspiré du Nothing Phone. | `Java · Firebase` | 2026-08-19 |
 | **[Musee--FABI](https://github.com/Bebbou/Musee--FABI)** | Projet de groupe (SAÉ) : site d'un musée avec back PHP/MySQL et visite en 3D dans le navigateur (Three.js, modèles glTF). | `PHP · SQL · Three.js` · ★ 1 | 2026-06-19 |
 | **[Spoti-Stat](https://github.com/zaderlyl/Spoti-Stat)** | Tableau de bord de statistiques d'écoute Spotify (API Spotify). | `JavaScript` | 2026-06-15 |
-| **[dystopia-europa](https://github.com/zaderlyl/dystopia-europa)** | _(pas encore de description)_ | `HTML` | 2026-05-24 |
 | **[WebGPU-test](https://github.com/zaderlyl/WebGPU-test)** | _(pas encore de description)_ | `HTML` | 2026-04-03 |
-| **[Portfolio](https://github.com/zaderlyl/Portfolio)** | _(pas encore de description)_ | `CSS` | 2026-04-02 |
-| **[SAE105](https://github.com/zaderlyl/SAE105)** | _(pas encore de description)_ | `CSS` | 2026-03-09 |
+| **[PortfolioV1](https://github.com/zaderlyl/PortfolioV1)** | _(pas encore de description)_ | `CSS` | 2026-04-02 |
+| **[SAE105](https://github.com/zaderlyl/SAE105)** | Site de visite virtuelle des Halles de Béziers : parcours 360° du marché couvert en A-Frame (WebVR), présentation des commerçants, pages À propos et contact. Projet SAÉ 105 — BUT MMI. HTML / CSS / JS. | `CSS` | 2026-03-09 |
 
 <!-- PROJECTS:END -->
