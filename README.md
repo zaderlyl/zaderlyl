@@ -36,16 +36,16 @@ Tous mes dépôts publics, triés par dernière modification. Ce tableau se met 
 <!-- PROJECTS:START -->
 <!-- Généré automatiquement — voir projects.config.json -->
 
-| Projet | Description | Stack | Maj |
-|---|---|---|---|
-| **[sans-couleurs](https://github.com/zaderlyl/sans-couleurs)** | Jeu de plateforme 2D pixel art (Phaser 3). Cartes, PNJ et dialogues définis dans Tiled plutôt que codés en dur. | `JavaScript · Phaser` | 2026-09-10 |
-| **[Nothing-OS](https://github.com/zaderlyl/Nothing-OS)** | Noyau x86_64 bare-metal écrit en Rust, bootable dans QEMU : système de fichiers persistant, pilotes ATA/PCI, partage de dossier hôte via virtio-9p, interface entièrement au clavier. | `Rust · ASM` | 2026-09-04 |
-| **[Note-2-](https://github.com/zaderlyl/Note-2-)** | Application de prise de notes partagées à deux en temps réel (Firebase), packagée en app Android avec Capacitor. Design inspiré du Nothing Phone. | `Java · Firebase` | 2026-08-19 |
-| **[Musee--FABI](https://github.com/Bebbou/Musee--FABI)** | Projet de groupe (SAÉ) : site d'un musée avec back PHP/MySQL et visite en 3D dans le navigateur (Three.js, modèles glTF). | `PHP · SQL · Three.js` · ★ 1 | 2026-06-19 |
-| **[Spoti-Stat](https://github.com/zaderlyl/Spoti-Stat)** | Tableau de bord de statistiques d'écoute Spotify (API Spotify). | `JavaScript` | 2026-06-15 |
-| **[WebGPU-test](https://github.com/zaderlyl/WebGPU-test)** | _(pas encore de description)_ | `HTML` | 2026-04-03 |
-| **[PortfolioV1](https://github.com/zaderlyl/PortfolioV1)** | _(pas encore de description)_ | `CSS` | 2026-04-02 |
-| **[SAE105](https://github.com/zaderlyl/SAE105)** | Site de visite virtuelle des Halles de Béziers : parcours 360° du marché couvert en A-Frame (WebVR), présentation des commerçants, pages À propos et contact. Projet SAÉ 105 — BUT MMI. HTML / CSS / JS. | `CSS` | 2026-03-09 |
+| Projet | Description | Stack | Commits | Branches | Activité (8 sem.) | Maj |
+|---|---|---|---|---|---|---|
+| **[sans-couleurs](https://github.com/zaderlyl/sans-couleurs)** | Jeu de plateforme 2D pixel art (Phaser 3). Cartes, PNJ et dialogues définis dans Tiled plutôt que codés en dur. | `JavaScript · Phaser` | 38 | 5 | `▁▁▁▁▁▁▁█` | 2026-09-10 |
+| **[Nothing-OS](https://github.com/zaderlyl/Nothing-OS)** | Noyau x86_64 bare-metal écrit en Rust, bootable dans QEMU : système de fichiers persistant, pilotes ATA/PCI, partage de dossier hôte via virtio-9p, interface entièrement au clavier. | `Rust · ASM` | 65 | 1 | `▁▁▁▁▁▁█▁` | 2026-09-04 |
+| **[Note-2-](https://github.com/zaderlyl/Note-2-)** | Application de prise de notes partagées à deux en temps réel (Firebase), packagée en app Android avec Capacitor. Design inspiré du Nothing Phone. | `Java · Firebase` | 5 | 1 | `▁▁▁▁█▁▁▁` | 2026-08-19 |
+| **[Musee--FABI](https://github.com/Bebbou/Musee--FABI)** | Projet de groupe (SAÉ) : site d'un musée avec back PHP/MySQL et visite en 3D dans le navigateur (Three.js, modèles glTF). | `PHP · SQL · Three.js` · ★ 1 | 116 | 18 | `▁▁▁▁▁▁▁▁` | 2026-06-19 |
+| **[Spoti-Stat](https://github.com/zaderlyl/Spoti-Stat)** | Tableau de bord de statistiques d'écoute Spotify (API Spotify). | `JavaScript` | 38 | 1 | `▁▁▁▁▁▁▁▁` | 2026-06-15 |
+| **[WebGPU-test](https://github.com/zaderlyl/WebGPU-test)** | _(pas encore de description)_ | `HTML` | 4 | 1 | `▁▁▁▁▁▁▁▁` | 2026-04-03 |
+| **[PortfolioV1](https://github.com/zaderlyl/PortfolioV1)** | _(pas encore de description)_ | `CSS` | 53 | 1 | `▁▁▁▁▁▁▁▁` | 2026-04-02 |
+| **[SAE105](https://github.com/zaderlyl/SAE105)** | Site de visite virtuelle des Halles de Béziers : parcours 360° du marché couvert en A-Frame (WebVR), présentation des commerçants, pages À propos et contact. Projet SAÉ 105 — BUT MMI. HTML / CSS / JS. | `CSS` | 4 | 1 | `▁▁▁▁▁▁▁▁` | 2026-03-09 |
 
 <!-- PROJECTS:END -->
 

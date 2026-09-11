@@ -2,6 +2,8 @@
 // - liste TOUS les repos publics de l'utilisateur (+ ceux de config.include)
 // - triés par date de dernière modification, le plus récent en haut
 // - un repo créé ou modifié remonte donc automatiquement au prochain passage
+// - pour chaque repo : nombre de commits, de branches, et un mini graphe
+//   d'activité (8 dernières semaines) pour voir d'un coup d'œil où j'en suis
 //
 // Aucune dépendance : Node 20+ (fetch global). Lancé par GitHub Actions.
 
@@ -19,8 +21,12 @@ const headers = {
   ...(token ? { Authorization: `Bearer ${token}` } : {}),
 };
 
-async function gh(path) {
+async function ghRaw(path) {
   const res = await fetch(`https://api.github.com${path}`, { headers });
+  return res;
+}
+async function gh(path) {
+  const res = await ghRaw(path);
   if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
   return res.json();
 }
@@ -33,6 +39,48 @@ async function getAllUserRepos(user) {
     if (batch.length < 100) break;
   }
   return out;
+}
+
+// Nombre total de commits (branche par défaut) : GitHub ne l'expose pas
+// directement, mais la pagination le donne — dernière page d'1 commit/page.
+async function getCommitCount(fullName) {
+  const res = await ghRaw(`/repos/${fullName}/commits?per_page=1`);
+  if (!res.ok) return null;
+  const link = res.headers.get("link");
+  if (!link) return 1; // une seule page => un seul commit (ou zéro, cas déjà filtré)
+  const m = /page=(\d+)>;\s*rel="last"/.exec(link);
+  return m ? Number(m[1]) : null;
+}
+
+async function getBranchCount(fullName) {
+  try {
+    const branches = await gh(`/repos/${fullName}/branches?per_page=100`);
+    return branches.length;
+  } catch {
+    return null;
+  }
+}
+
+const BLOCKS = "▁▂▃▄▅▆▇█"; // 8 niveaux, jamais vide (même 0 commit affiche une ligne plate)
+// Activité des 8 dernières semaines, en sparkline unicode. GitHub calcule
+// cette stat de façon asynchrone : un 202 veut dire "pas encore prêt",
+// on retente quelques fois avant d'abandonner pour ce passage (elle sera
+// prête au prochain, GitHub la garde en cache une fois calculée).
+async function getActivitySparkline(fullName) {
+  for (let attempt = 0; attempt < 4; attempt++) {
+    const res = await ghRaw(`/repos/${fullName}/stats/commit_activity`);
+    if (res.status === 202) {
+      await new Promise((r) => setTimeout(r, 2500));
+      continue;
+    }
+    if (!res.ok) return null;
+    const weeks = await res.json();
+    if (!Array.isArray(weeks) || weeks.length === 0) return null;
+    const last8 = weeks.slice(-8).map((w) => w.total);
+    const max = Math.max(...last8, 1);
+    return last8.map((v) => BLOCKS[Math.min(7, Math.round((v / max) * 7))]).join("");
+  }
+  return null;
 }
 
 function fmtDate(iso) {
@@ -73,20 +121,35 @@ const repos = [...owned, ...extra.filter(Boolean)]
   })
   .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
 
-// --- tableau ---
-const rows = repos.map((r) => {
+// --- tableau (séquentiel : la stats API n'aime pas les rafales) ---
+const rows = [];
+for (const r of repos) {
   const ov = overrides[r.full_name] ?? {};
   const name = r.name;
   const desc = ov.note || r.description || "_(pas encore de description)_";
   const stackLabel = ov.stack || r.language || "";
   const stack = stackLabel ? `\`${stackLabel}\`` : "";
   const stars = r.stargazers_count > 0 ? ` · ★ ${r.stargazers_count}` : "";
-  return `| **[${name}](${r.html_url})** | ${escapeCell(desc)} | ${stack}${stars} | ${fmtDate(r.pushed_at)} |`;
-});
+
+  const [commits, branches, spark] = await Promise.all([
+    getCommitCount(r.full_name),
+    getBranchCount(r.full_name),
+    getActivitySparkline(r.full_name),
+  ]);
+
+  const commitsCell = commits != null ? String(commits) : "—";
+  const branchesCell = branches != null ? String(branches) : "—";
+  const sparkCell = spark ? `\`${spark}\`` : "—";
+
+  rows.push(
+    `| **[${name}](${r.html_url})** | ${escapeCell(desc)} | ${stack}${stars} | ${commitsCell} | ${branchesCell} | ${sparkCell} | ${fmtDate(r.pushed_at)} |`,
+  );
+  console.log(`ok   ${r.full_name}  commits=${commitsCell} branches=${branchesCell} spark=${spark ?? "n/a"}`);
+}
 
 const table = [
-  "| Projet | Description | Stack | Maj |",
-  "|---|---|---|---|",
+  "| Projet | Description | Stack | Commits | Branches | Activité (8 sem.) | Maj |",
+  "|---|---|---|---|---|---|---|",
   ...rows,
 ].join("\n");
 
@@ -99,9 +162,6 @@ if (!re.test(readme)) {
   process.exit(1);
 }
 const next = readme.replace(re, block);
-
-console.log(`${repos.length} repos listés :`);
-for (const r of repos) console.log(`  ${fmtDate(r.pushed_at)}  ${r.full_name}`);
 
 if (next === readme) {
   console.log("Aucun changement.");
