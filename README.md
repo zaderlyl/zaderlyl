@@ -1,18 +1,28 @@
-<p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Terminal : lilian@zaderlyl:~$ whoami — Cornet Lilian, MMI, IUT de Béziers, dev web, systèmes bas niveau, game design, en recherche d'alternance">
-</p>
+# Lilian Cornet
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/lilian-cornet-8923bb3b2/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://codepen.io/lilian-cornet"><img src="https://img.shields.io/badge/CodePen-1a1a1a?style=flat-square&logo=codepen&logoColor=white" alt="CodePen"></a>
-  <a href="mailto:lcornet38@gmail.com"><img src="https://img.shields.io/badge/lcornet38@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
+<img align="right" width="150" src="assets/imgforgithub.png" alt="">
 
-### `$ cat about.md`
+Étudiant en MMI (Métiers du Multimédia et de l'Internet) à l'IUT de Béziers.
+Je travaille sur deux axes complémentaires : le **développement** — web front et
+back, applications mobiles, systèmes bas niveau — et la **création visuelle** —
+identité, interface, mise en page.
 
-Étudiant en MMI (Métiers du Multimédia et de l'Internet) à l'IUT de Béziers. Deux axes complémentaires : le **développement** — web front/back, applications mobiles, systèmes bas niveau — et la **création visuelle** — identité, interface, mise en page.
+**Recherche une alternance ou un stage.** Ouvert aux projets en collaboration.
 
-### `$ ls skills/`
+- Développement web : interfaces soignées, back PHP / Node, bases de données
+- Applications : Android (Java / Capacitor), iOS (Swift / SwiftUI)
+- Exploration bas niveau : noyau x86_64 en Rust
+- Création : Illustrator, InDesign, Affinity Photo
+
+<br clear="right">
+
+## Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lilian-cornet-8923bb3b2/)
+[![CodePen](https://img.shields.io/badge/CodePen-1a1a1a?style=flat-square&logo=codepen&logoColor=white)](https://codepen.io/lilian-cornet)
+[![Email](https://img.shields.io/badge/lcornet38@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:lcornet38@gmail.com)
+
+## Compétences
 
 **Langages**
 `Python` · `JavaScript` · `TypeScript` · `PHP` · `SQL` · `Rust` · `Java` · `Swift` · `C` · `C++` · `HTML` · `CSS`
@@ -23,22 +33,13 @@
 **Création**
 `Illustrator` · `InDesign` · `Affinity Photo` · `Canva`
 
-### `$ gh stats --user zaderlyl`
+## Projets
 
-<p align="center">
-  <img src="assets/stats.svg" width="100%" alt="Statistiques GitHub : contributions, streaks et langages les plus utilisés">
-</p>
+<img align="left" width="180" src="assets/imgforgithub2.png" alt="">
 
-### `$ ls ./projects --sort=updated`
+Tous mes dépôts publics, triés par dernière modification. Se met à jour tout seul (toutes les 6h) — voir [`projects.config.json`](projects.config.json).
 
-Tous mes dépôts publics, triés par dernière modification. Volume de commits, branches et activité réelle des 8 dernières semaines — se met à jour tout seul (toutes les 6h, ou dès qu'un projet bouge) — voir [`projects.config.json`](projects.config.json).
-
-<p align="center">
-  <img src="assets/projects.svg" width="100%" alt="Vue d'ensemble des projets : commits, branches et activité des 8 dernières semaines">
-</p>
-
-<details>
-<summary>Détails (description, stack, liens)</summary>
+<br clear="left">
 
 <!-- PROJECTS:START -->
 <!-- Généré automatiquement — voir projects.config.json -->
@@ -55,12 +56,3 @@ Tous mes dépôts publics, triés par dernière modification. Volume de commits,
 | **[SAE105](https://github.com/zaderlyl/SAE105)** | Site de visite virtuelle des Halles de Béziers : parcours 360° du marché couvert en A-Frame (WebVR), présentation des commerçants, pages À propos et contact. Projet SAÉ 105 — BUT MMI. HTML / CSS / JS. | `CSS` | 4 | 1 | 2026-03-09 |
 
 <!-- PROJECTS:END -->
-
-</details>
-
-### `$ whereis me`
-
-**Recherche une alternance ou un stage.** Ouvert aux projets en collaboration.
-[LinkedIn](https://www.linkedin.com/in/lilian-cornet-8923bb3b2/) · [CodePen](https://codepen.io/lilian-cornet) · [lcornet38@gmail.com](mailto:lcornet38@gmail.com)
-
-<sub>readme --version · dernière régénération automatique via GitHub Actions</sub>
