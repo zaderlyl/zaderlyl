@@ -10,6 +10,7 @@ on:
       - projects.config.json
       - scripts/update-projects.mjs
       - scripts/update-stats.mjs
+      - scripts/svg-theme.mjs
       - .github/workflows/update-readme.yml
 
 permissions:

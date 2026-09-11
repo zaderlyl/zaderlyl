@@ -1,11 +1,12 @@
-// Regenere assets/banner.svg (statique) et assets/stats.svg (donnees reelles)
-// a partir de l'API GitHub. Aucune dependance externe, aucun service tiers.
+// Regenere assets/stats.svg (donnees reelles) a partir de l'API GitHub.
+// Aucune dependance externe, aucun service tiers.
 //
-// stats.svg : contributions des 12 derniers mois, streak actuelle, meilleure
-// streak (calculees depuis le calendrier de contributions), et repartition
-// des langages sur les depots publics (agregee depuis /repos/{r}/languages).
+// Contributions des 12 derniers mois, streak actuelle, meilleure streak
+// (calculees depuis le calendrier de contributions), et repartition des
+// langages sur les depots publics (agregee depuis /repos/{r}/languages).
 
 import { writeFile } from "node:fs/promises";
+import { RAINBOW, defs, windowChrome, outline, escapeXml } from "./svg-theme.mjs";
 
 const USER = "zaderlyl";
 const token = process.env.STATS_TOKEN || process.env.GITHUB_TOKEN;
@@ -94,76 +95,66 @@ const TOP_N = 6;
 const top = sorted.slice(0, TOP_N);
 const otherPct = 100 - top.reduce((s, [, b]) => s + (b / sumBytes) * 100, 0);
 
-// --- build the stacked bar + legend svg fragments ---
-const BAR_X = 24, BAR_W = 812;
+// --- barre de langages + légende ---
+const BAR_X = 24, BAR_W = 812, BAR_Y = 234;
 let x = BAR_X;
 const bars = [];
 for (const [lang, bytes] of top) {
   const w = (bytes / sumBytes) * BAR_W;
-  bars.push(`<rect x="${x.toFixed(1)}" y="190" width="${w.toFixed(1)}" height="14" fill="${LANG_COLOR[lang] || "#7b8394"}"/>`);
+  bars.push(`<rect x="${x.toFixed(1)}" y="${BAR_Y}" width="${w.toFixed(1)}" height="14" fill="${LANG_COLOR[lang] || "#7b8394"}"/>`);
   x += w;
 }
-bars.push(`<rect x="${x.toFixed(1)}" y="190" width="${(BAR_X + BAR_W - x).toFixed(1)}" height="14" fill="#7b8394"/>`);
+bars.push(`<rect x="${x.toFixed(1)}" y="${BAR_Y}" width="${(BAR_X + BAR_W - x).toFixed(1)}" height="14" fill="#5c5470"/>`);
 
 const legendEntries = [...top.map(([lang, bytes]) => [lang, (bytes / sumBytes) * 100, LANG_COLOR[lang] || "#7b8394"])];
-if (otherPct > 0.05) legendEntries.push(["Autres", otherPct, "#7b8394"]);
+if (otherPct > 0.05) legendEntries.push(["Autres", otherPct, "#5c5470"]);
 const cols = [24, 240, 450];
 const legend = legendEntries.map((entry, i) => {
   const [lang, pct, color] = entry;
   const col = cols[i % 3];
   const row = Math.floor(i / 3);
-  const cy = 230 + row * 26;
+  const cy = BAR_Y + 40 + row * 26;
   return `<circle cx="${col + 6}" cy="${cy}" r="5" fill="${color}"/>` +
-    `<text x="${col + 18}" y="${cy + 4}" fill="#eef0f4">${lang}</text>` +
-    `<text x="${col + 116}" y="${cy + 4}" fill="#7b8394">${pct.toFixed(1)}%</text>`;
+    `<text x="${col + 18}" y="${cy + 4}" fill="#eef0f4">${escapeXml(lang)}</text>` +
+    `<text x="${col + 116}" y="${cy + 4}" fill="#a99fc2">${pct.toFixed(1)}%</text>`;
 }).join("\n        ");
 
 const legendRows = Math.ceil(legendEntries.length / 3);
-const svgHeight = 210 + legendRows * 26 + 40;
+const svgHeight = BAR_Y + 20 + legendRows * 26 + 44;
 
 const streakFlame = (n) => (n > 0 ? " \u{1F525}" : "");
+const ID = "s";
 
 const stats = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 ${svgHeight}" width="860" height="${svgHeight}" role="img" aria-label="Statistiques GitHub de ${USER} : ${total} contributions sur 12 mois, streak actuelle ${current} jours, meilleure streak ${longest} jours">
-  <defs>
-    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#111318"/>
-      <stop offset="1" stop-color="#0a0b0d"/>
-    </linearGradient>
-    <clipPath id="round2"><rect x="0" y="0" width="860" height="${svgHeight}" rx="14"/></clipPath>
-  </defs>
-  <g clip-path="url(#round2)">
-    <rect width="860" height="${svgHeight}" fill="url(#bg2)"/>
-    <rect x="0" y="0" width="860" height="36" fill="#1c1f26"/>
-    <line x1="0" y1="36" x2="860" y2="36" stroke="#2a2e37" stroke-width="1"/>
-    <circle cx="22" cy="18" r="5.5" fill="#e6675f"/>
-    <circle cx="41" cy="18" r="5.5" fill="#e6b95f"/>
-    <circle cx="60" cy="18" r="5.5" fill="#5fbf6e"/>
-    <text x="430" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#7b8394">gh stats --user ${USER}</text>
+  <defs>${defs(ID, svgHeight)}</defs>
+  <g clip-path="url(#round${ID})">
+    <rect width="860" height="${svgHeight}" fill="url(#bg${ID})"/>
+    ${windowChrome(`gh stats --user ${USER}`)}
 
     <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-      <rect x="24" y="56" width="264" height="92" rx="10" fill="#14161b" stroke="#2a2e37"/>
-      <text x="46" y="102" font-size="34" font-weight="700" fill="#3987e5">${total}</text>
-      <text x="46" y="126" font-size="12.5" fill="#7b8394">contributions · 12 derniers mois</text>
+      <rect x="24" y="56" width="264" height="98" rx="10" fill="#181425" stroke="#2c2440"/>
+      <text x="46" y="104" font-size="36" font-weight="700" fill="#4dabf7" filter="url(#glow${ID})">${total}</text>
+      <text x="46" y="130" font-size="12.5" fill="#a99fc2">contributions · 12 derniers mois</text>
 
-      <rect x="298" y="56" width="264" height="92" rx="10" fill="#14161b" stroke="#2a2e37"/>
-      <text x="320" y="102" font-size="34" font-weight="700" fill="#eda100">${current}${streakFlame(current)}</text>
-      <text x="320" y="126" font-size="12.5" fill="#7b8394">jours · streak actuelle</text>
+      <rect x="298" y="56" width="264" height="98" rx="10" fill="#181425" stroke="#2c2440"/>
+      <text x="320" y="104" font-size="36" font-weight="700" fill="#ffa94d" filter="url(#glow${ID})">${current}${streakFlame(current)}</text>
+      <text x="320" y="130" font-size="12.5" fill="#a99fc2">jours · streak actuelle</text>
 
-      <rect x="572" y="56" width="264" height="92" rx="10" fill="#14161b" stroke="#2a2e37"/>
-      <text x="594" y="102" font-size="34" font-weight="700" fill="#4fbf8a">${longest}${streakFlame(longest)}</text>
-      <text x="594" y="126" font-size="12.5" fill="#7b8394">jours · meilleure streak</text>
+      <rect x="572" y="56" width="264" height="98" rx="10" fill="#181425" stroke="#2c2440"/>
+      <text x="594" y="104" font-size="36" font-weight="700" fill="#69db7c" filter="url(#glow${ID})">${longest}${streakFlame(longest)}</text>
+      <text x="594" y="130" font-size="12.5" fill="#a99fc2">jours · meilleure streak</text>
 
-      <text x="24" y="178" font-size="13" fill="#aeb3bf">Langages les plus utilisés — ${repos.length} dépôts publics</text>
+      <text x="24" y="${BAR_Y - 12}" font-size="13" fill="#c9c2d9">Langages les plus utilisés — ${repos.length} dépôts publics</text>
       ${bars.join("\n      ")}
 
       <g font-size="13" fill="#eef0f4">
         ${legend}
       </g>
 
-      <text x="24" y="${svgHeight - 18}" font-size="11" fill="#4a4f5c">instanté · ${USER}/${USER} · régénéré via GitHub Actions</text>
+      <text x="24" y="${svgHeight - 18}" font-size="11" fill="${escapeXml("#5c5470")}">instantané · ${USER}/${USER} · régénéré via GitHub Actions</text>
     </g>
   </g>
-  <rect x="0.5" y="0.5" width="859" height="${svgHeight - 1}" rx="14" fill="none" stroke="#2a2e37"/>
+  ${outline(svgHeight)}
 </svg>
 `;
 

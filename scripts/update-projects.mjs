@@ -4,10 +4,12 @@
 // - un repo créé ou modifié remonte donc automatiquement au prochain passage
 // - pour chaque repo : commits, branches, et l'activité réelle des 8
 //   dernières semaines, dessinée en barres dans assets/projects.svg
+//   (couleur = langage principal du repo, comme sur GitHub)
 //
 // Aucune dépendance : Node 20+ (fetch global). Lancé par GitHub Actions.
 
 import { readFile, writeFile } from "node:fs/promises";
+import { defs, windowChrome, outline, escapeXml } from "./svg-theme.mjs";
 
 const README = "README.md";
 const CONFIG = "projects.config.json";
@@ -86,18 +88,24 @@ function fmtDate(iso) {
 function escapeCell(s) {
   return String(s ?? "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ").trim();
 }
-function escapeXml(s) {
-  return String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-}
 function truncate(s, n) {
   return s.length > n ? s.slice(0, n - 1).trimEnd() + "…" : s;
 }
 function lerpColor(hexA, hexB, t) {
   const a = [1, 3, 5].map((i) => parseInt(hexA.slice(i, i + 2), 16));
   const b = [1, 3, 5].map((i) => parseInt(hexB.slice(i, i + 2), 16));
-  const c = a.map((v, i) => Math.round(v + (b[i] - v) * t));
+  const c = a.map((v, i) => Math.round(v + (b[i] - v) * Math.max(0, Math.min(1, t))));
   return `#${c.map((v) => v.toString(16).padStart(2, "0")).join("")}`;
 }
+
+// Couleurs "langage" officielles GitHub — même code couleur que la barre
+// de langages du dashboard stats, pour que les deux visuels se répondent.
+const LANG_COLOR = {
+  CSS: "#563d7c", Rust: "#dea584", HTML: "#e34c26", JavaScript: "#f1e05a",
+  Java: "#b07219", Shell: "#89e051", TypeScript: "#3178c6", Python: "#3572A5",
+  PHP: "#4F5D95", Swift: "#F05138", C: "#555555", "C++": "#f34b7d",
+};
+const FALLBACK_COLOR = "#4dabf7";
 
 // --- config ---
 const config = JSON.parse(await readFile(CONFIG, "utf8"));
@@ -135,6 +143,11 @@ for (const r of repos) {
   const ov = overrides[r.full_name] ?? {};
   const desc = ov.note || r.description || "(pas encore de description)";
   const stackLabel = ov.stack || r.language || "";
+  // La couleur suit la stack annoncée en priorité (un override "Java · Firebase"
+  // doit rester Java même si GitHub détecte "HTML" à cause des assets web),
+  // sinon le langage détecté par GitHub.
+  const stackFirstLang = (stackLabel || "").split(/[·,]/)[0]?.trim();
+  const color = LANG_COLOR[stackFirstLang] || LANG_COLOR[r.language] || FALLBACK_COLOR;
 
   const [commits, branches, weeks] = await Promise.all([
     getCommitCount(r.full_name),
@@ -142,7 +155,7 @@ for (const r of repos) {
     getWeeklyActivity(r.full_name),
   ]);
 
-  items.push({ repo: r, desc, stackLabel, commits, branches, weeks });
+  items.push({ repo: r, desc, stackLabel, color, commits, branches, weeks });
   console.log(`ok   ${r.full_name}  commits=${commits ?? "—"} branches=${branches ?? "—"} weeks=${weeks ? weeks.join(",") : "n/a"}`);
 }
 
@@ -170,60 +183,52 @@ const nextReadme = readme.replace(re, block);
 if (nextReadme === readme) console.log("README : aucun changement.");
 else { await writeFile(README, nextReadme); console.log("README mis à jour."); }
 
-// --- assets/projects.svg : dashboard visuel ---
-const ROW_H = 74;
+// --- assets/projects.svg : dashboard visuel, couleur = langage du repo ---
+const ROW_H = 76;
 const TOP = 56;
-const svgHeight = TOP + items.length * ROW_H + 22;
+const svgHeight = TOP + items.length * ROW_H + 20;
 const maxCommits = Math.max(...items.map((i) => i.commits || 0), 1);
-const BAR_DIM = "#2a2e37", BAR_LIT = "#3987e5";
+const DIM = "#211c31";
+const ID = "p";
 
-const rowsSvg = items.map(({ repo: r, desc, commits, branches, weeks }, idx) => {
+const rowsSvg = items.map(({ repo: r, desc, commits, branches, weeks, color }, idx) => {
   const y = TOP + idx * ROW_H;
   const cVal = commits ?? 0;
   const barW = Math.max(3, (cVal / maxCommits) * 420);
   const w = weeks && weeks.length ? weeks : new Array(8).fill(0);
   const wMax = Math.max(...w, 1);
   const microBars = w.map((v, i) => {
-    const h = Math.max(2, (v / wMax) * 20);
-    const color = lerpColor(BAR_DIM, BAR_LIT, v / wMax);
+    const h = Math.max(2, (v / wMax) * 22);
+    const c = lerpColor(DIM, color, 0.35 + (v / wMax) * 0.65);
     const bx = 470 + i * 16;
-    const by = y + 46 - h;
-    return `<rect x="${bx}" y="${by.toFixed(1)}" width="10" height="${h.toFixed(1)}" rx="2" fill="${color}"/>`;
+    const by = y + 48 - h;
+    return `<rect x="${bx}" y="${by.toFixed(1)}" width="10" height="${h.toFixed(1)}" rx="2" fill="${c}"/>`;
   }).join("");
 
+  const nameW = r.name.length * 8.7;
   return `
-    <text x="24" y="${y + 14}" font-size="15" font-weight="700" fill="#eef0f4">${escapeXml(r.name)}</text>
-    <text x="${24 + r.name.length * 8.6 + 10}" y="${y + 14}" font-size="11.5" fill="#7b8394">${escapeXml(truncate(desc, 46))}</text>
-    <text x="836" y="${y + 14}" text-anchor="end" font-size="11.5" fill="#7b8394">${cVal} commits · ${branches ?? "—"} branche${(branches ?? 0) > 1 ? "s" : ""}</text>
-    <rect x="24" y="${y + 24}" width="420" height="8" rx="4" fill="#1c1f26"/>
-    <rect x="24" y="${y + 24}" width="${barW.toFixed(1)}" height="8" rx="4" fill="${BAR_LIT}"/>
+    <circle cx="18" cy="${y + 9}" r="4.5" fill="${color}"/>
+    <text x="30" y="${y + 14}" font-size="15" font-weight="700" fill="#eef0f4">${escapeXml(r.name)}</text>
+    <text x="${30 + nameW + 10}" y="${y + 14}" font-size="11.5" fill="#a99fc2">${escapeXml(truncate(desc, 44))}</text>
+    <text x="836" y="${y + 14}" text-anchor="end" font-size="11.5" fill="#a99fc2">${cVal} commits · ${branches ?? "—"} branche${(branches ?? 0) > 1 ? "s" : ""}</text>
+    <rect x="24" y="${y + 24}" width="420" height="8" rx="4" fill="#211c31"/>
+    <rect x="24" y="${y + 24}" width="${barW.toFixed(1)}" height="8" rx="4" fill="${color}"/>
     ${microBars}
-    <text x="470" y="${y + 62}" font-size="9.5" fill="#4a4f5c">8 dernières semaines</text>
-    ${idx < items.length - 1 ? `<line x1="24" y1="${y + ROW_H - 12}" x2="836" y2="${y + ROW_H - 12}" stroke="#1c1f26" stroke-width="1"/>` : ""}
+    <text x="470" y="${y + 64}" font-size="9.5" fill="#5c5470">8 dernières semaines</text>
+    ${idx < items.length - 1 ? `<line x1="24" y1="${y + ROW_H - 12}" x2="836" y2="${y + ROW_H - 12}" stroke="#1c1830" stroke-width="1"/>` : ""}
   `;
 }).join("\n");
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 ${svgHeight}" width="860" height="${svgHeight}" role="img" aria-label="Vue d'ensemble des ${items.length} projets publics : commits, branches et activité des 8 dernières semaines">
-  <defs>
-    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#111318"/>
-      <stop offset="1" stop-color="#0a0b0d"/>
-    </linearGradient>
-    <clipPath id="round3"><rect x="0" y="0" width="860" height="${svgHeight}" rx="14"/></clipPath>
-  </defs>
-  <g clip-path="url(#round3)">
-    <rect width="860" height="${svgHeight}" fill="url(#bg3)"/>
-    <rect x="0" y="0" width="860" height="36" fill="#1c1f26"/>
-    <line x1="0" y1="36" x2="860" y2="36" stroke="#2a2e37" stroke-width="1"/>
-    <circle cx="22" cy="18" r="5.5" fill="#e6675f"/>
-    <circle cx="41" cy="18" r="5.5" fill="#e6b95f"/>
-    <circle cx="60" cy="18" r="5.5" fill="#5fbf6e"/>
-    <text x="430" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#7b8394">ls ./projects --sort=updated</text>
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 ${svgHeight}" width="860" height="${svgHeight}" role="img" aria-label="Vue d'ensemble des ${items.length} projets publics : commits, branches et activité des 8 dernières semaines, couleur par langage">
+  <defs>${defs(ID, svgHeight)}</defs>
+  <g clip-path="url(#round${ID})">
+    <rect width="860" height="${svgHeight}" fill="url(#bg${ID})"/>
+    ${windowChrome("ls ./projects --sort=updated")}
     <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
       ${rowsSvg}
     </g>
   </g>
-  <rect x="0.5" y="0.5" width="859" height="${svgHeight - 1}" rx="14" fill="none" stroke="#2a2e37"/>
+  ${outline(svgHeight)}
 </svg>
 `;
 
