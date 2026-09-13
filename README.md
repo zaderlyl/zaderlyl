@@ -22,6 +22,13 @@ identité, interface, mise en page.
 [![CodePen](https://img.shields.io/badge/CodePen-1a1a1a?style=flat-square&logo=codepen&logoColor=white)](https://codepen.io/lilian-cornet)
 [![Email](https://img.shields.io/badge/lcornet38@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:lcornet38@gmail.com)
 
+## Badges
+
+Débloqués automatiquement selon mon activité réelle sur GitHub (heure des commits, jours particuliers, etc.) — via [my-badges](https://github.com/my-badges/my-badges), mis à jour chaque jour.
+
+<!-- my-badges start -->
+<!-- my-badges end -->
+
 ## Compétences
 
 **Langages**
