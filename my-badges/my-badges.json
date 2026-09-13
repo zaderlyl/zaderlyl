@@ -1,0 +1,86 @@
+[
+  {
+    "id": "a-commit",
+    "tier": 1,
+    "desc": "One of my commit sha starts with \"a\".",
+    "body": "- <a href=\"https://github.com/zaderlyl/PortfolioV1/commit/a21e8e0951c19c39af5694b794fbf67ee2314901\"><strong>a</strong>21e8e0951c19c39af5694b794fbf67ee2314901</a>",
+    "image": "https://my-badges.github.io/my-badges/a-commit.png"
+  },
+  {
+    "id": "ab-commit",
+    "tier": 2,
+    "desc": "One of my commit sha starts with \"ab\".",
+    "body": "- <a href=\"https://github.com/zaderlyl/Spoti-Stat/commit/ab214fbb63cbad3d660455c20fb34a23c994953d\"><strong>ab</strong>214fbb63cbad3d660455c20fb34a23c994953d</a>",
+    "image": "https://my-badges.github.io/my-badges/ab-commit.png"
+  },
+  {
+    "id": "alien-day",
+    "tier": 0,
+    "desc": "I committed on the day when the crew of the USCSS Nostromo made their fateful landing and discovered the Xenomorph on LV-426!",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/zaderlyl/commit/25dd30de9a0dcb7062af8d8daadbd3ab7122100e\">25dd30d</a>",
+    "image": "https://my-badges.github.io/my-badges/alien-day.png"
+  },
+  {
+    "id": "chore-commit",
+    "tier": 0,
+    "desc": "I did a little housekeeping! 🧹",
+    "body": "Commits:\n\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/fb237b1d9f2818c4341401a072cfaccfcd45711b\">fb237b1</a>: chore: add .gitignore, remove .DS_Store from tracking\n\nExclut les fichiers .DS_Store (métadonnées macOS inutiles)\net les dossiers d'éditeurs du suivi Git.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+    "image": "https://my-badges.github.io/my-badges/chore-commit.png"
+  },
+  {
+    "id": "epic-commit",
+    "tier": 0,
+    "desc": "I made an epic commit with a message over 500 chars.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/a80ccbe48acbdc55085bbb96055a6e5360ba038e\">a80ccbe</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/985943fd858c1058f281d749e9faf8d6623f759d\">985943f</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/f5214c86f481cfc38c34e8beb41b606d0f90f011\">f5214c8</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/859fc2540baf47ab32554382bbe571bb19f4ee8c\">859fc25</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/098a865399f125a0dc9446fc0df4eed475397a3c\">098a865</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/cadb1aa5951d5fa2a8bcd970c69cd74ce2f4d9a4\">cadb1aa</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/0cfea438a2861a62a454c2f6dffe2e14bbb11cbd\">0cfea43</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/2955be4ad2fc0f4d75ccb8a7f5c0978362db936e\">2955be4</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/d58d1a57c78bdd493aa0f50a210853d0ca731ee5\">d58d1a5</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/9a206682424b24ea728127581fd202de7fb14699\">9a20668</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/c0df9ee087f4d2093cbc8fb92d2a81e1237abd10\">c0df9ee</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/d50f95d803efe4445df00a095da52347dd948f82\">d50f95d</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/b038a30a87d29279badbb17a9d622a0eb09e42b2\">b038a30</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/70f9ce6520de2263e37e2183eec4a64cf20da441\">70f9ce6</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/bd032b139cd1149a853d3655defe633bb707af1d\">bd032b1</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/412c93dec6087ca4b63ee8dea3a55af87b09770c\">412c93d</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/19379f29f9c43b22cb4ebc1c20a78cf4ecd82959\">19379f2</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/672ac74f1416173fff987b0e124976dce58af09d\">672ac74</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/55bfcddc65d5f0d86f0fbd32e9f7c1a504080021\">55bfcdd</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/9c5753812a8f1d4bf01a6353b24859f74c24d5d9\">9c57538</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/636f79f52128dc609a47c2f28ff6f4b3672490ff\">636f79f</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/527866f3276227a86a131e19351c6165014cf2ce\">527866f</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/b2f27d28e89c1e11b963aa43eeffb34e62ec6b67\">b2f27d2</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/5f89a14721ad1a395771903be71b547bef018909\">5f89a14</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/6932c5e9a0fc6f85319411fc2acb91ac7268078b\">6932c5e</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/0113d13144ffc549184f96dc2065403f9b816db6\">0113d13</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/f62cf29972c1a561811b7d4a06dacb45afb2956b\">f62cf29</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/b281d11234ec87231d4feac5b0732a3da651e510\">b281d11</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/e9d74a4d69d16da81b384d706801ee66d04fbac2\">e9d74a4</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/dd0b3c8ba334066a645005689aacdbb1c15a782f\">dd0b3c8</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/2b340aba5a419b649324b4dc47ae97656ba3c595\">2b340ab</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/74632a4dbfafdd8ef7c99242211104fbde53c795\">74632a4</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/8245a2fe717ce6e47009b733f5d3ad37ad46ac71\">8245a2f</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/ee219deecb6f63a15486c16bd6eee0b34ecc42f3\">ee219de</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/2045681a3bebd6817156f99373a3c12387cfc720\">2045681</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/e097593c004628533b4c414be7d309e405459ba7\">e097593</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/e780620d4165f2c0139617947534bb98c3732473\">e780620</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/556376dac08bd67b93f42388c11e80da186267c6\">556376d</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/c23aa4949ff8cf420a77cdb5cd57d0ccc5847231\">c23aa49</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/5642792eccb9e07151758093e60434c921b38ba6\">5642792</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/5be71e894e63015e7f25ee065997ee87c3f56431\">5be71e8</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/498f36575f57d558da3127c8c8a555a4d7deda11\">498f365</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/033a43c7caa77073a5e79e3608f9605dd2367da8\">033a43c</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/1fc8f62a6ee9360c220a12e268c5e929649f3bd3\">1fc8f62</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/05480324b9c2e5381ee62e07cd9d9e9114482983\">0548032</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/14d7d0c2e664764fc87a256de7bc496312d8a82a\">14d7d0c</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/3b81e4452268841e215a9f819d0890ba572ec7d7\">3b81e44</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/2991d01ade5adddfbf149d275b38af8f91e38fd2\">2991d01</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/c02edae6137127ff910ee531363650b771f23e2c\">c02edae</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/468502b91a014476cccea6deb6cda0f36453cd3e\">468502b</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/6cd1df8e9e5c46905ab9cc502398ceccd030a560\">6cd1df8</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/74f0f12b93854f7fcfddee6c41c6f15f78fa9dfd\">74f0f12</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/eecd07090ced39e64c74b68367f06d785b328acf\">eecd070</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/7d97822e9008f5945a332debcc50c935e9c3df46\">7d97822</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/cb25a0c1301c14f4756ea235f2740fe07dd809b2\">cb25a0c</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/c9723db4be404212f4e21eb333e0085991dabbfa\">c9723db</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/0ca4bb5b11215d91000134fb6f307ee78d469bfe\">0ca4bb5</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/adf2931f7cb2a2113cf2c0f21e4b675cd3bdda65\">adf2931</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/7426806bea9fad308ebb7edb74d4c116dc2ac074\">7426806</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/f9a05e11cbac7101002344b66854114be2c09147\">f9a05e1</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/43de55dc6056a3eaafc83daaebafa9bccf1ec77a\">43de55d</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/460ecc2c4ff9a7a0eb6239e51e5b0e7eacae4fed\">460ecc2</a>\n- <a href=\"https://github.com/zaderlyl/Note-2-/commit/800f3aba7a5d9aec00cfb09eaba74c7dbc62d77b\">800f3ab</a>\n- <a href=\"https://github.com/zaderlyl/Note-2-/commit/24ab1461cfa38fbefc37095d49a258bfc6a7b249\">24ab146</a>\n- <a href=\"https://github.com/zaderlyl/Note-2-/commit/4611a92242c1a3d9ee7a03df7f87f286447aef37\">4611a92</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/075480af3977e39e2c42bc32c61b25a0e6cdb07e\">075480a</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/cbd185375f9159e2f7ac5fce615ad8cbc937db6e\">cbd1853</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/4a4ebde7fc0af87e6cb8907663b0246b5e3746e6\">4a4ebde</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/3f2e53a34ef7a0b22002f1a14b957bc62cd082e9\">3f2e53a</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/322cc045b58574fb521add4db379dc3babccaf47\">322cc04</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/b6918a4cdab539e577b6068e63f3fb0461f1780e\">b6918a4</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/a1bb7eed4b558cd1b19257200a1fa21edf5a6d36\">a1bb7ee</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/60e14a34a5442fac0bc24103065ecc2694497162\">60e14a3</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/9596351672f7c67bb1421cb03c5b7319b331b40f\">9596351</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/f45d2284ecae6446ffa9d788957d52f63d551d4a\">f45d228</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/1849929191eb6f5740d5efec7c041d55e6154e7a\">1849929</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/36b4db90bc37aa1f89217602f6400f8c41a3e586\">36b4db9</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/4f62da4037ac55a7c6e3f79662b84363eeb5ee1e\">4f62da4</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/d3b8b75bf811baff6eeb642dfa7a796d978dafe9\">d3b8b75</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/9ebe354b29df1863b536ee800fb206788ff2408d\">9ebe354</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/ffe12a945aca572a51d9e7ec399bc9ec13cb7962\">ffe12a9</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/3bb84be1ae44b4849e8371451f3bebc9d1a9c129\">3bb84be</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/dc09ab78107540ffa6d8faa16996deffa0569fdb\">dc09ab7</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/96e84d4446bc9aa818ca587d988624bacc01b31e\">96e84d4</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/76cf61271edac9304d8aa6b206a4dc281ee76999\">76cf612</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/f5582f398fdd12abb6472336c7f3fcf8f2b8b6a3\">f5582f3</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/0c1de8080ee28aefd66e15e7ce8734f19ae45fb3\">0c1de80</a>\n- <a href=\"https://github.com/zaderlyl/zaderlyl/commit/27b2d063e7724e7e405a752c8edb06fec24375db\">27b2d06</a>\n- <a href=\"https://github.com/zaderlyl/zaderlyl/commit/32527f94c05888cfb3075d3cf24bd0e91146d0f3\">32527f9</a>\n- <a href=\"https://github.com/zaderlyl/zaderlyl/commit/569bf23a0e14f5033c35d5855e25fa83d2b22005\">569bf23</a>",
+    "image": "https://my-badges.github.io/my-badges/epic-commit.png"
+  },
+  {
+    "id": "favorite-word",
+    "tier": 0,
+    "desc": "My favorite word is \"de\".",
+    "body": "My favorite commit message words are:\n\n1. de (used 991 times)\n2. le (used 502 times)\n3. la (used 437 times)\n4. en (used 352 times)\n5. les (used 337 times)",
+    "image": "https://my-badges.github.io/my-badges/favorite-word.png"
+  },
+  {
+    "id": "github-anniversary-5",
+    "tier": 0,
+    "desc": "I joined GitHub 5 years ago.",
+    "body": "",
+    "image": "https://my-badges.github.io/my-badges/github-anniversary-5.png"
+  },
+  {
+    "id": "mass-delete-commit",
+    "tier": 1,
+    "desc": "When I delete code, I delete a lot.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/PortfolioV1/commit/6b796cb415d9357b6a1aae36a7fdc21c48beff0c\">6b796cb</a>",
+    "image": "https://my-badges.github.io/my-badges/mass-delete-commit.png"
+  },
+  {
+    "id": "programmers-day",
+    "tier": 0,
+    "desc": "Happy Programmers Day! I committed on a 256 Day of Year!",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/zaderlyl/commit/2f62421abc5b820cd268c8115ffffcd031f5c51f\">2f62421</a>\n- <a href=\"https://github.com/zaderlyl/zaderlyl/commit/22df59ca3b904ef63493285a911143246771e354\">22df59c</a>",
+    "image": "https://my-badges.github.io/my-badges/programmers-day.png"
+  },
+  {
+    "id": "morning-commits",
+    "tier": 0,
+    "desc": "I commit in the morning.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/5f89a14721ad1a395771903be71b547bef018909\">5f89a14</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/6932c5e9a0fc6f85319411fc2acb91ac7268078b\">6932c5e</a>\n- <a href=\"https://github.com/zaderlyl/Spoti-Stat/commit/d49e277c15a40b11a6e9fbef29ac4db2138effa1\">d49e277</a>\n- <a href=\"https://github.com/zaderlyl/Spoti-Stat/commit/de76153d192d9de80bce9b4469fd22dcfbba9c75\">de76153</a>\n- <a href=\"https://github.com/zaderlyl/Spoti-Stat/commit/1b7e4e3bf2eaaeada9ea45115ddea1b62b20f25f\">1b7e4e3</a>\n- <a href=\"https://github.com/zaderlyl/Spoti-Stat/commit/1fb8ef60fd48f9fe2848381fee3898377a0a2d87\">1fb8ef6</a>",
+    "image": "https://my-badges.github.io/my-badges/morning-commits.png"
+  },
+  {
+    "id": "evening-commits",
+    "tier": 0,
+    "desc": "I commit in the evening.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/f5214c86f481cfc38c34e8beb41b606d0f90f011\">f5214c8</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/859fc2540baf47ab32554382bbe571bb19f4ee8c\">859fc25</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/49ae3634d771cbe85f29acae9d9219c8520f075a\">49ae363</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/098a865399f125a0dc9446fc0df4eed475397a3c\">098a865</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/cadb1aa5951d5fa2a8bcd970c69cd74ce2f4d9a4\">cadb1aa</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/0cfea438a2861a62a454c2f6dffe2e14bbb11cbd\">0cfea43</a>",
+    "image": "https://my-badges.github.io/my-badges/evening-commits.png"
+  },
+  {
+    "id": "midnight-commits",
+    "tier": 0,
+    "desc": "I commit at midnight.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/985943fd858c1058f281d749e9faf8d6623f759d\">985943f</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/5642792eccb9e07151758093e60434c921b38ba6\">5642792</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/60e14a34a5442fac0bc24103065ecc2694497162\">60e14a3</a>\n- <a href=\"https://github.com/zaderlyl/PortfolioV1/commit/3760f4b756042e8414c8e52016207db952052ec0\">3760f4b</a>\n- <a href=\"https://github.com/zaderlyl/PortfolioV1/commit/2562c62b0a32612c9a71996c8da272d0ea11ee38\">2562c62</a>",
+    "image": "https://my-badges.github.io/my-badges/midnight-commits.png"
+  }
+]
