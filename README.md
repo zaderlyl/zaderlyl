@@ -83,7 +83,7 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 
 | Projet | Description | Stack | Commits | Branches | Maj |
 |---|---|---|---|---|---|
-| **[pc-pet](https://github.com/zaderlyl/pc-pet)** | Compagnon flottant desktop (Asti / PC Pet) — moteur du compagnon de Nothing OS | `JavaScript` | 3 | 2 | 2026-09-13 |
+| **[pc-pet](https://github.com/zaderlyl/pc-pet)** | Compagnon flottant desktop (Asti / PC Pet) — moteur du compagnon de Nothing OS | `JavaScript` | 15 | 3 | 2026-09-13 |
 | **[Nothing-OS](https://github.com/zaderlyl/Nothing-OS)** | Noyau x86_64 bare-metal écrit en Rust, bootable dans QEMU : système de fichiers persistant, pilotes ATA/PCI, partage de dossier hôte via virtio-9p, interface entièrement au clavier. | `Rust · ASM` | 86 | 5 | 2026-09-13 |
 | **[sans-couleurs](https://github.com/zaderlyl/sans-couleurs)** | Jeu de plateforme 2D pixel art (Phaser 3). Cartes, PNJ et dialogues définis dans Tiled plutôt que codés en dur. | `JavaScript · Phaser` | 38 | 5 | 2026-09-11 |
 | **[Note-2-](https://github.com/zaderlyl/Note-2-)** | Application de prise de notes partagées à deux en temps réel (Firebase), packagée en app Android avec Capacitor. Design inspiré du Nothing Phone. | `Java · Firebase` | 5 | 1 | 2026-08-19 |
