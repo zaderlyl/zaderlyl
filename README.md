@@ -50,7 +50,6 @@ Débloqués automatiquement selon mon activité réelle sur GitHub (heure des co
 **Frameworks & outils**
 
 [![Frameworks](https://skillicons.dev/icons?i=nodejs,firebase,threejs,alpinejs,bootstrap,git)](https://skillicons.dev)
-![phpMyAdmin](https://img.shields.io/badge/phpMyAdmin-6C78AF?style=flat-square&logo=phpmyadmin&logoColor=white)
 
 **Suite Adobe**
 
