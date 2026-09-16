@@ -45,15 +45,16 @@ Débloqués automatiquement selon mon activité réelle sur GitHub (heure des co
 
 **Langages**
 
-[![Langages](https://skillicons.dev/icons?i=py,js,ts,php,mysql,rust,java,swift,c,cpp,html,css)](https://skillicons.dev)
+[![Langages](https://skillicons.dev/icons?i=py,js,ts,php,mysql,java,swift,html,css)](https://skillicons.dev)
 
 **Frameworks & outils**
 
-[![Frameworks](https://skillicons.dev/icons?i=nodejs,express,vite,firebase,threejs,alpinejs,bootstrap,git)](https://skillicons.dev)
+[![Frameworks](https://skillicons.dev/icons?i=nodejs,firebase,threejs,alpinejs,bootstrap,git)](https://skillicons.dev)
+![phpMyAdmin](https://img.shields.io/badge/phpMyAdmin-6C78AF?style=flat-square&logo=phpmyadmin&logoColor=white)
 
 **Suite Adobe**
 
-[![Adobe](https://skillicons.dev/icons?i=ai,ps,ae,pr,xd,au)](https://skillicons.dev)
+[![Adobe](https://skillicons.dev/icons?i=ai,ps,ae,pr)](https://skillicons.dev)
 
 ## Projets
 
