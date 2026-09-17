@@ -2,18 +2,10 @@
 
 <img align="right" width="150" src="assets/imgforgithub.png" alt="">
 
-Je navigue entre deux extrêmes : écrire un noyau x86_64 en Rust un jour,
-peaufiner une interface au pixel près le lendemain. Étudiant en MMI à l'IUT
-de Béziers, je construis des projets pour apprendre vite et large — une appli
-de notes façon Nothing Phone, un jeu de plateforme pixel art, un noyau
-bare-metal bootable dans QEMU.
+Noyau x86_64 en Rust le matin, interface au pixel près l'après-midi.
+Étudiant en MMI à l'IUT de Béziers.
 
-**Recherche une alternance ou un stage.** Ouvert aux projets en collaboration.
-
-- Développement web : interfaces soignées, back PHP / Node, bases de données
-- Applications : Android (Java / Capacitor), iOS (Swift / SwiftUI)
-- Exploration bas niveau : noyau x86_64 en Rust
-- Création : Illustrator, InDesign, Affinity Photo
+**Recherche une alternance ou un stage.**
 
 <br clear="right">
 
