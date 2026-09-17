@@ -41,6 +41,16 @@ Débloqués automatiquement selon mon activité réelle sur GitHub (heure des co
 <a href="my-badges/midnight-commits.md"><img src="https://my-badges.github.io/my-badges/midnight-commits.png" alt="I commit at midnight." title="I commit at midnight." width="64"></a>
 <!-- my-badges end -->
 
+## Activité
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zaderlyl/zaderlyl/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zaderlyl/zaderlyl/output/snake.svg" />
+  <img alt="Un serpent qui mange ma grille de contributions" src="https://raw.githubusercontent.com/zaderlyl/zaderlyl/output/snake.svg" width="100%" />
+</picture>
+
+<img src="assets/metrics.svg" alt="Calendrier isométrique de mes commits sur l'année" width="100%" />
+
 ## Compétences
 
 **Langages**

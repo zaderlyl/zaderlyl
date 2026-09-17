@@ -1,0 +1,29 @@
+name: Snake (grille de contributions animée)
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # tous les jours à 3h
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Générer les SVG du serpent
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=%23ff9100&color_dots=%23ebedf0,%23ffe3c2,%23ffbb70,%23ff9100,%23c56d00
+            dist/snake-dark.svg?color_snake=%23ff9100&color_dots=%23161b22,%234a2e0f,%238a4d0d,%23ff9100,%23ffb84d
+
+      - name: Publier sur la branche output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
