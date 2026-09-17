@@ -64,8 +64,11 @@ const ICON_MAP = {
   dockerfile: "docker",
 };
 
+// CDN officiel simple-icons : couleur ET taille personnalisables (contrairement
+// aux badges shields.io, plus petits et dont la couleur du logo seul ne peut pas
+// dépasser une vingtaine de pixels de haut).
 function iconBadge(slug) {
-  return `![${slug}](https://img.shields.io/badge/-0D1117?style=flat-square&logo=${slug}&logoColor=${ACCENT})`;
+  return `<img src="https://cdn.simpleicons.org/${slug}/${ACCENT}" width="28" height="28" alt="${slug}" title="${slug}">`;
 }
 
 // stackIcons (override explicite) sinon langage principal détecté par GitHub.

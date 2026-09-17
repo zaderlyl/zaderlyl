@@ -65,21 +65,25 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 
 <br clear="left">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=FF9100&height=4&width=100%25" width="100%" height="4" alt="">
+
 <!-- PROJECTS:START -->
 <!-- Généré automatiquement — voir projects.config.json -->
 
 | Projet | Description | Stack |
 |---|---|---|
-| **[test](https://github.com/zaderlyl/test)** | _(pas encore de description)_ | ![html5](https://img.shields.io/badge/-0D1117?style=flat-square&logo=html5&logoColor=FF9100) |
-| **[portfolio-v2](https://github.com/zaderlyl/portfolio-v2)** | Portfolio de Lilian Cornet — étudiant BUT MMI, développeur web et designer d'interfaces | ![html5](https://img.shields.io/badge/-0D1117?style=flat-square&logo=html5&logoColor=FF9100) |
-| **[Note-2-](https://github.com/zaderlyl/Note-2-)** | Application de prise de notes partagées à deux en temps réel (Firebase), packagée en app Android avec Capacitor. Design inspiré du Nothing Phone. | ![openjdk](https://img.shields.io/badge/-0D1117?style=flat-square&logo=openjdk&logoColor=FF9100) ![firebase](https://img.shields.io/badge/-0D1117?style=flat-square&logo=firebase&logoColor=FF9100) |
-| **[sans-couleurs](https://github.com/zaderlyl/sans-couleurs)** | Jeu de plateforme 2D pixel art (Phaser 3). Cartes, PNJ et dialogues définis dans Tiled plutôt que codés en dur. | ![javascript](https://img.shields.io/badge/-0D1117?style=flat-square&logo=javascript&logoColor=FF9100) |
-| **[pc-pet](https://github.com/zaderlyl/pc-pet)** | Compagnon flottant desktop (Asti / PC Pet) — moteur du compagnon de Nothing OS | ![javascript](https://img.shields.io/badge/-0D1117?style=flat-square&logo=javascript&logoColor=FF9100) |
-| **[Nothing-OS](https://github.com/zaderlyl/Nothing-OS)** | Noyau x86_64 bare-metal écrit en Rust, bootable dans QEMU : système de fichiers persistant, pilotes ATA/PCI, partage de dossier hôte via virtio-9p, interface entièrement au clavier. | ![rust](https://img.shields.io/badge/-0D1117?style=flat-square&logo=rust&logoColor=FF9100) |
-| **[Musee--FABI](https://github.com/Bebbou/Musee--FABI)** | Projet de groupe (SAÉ) : site d'un musée avec back PHP/MySQL et visite en 3D dans le navigateur (Three.js, modèles glTF). | ![php](https://img.shields.io/badge/-0D1117?style=flat-square&logo=php&logoColor=FF9100) ![mysql](https://img.shields.io/badge/-0D1117?style=flat-square&logo=mysql&logoColor=FF9100) ![threedotjs](https://img.shields.io/badge/-0D1117?style=flat-square&logo=threedotjs&logoColor=FF9100) ![★](https://img.shields.io/badge/★%201-0D1117?style=flat-square&labelColor=0D1117&color=FF9100) |
-| **[Spoti-Stat](https://github.com/zaderlyl/Spoti-Stat)** | Tableau de bord de statistiques d'écoute Spotify (API Spotify). | ![javascript](https://img.shields.io/badge/-0D1117?style=flat-square&logo=javascript&logoColor=FF9100) |
-| **[WebGPU-test](https://github.com/zaderlyl/WebGPU-test)** | _(pas encore de description)_ | ![html5](https://img.shields.io/badge/-0D1117?style=flat-square&logo=html5&logoColor=FF9100) |
-| **[PortfolioV1](https://github.com/zaderlyl/PortfolioV1)** | _(pas encore de description)_ | ![css](https://img.shields.io/badge/-0D1117?style=flat-square&logo=css&logoColor=FF9100) |
-| **[SAE105](https://github.com/zaderlyl/SAE105)** | Site de visite virtuelle des Halles de Béziers : parcours 360° du marché couvert en A-Frame (WebVR), présentation des commerçants, pages À propos et contact. Projet SAÉ 105 — BUT MMI. HTML / CSS / JS. | ![css](https://img.shields.io/badge/-0D1117?style=flat-square&logo=css&logoColor=FF9100) |
+| **[test](https://github.com/zaderlyl/test)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
+| **[portfolio-v2](https://github.com/zaderlyl/portfolio-v2)** | Portfolio de Lilian Cornet — étudiant BUT MMI, développeur web et designer d'interfaces | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
+| **[Note-2-](https://github.com/zaderlyl/Note-2-)** | Application de prise de notes partagées à deux en temps réel (Firebase), packagée en app Android avec Capacitor. Design inspiré du Nothing Phone. | <img src="https://cdn.simpleicons.org/openjdk/FF9100" width="28" height="28" alt="openjdk" title="openjdk"> <img src="https://cdn.simpleicons.org/firebase/FF9100" width="28" height="28" alt="firebase" title="firebase"> |
+| **[sans-couleurs](https://github.com/zaderlyl/sans-couleurs)** | Jeu de plateforme 2D pixel art (Phaser 3). Cartes, PNJ et dialogues définis dans Tiled plutôt que codés en dur. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
+| **[pc-pet](https://github.com/zaderlyl/pc-pet)** | Compagnon flottant desktop (Asti / PC Pet) — moteur du compagnon de Nothing OS | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
+| **[Nothing-OS](https://github.com/zaderlyl/Nothing-OS)** | Noyau x86_64 bare-metal écrit en Rust, bootable dans QEMU : système de fichiers persistant, pilotes ATA/PCI, partage de dossier hôte via virtio-9p, interface entièrement au clavier. | <img src="https://cdn.simpleicons.org/rust/FF9100" width="28" height="28" alt="rust" title="rust"> |
+| **[Musee--FABI](https://github.com/Bebbou/Musee--FABI)** | Projet de groupe (SAÉ) : site d'un musée avec back PHP/MySQL et visite en 3D dans le navigateur (Three.js, modèles glTF). | <img src="https://cdn.simpleicons.org/php/FF9100" width="28" height="28" alt="php" title="php"> <img src="https://cdn.simpleicons.org/mysql/FF9100" width="28" height="28" alt="mysql" title="mysql"> <img src="https://cdn.simpleicons.org/threedotjs/FF9100" width="28" height="28" alt="threedotjs" title="threedotjs"> ![★](https://img.shields.io/badge/★%201-0D1117?style=flat-square&labelColor=0D1117&color=FF9100) |
+| **[Spoti-Stat](https://github.com/zaderlyl/Spoti-Stat)** | Tableau de bord de statistiques d'écoute Spotify (API Spotify). | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
+| **[WebGPU-test](https://github.com/zaderlyl/WebGPU-test)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
+| **[PortfolioV1](https://github.com/zaderlyl/PortfolioV1)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/css/FF9100" width="28" height="28" alt="css" title="css"> |
+| **[SAE105](https://github.com/zaderlyl/SAE105)** | Site de visite virtuelle des Halles de Béziers : parcours 360° du marché couvert en A-Frame (WebVR), présentation des commerçants, pages À propos et contact. Projet SAÉ 105 — BUT MMI. HTML / CSS / JS. | <img src="https://cdn.simpleicons.org/css/FF9100" width="28" height="28" alt="css" title="css"> |
 
 <!-- PROJECTS:END -->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=FF9100&height=4&width=100%25" width="100%" height="4" alt="">
