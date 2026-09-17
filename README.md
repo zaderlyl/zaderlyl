@@ -1,11 +1,10 @@
-# Salut, moi c'est Lilian 👋
-
 <img align="right" width="150" src="assets/imgforgithub.png" alt="">
 
-Noyau x86_64 en Rust le matin, interface au pixel près l'après-midi.
-Étudiant en MMI à l'IUT de Béziers.
+# Salut, moi c'est Lilian 👋
 
-**Recherche une alternance ou un stage.**
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=IBM+Plex+Mono&size=22&pause=1000&color=FF9100&center=true&vCenter=true&width=500&lines=Noyau+x86_64+en+Rust;Interfaces+au+pixel+pr%C3%A8s;%C3%89tudiant+en+MMI+%C3%A0+B%C3%A9ziers)](https://github.com/zaderlyl)
+
+![Recherche](https://img.shields.io/badge/Recherche-alternance%20%2F%20stage-FF9100?style=for-the-badge&labelColor=0D1117)
 
 <br clear="right">
 
