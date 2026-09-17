@@ -2,7 +2,8 @@
 // - liste TOUS les repos publics de l'utilisateur (+ ceux de config.include)
 // - triés par date de dernière modification, le plus récent en haut
 // - un repo créé ou modifié remonte donc automatiquement au prochain passage
-// - pour chaque repo : nombre de commits et de branches
+// - la colonne Stack affiche des logos (badges shields.io teintés en orange),
+//   pas du texte — voir ICON_MAP et overrides[...].stackIcons
 //
 // Aucune dépendance : Node 20+ (fetch global). Lancé par GitHub Actions.
 
@@ -12,6 +13,7 @@ const README = "README.md";
 const CONFIG = "projects.config.json";
 const START = "<!-- PROJECTS:START -->";
 const END = "<!-- PROJECTS:END -->";
+const ACCENT = "FF9100";
 
 const token = process.env.GITHUB_TOKEN;
 const headers = {
@@ -39,31 +41,41 @@ async function getAllUserRepos(user) {
   return out;
 }
 
-// Nombre total de commits (branche par défaut) : GitHub ne l'expose pas
-// directement, mais la pagination le donne — dernière page d'1 commit/page.
-async function getCommitCount(fullName) {
-  const res = await ghRaw(`/repos/${fullName}/commits?per_page=1`);
-  if (!res.ok) return null;
-  const link = res.headers.get("link");
-  if (!link) return 1;
-  const m = /page=(\d+)>;\s*rel="last"/.exec(link);
-  return m ? Number(m[1]) : null;
-}
-
-async function getBranchCount(fullName) {
-  try {
-    const branches = await gh(`/repos/${fullName}/branches?per_page=100`);
-    return branches.length;
-  } catch {
-    return null;
-  }
-}
-
-function fmtDate(iso) {
-  return new Date(iso).toISOString().slice(0, 10);
-}
 function escapeCell(s) {
   return String(s ?? "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ").trim();
+}
+
+// Nom de langage GitHub -> slug simple-icons. Chaque slug est vérifié à la
+// main (shields.io ignore silencieusement un slug inconnu, sans erreur —
+// donc un slug faux ne casse rien, il disparaît juste discrètement).
+const ICON_MAP = {
+  javascript: "javascript",
+  typescript: "typescript",
+  html: "html5",
+  css: "css",
+  php: "php",
+  python: "python",
+  java: "openjdk",
+  rust: "rust",
+  c: "c",
+  "c++": "cplusplus",
+  swift: "swift",
+  shell: "gnubash",
+  dockerfile: "docker",
+};
+
+function iconBadge(slug) {
+  return `![${slug}](https://img.shields.io/badge/-0D1117?style=flat-square&logo=${slug}&logoColor=${ACCENT})`;
+}
+
+// stackIcons (override explicite) sinon langage principal détecté par GitHub.
+function stackCell(repo, ov) {
+  const slugs = ov.stackIcons?.length
+    ? ov.stackIcons
+    : [ICON_MAP[(repo.language ?? "").toLowerCase()]].filter(Boolean);
+  const icons = slugs.map(iconBadge).join(" ");
+  const stars = repo.stargazers_count > 0 ? ` ![★](https://img.shields.io/badge/★%20${repo.stargazers_count}-0D1117?style=flat-square&labelColor=0D1117&color=${ACCENT})` : "";
+  return `${icons}${stars}`;
 }
 
 // --- config ---
@@ -101,24 +113,16 @@ const rows = [];
 for (const r of repos) {
   const ov = overrides[r.full_name] ?? {};
   const desc = ov.note || r.description || "_(pas encore de description)_";
-  const stackLabel = ov.stack || r.language || "";
-  const stack = stackLabel ? `\`${stackLabel}\`` : "";
-  const stars = r.stargazers_count > 0 ? ` · ★ ${r.stargazers_count}` : "";
-
-  const [commits, branches] = await Promise.all([
-    getCommitCount(r.full_name),
-    getBranchCount(r.full_name),
-  ]);
 
   rows.push(
-    `| **[${r.name}](${r.html_url})** | ${escapeCell(desc)} | ${stack}${stars} | ${commits ?? "—"} | ${branches ?? "—"} | ${fmtDate(r.pushed_at)} |`,
+    `| **[${r.name}](${r.html_url})** | ${escapeCell(desc)} | ${stackCell(r, ov)} |`,
   );
-  console.log(`ok   ${r.full_name}  commits=${commits ?? "—"} branches=${branches ?? "—"}`);
+  console.log(`ok   ${r.full_name}`);
 }
 
 const table = [
-  "| Projet | Description | Stack | Commits | Branches | Maj |",
-  "|---|---|---|---|---|---|",
+  "| Projet | Description | Stack |",
+  "|---|---|---|",
   ...rows,
 ].join("\n");
 

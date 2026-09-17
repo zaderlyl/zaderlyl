@@ -13,27 +13,27 @@
   "includeForks": false,
   "includeArchived": false,
 
-  "_overrides": "Par repo : 'note' remplace la description GitHub, 'stack' remplace le langage détecté. Si absent, le script prend la description 'About' et le langage principal du repo.",
+  "_overrides": "Par repo : 'note' remplace la description GitHub. 'stackIcons' (liste de slugs simple-icons, voir ICON_MAP dans le script) remplace les logos affichés — sinon le script déduit un seul logo du langage principal détecté par GitHub. Un slug sans logo existant (ex: 'phaser', 'asm') est simplement à omettre, il n'y a pas de fallback texte.",
   "overrides": {
     "zaderlyl/Nothing-OS": {
       "note": "Noyau x86_64 bare-metal écrit en Rust, bootable dans QEMU : système de fichiers persistant, pilotes ATA/PCI, partage de dossier hôte via virtio-9p, interface entièrement au clavier.",
-      "stack": "Rust · ASM"
+      "stackIcons": ["rust"]
     },
     "zaderlyl/Note-2-": {
       "note": "Application de prise de notes partagées à deux en temps réel (Firebase), packagée en app Android avec Capacitor. Design inspiré du Nothing Phone.",
-      "stack": "Java · Firebase"
+      "stackIcons": ["openjdk", "firebase"]
     },
     "zaderlyl/sans-couleurs": {
       "note": "Jeu de plateforme 2D pixel art (Phaser 3). Cartes, PNJ et dialogues définis dans Tiled plutôt que codés en dur.",
-      "stack": "JavaScript · Phaser"
+      "stackIcons": ["javascript"]
     },
     "zaderlyl/Spoti-Stat": {
       "note": "Tableau de bord de statistiques d'écoute Spotify (API Spotify).",
-      "stack": "JavaScript"
+      "stackIcons": ["javascript"]
     },
     "Bebbou/Musee--FABI": {
       "note": "Projet de groupe (SAÉ) : site d'un musée avec back PHP/MySQL et visite en 3D dans le navigateur (Three.js, modèles glTF).",
-      "stack": "PHP · SQL · Three.js"
+      "stackIcons": ["php", "mysql", "threedotjs"]
     }
   }
 }
