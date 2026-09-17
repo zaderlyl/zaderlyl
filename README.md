@@ -49,7 +49,7 @@ Débloqués automatiquement selon mon activité réelle sur GitHub (heure des co
   <img alt="Un serpent qui mange ma grille de contributions" src="https://raw.githubusercontent.com/zaderlyl/zaderlyl/output/snake.svg" width="100%" />
 </picture>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=zaderlyl&bg_color=0d1117&color=ff9100&line=ff9100&point=ffffff&area=true&area_color=ff9100&border_color=ff9100&custom_title=Mon%20activit%C3%A9%20GitHub" alt="Graphique de mon activité GitHub" width="100%" />
+<img src="https://streak-stats.demolab.com/?user=zaderlyl&background=0D1117&ring=FF9100&fire=FF9100&currStreakLabel=FF9100&sideNums=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=8C8C84&border=FF9100" alt="Mes statistiques de contributions GitHub" />
 
 ## Compétences
 
