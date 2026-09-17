@@ -68,6 +68,7 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 
 | Projet | Description | Stack | Commits | Branches | Maj |
 |---|---|---|---|---|---|
+| **[test](https://github.com/zaderlyl/test)** | _(pas encore de description)_ | `HTML` | 3 | 2 | 2026-09-17 |
 | **[portfolio-v2](https://github.com/zaderlyl/portfolio-v2)** | Portfolio de Lilian Cornet — étudiant BUT MMI, développeur web et designer d'interfaces | `HTML` | 10 | 1 | 2026-09-15 |
 | **[Note-2-](https://github.com/zaderlyl/Note-2-)** | Application de prise de notes partagées à deux en temps réel (Firebase), packagée en app Android avec Capacitor. Design inspiré du Nothing Phone. | `Java · Firebase` | 6 | 1 | 2026-09-14 |
 | **[sans-couleurs](https://github.com/zaderlyl/sans-couleurs)** | Jeu de plateforme 2D pixel art (Phaser 3). Cartes, PNJ et dialogues définis dans Tiled plutôt que codés en dur. | `JavaScript · Phaser` | 38 | 5 | 2026-09-14 |
