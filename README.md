@@ -41,12 +41,6 @@ Débloqués automatiquement selon mon activité réelle sur GitHub (heure des co
 <a href="my-badges/midnight-commits.md"><img src="https://my-badges.github.io/my-badges/midnight-commits.png" alt="I commit at midnight." title="I commit at midnight." width="64"></a>
 <!-- my-badges end -->
 
-Succès officiels GitHub (Pull Shark, Galaxy Brain, etc.) — via [metrics](https://github.com/lowlighter/metrics), mis à jour chaque jour.
-
-<p align="center">
-  <img src="assets/achievements.svg" alt="Mes succès GitHub" />
-</p>
-
 ## Activité
 
 <picture>
