@@ -41,6 +41,12 @@ Débloqués automatiquement selon mon activité réelle sur GitHub (heure des co
 <a href="my-badges/midnight-commits.md"><img src="https://my-badges.github.io/my-badges/midnight-commits.png" alt="I commit at midnight." title="I commit at midnight." width="64"></a>
 <!-- my-badges end -->
 
+Succès officiels GitHub (Pull Shark, Galaxy Brain, etc.) — via [metrics](https://github.com/lowlighter/metrics), mis à jour chaque jour.
+
+<p align="center">
+  <img src="assets/achievements.svg" alt="Mes succès GitHub" />
+</p>
+
 ## Activité
 
 <picture>
@@ -49,21 +55,13 @@ Débloqués automatiquement selon mon activité réelle sur GitHub (heure des co
   <img alt="Un serpent qui mange ma grille de contributions" src="https://raw.githubusercontent.com/zaderlyl/zaderlyl/output/snake.svg" width="100%" />
 </picture>
 
-<img src="https://streak-stats.demolab.com/?user=zaderlyl&background=0D1117&ring=FF9100&fire=FF9100&currStreakLabel=FF9100&sideNums=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=8C8C84&border=FF9100" alt="Mes statistiques de contributions GitHub" />
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=zaderlyl&background=0D1117&ring=FF9100&fire=FF9100&currStreakLabel=FF9100&sideNums=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=8C8C84&border=FF9100" alt="Mes statistiques de contributions GitHub" />
+</p>
 
 ## Compétences
 
-**Langages**
-
-[![Langages](https://skillicons.dev/icons?i=py,js,ts,php,mysql,java,swift,html,css)](https://skillicons.dev)
-
-**Frameworks & outils**
-
-[![Frameworks](https://skillicons.dev/icons?i=nodejs,firebase,threejs,alpinejs,bootstrap,git)](https://skillicons.dev)
-
-**Suite Adobe**
-
-[![Adobe](https://skillicons.dev/icons?i=ai,ps,ae,pr)](https://skillicons.dev)
+[![Compétences](https://skillicons.dev/icons?i=js,ts,php,mysql,swift,html,css,nodejs,firebase,threejs,alpinejs,bootstrap,git,figma,obsidian)](https://skillicons.dev)
 
 ## Projets
 

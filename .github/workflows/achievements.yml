@@ -1,0 +1,24 @@
+name: Achievements (succès officiels GitHub)
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # tous les jours à 3h
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  achievements:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: assets/achievements.svg
+          committer_message: "chore: mise à jour des succès GitHub"
+
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
