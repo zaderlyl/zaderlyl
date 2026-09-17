@@ -1,11 +1,12 @@
-# Lilian Cornet
+# Salut, moi c'est Lilian 👋
 
 <img align="right" width="150" src="assets/imgforgithub.png" alt="">
 
-Étudiant en MMI (Métiers du Multimédia et de l'Internet) à l'IUT de Béziers.
-Je travaille sur deux axes complémentaires : le **développement** — web front et
-back, applications mobiles, systèmes bas niveau — et la **création visuelle** —
-identité, interface, mise en page.
+Je navigue entre deux extrêmes : écrire un noyau x86_64 en Rust un jour,
+peaufiner une interface au pixel près le lendemain. Étudiant en MMI à l'IUT
+de Béziers, je construis des projets pour apprendre vite et large — une appli
+de notes façon Nothing Phone, un jeu de plateforme pixel art, un noyau
+bare-metal bootable dans QEMU.
 
 **Recherche une alternance ou un stage.** Ouvert aux projets en collaboration.
 
