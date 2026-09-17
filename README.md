@@ -2,7 +2,7 @@
 
 # Salut, moi c'est Lilian 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=IBM+Plex+Mono&size=32&pause=1000&color=FF9100&center=true&vCenter=true&width=600&lines=Interfaces+au+pixel+pr%C3%A8s;%C3%89tudiant+en+MMI+%C3%A0+B%C3%A9ziers)](https://github.com/zaderlyl)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=IBM+Plex+Mono&size=32&pause=1000&color=FF9100&center=true&vCenter=true&width=600&lines=Interfaces+au+pixel+pr%C3%A8s;%C3%89tudiant+en+MMI+%C3%A0+B%C3%A9ziers;Design+d%27identit%C3%A9+%26+applications+web;Jeux+pixel+art+%26+petits+outils;Ouvert+aux+projets+en+collaboration)](https://github.com/zaderlyl)
 
 ![Recherche](https://img.shields.io/badge/Recherche-alternance%20%2F%20stage-FF9100?style=for-the-badge&labelColor=0D1117)
 
