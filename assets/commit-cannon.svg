@@ -732,15 +732,12 @@ rect { shape-rendering: crispEdges; }
 
 
 <g transform="translate(20,111)">
-  <!-- affût : deux roues + essieu -->
   <line x1="-7" y1="4" x2="7" y2="4" stroke="#ff9100" stroke-width="2"/>
   <circle cx="-7" cy="4" r="5.5" fill="#0d1117" stroke="#ff9100" stroke-width="1.6"/>
   <circle cx="-7" cy="4" r="1.4" fill="#ff9100"/>
   <circle cx="7" cy="4" r="5.5" fill="#0d1117" stroke="#ff9100" stroke-width="1.6"/>
   <circle cx="7" cy="4" r="1.4" fill="#ff9100"/>
-  <!-- pivot central -->
   <circle cx="0" cy="0" r="4.4" fill="#0d1117" stroke="#ff9100" stroke-width="1.6"/>
-  <!-- tourelle : canon fuselé qui pivote autour du pivot -->
   <g class="turret" style="animation: turretAim 12s linear infinite; transform-origin: 0px 0px;">
     <polygon points="-1,-4.5 -1,4.5 15,2.6 17,0 15,-2.6" fill="#ff9100"/>
     <circle cx="-1" cy="0" r="2.6" fill="#ffb84d"/>
@@ -784,6 +781,6 @@ rect { shape-rendering: crispEdges; }
 <rect class="shot" x="16" y="107" width="8" height="8" rx="2" fill="#4a2e0f" style="animation: shot35 12s linear infinite; opacity:0; transform-origin: 20px 111px;"/>
 <rect class="shot" x="16" y="107" width="8" height="8" rx="2" fill="#4a2e0f" style="animation: shot36 12s linear infinite; opacity:0; transform-origin: 20px 111px;"/>
 <rect class="shot" x="16" y="107" width="8" height="8" rx="2" fill="#8a4d0d" style="animation: shot37 12s linear infinite; opacity:0; transform-origin: 20px 111px;"/>
-<rect class="shot" x="16" y="107" width="8" height="8" rx="2" fill="#8a4d0d" style="animation: shot38 12s linear infinite; opacity:0; transform-origin: 20px 111px;"/>
+<rect class="shot" x="16" y="107" width="8" height="8" rx="2" fill="#ff9100" style="animation: shot38 12s linear infinite; opacity:0; transform-origin: 20px 111px;"/>
 
 </svg>
