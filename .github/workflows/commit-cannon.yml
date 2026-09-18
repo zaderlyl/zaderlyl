@@ -19,7 +19,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           username: ${{ github.repository_owner }}
-          style: cannon
+          style: sonar
           output: assets/commit-cannon.svg
 
       - name: Commit si le SVG a changé
