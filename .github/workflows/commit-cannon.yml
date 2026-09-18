@@ -1,0 +1,33 @@
+name: Commit Cannon (animation maison, remplace le serpent)
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # tous les jours à 3h
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cannon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Générer l'animation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/commit-cannon.mjs ${{ github.repository_owner }}
+
+      - name: Commit si le SVG a changé
+        run: |
+          if [[ -n "$(git status --porcelain assets/commit-cannon.svg)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add assets/commit-cannon.svg
+            git commit -m "chore: mise à jour du commit-cannon"
+            git pull --rebase origin main
+            git push
+          else
+            echo "Rien à mettre à jour."
+          fi

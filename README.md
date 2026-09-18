@@ -35,11 +35,9 @@ Débloqués automatiquement selon mon activité réelle sur GitHub (heure des co
 
 ## Activité
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zaderlyl/zaderlyl/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zaderlyl/zaderlyl/output/snake.svg" />
-  <img alt="Un serpent qui mange ma grille de contributions" src="https://raw.githubusercontent.com/zaderlyl/zaderlyl/output/snake.svg" width="100%" />
-</picture>
+<p align="center">
+  <img alt="Un canon qui tire un obus sur chaque commit de ma grille de contributions" src="assets/commit-cannon.svg" width="100%" />
+</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=zaderlyl&background=0D1117&ring=FF9100&fire=FF9100&currStreakLabel=FF9100&sideNums=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=8C8C84&border=FF9100" alt="Mes statistiques de contributions GitHub" />
