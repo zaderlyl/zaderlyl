@@ -15,9 +15,12 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Générer l'animation
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/commit-cannon.mjs ${{ github.repository_owner }}
+        uses: zaderlyl/contribution-board@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ github.repository_owner }}
+          style: cannon
+          output: assets/commit-cannon.svg
 
       - name: Commit si le SVG a changé
         run: |
