@@ -60,6 +60,8 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 
 | Projet | Description | Stack |
 |---|---|---|
+| **[contribution-board](https://github.com/zaderlyl/contribution-board)** | Animations SVG originales pour ta grille de contributions GitHub (canon, et d'autres à venir) — s'utilise comme une GitHub Action | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
+| **[backtrace](https://github.com/zaderlyl/backtrace)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[test](https://github.com/zaderlyl/test)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
 | **[portfolio-v2](https://github.com/zaderlyl/portfolio-v2)** | Portfolio de Lilian Cornet — étudiant BUT MMI, développeur web et designer d'interfaces | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
 | **[Note-2-](https://github.com/zaderlyl/Note-2-)** | Application de prise de notes partagées à deux en temps réel (Firebase), packagée en app Android avec Capacitor. Design inspiré du Nothing Phone. | <img src="https://cdn.simpleicons.org/openjdk/FF9100" width="28" height="28" alt="openjdk" title="openjdk"> <img src="https://cdn.simpleicons.org/firebase/FF9100" width="28" height="28" alt="firebase" title="firebase"> |
