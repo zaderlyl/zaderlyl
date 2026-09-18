@@ -1,4 +1,4 @@
-name: Contribution Board (canon + marée)
+name: Commit Cannon (animation maison, remplace le serpent)
 
 on:
   schedule:
@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Générer le canon
+      - name: Générer l'animation
         uses: zaderlyl/contribution-board@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -22,21 +22,13 @@ jobs:
           style: cannon
           output: assets/commit-cannon.svg
 
-      - name: Générer la marée
-        uses: zaderlyl/contribution-board@main
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          username: ${{ github.repository_owner }}
-          style: tide
-          output: assets/commit-tide.svg
-
-      - name: Commit si un SVG a changé
+      - name: Commit si le SVG a changé
         run: |
-          if [[ -n "$(git status --porcelain assets/commit-cannon.svg assets/commit-tide.svg)" ]]; then
+          if [[ -n "$(git status --porcelain assets/commit-cannon.svg)" ]]; then
             git config user.name  "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add assets/commit-cannon.svg assets/commit-tide.svg
-            git commit -m "chore: mise à jour du contribution board"
+            git add assets/commit-cannon.svg
+            git commit -m "chore: mise à jour du commit-cannon"
             git pull --rebase origin main
             git push
           else

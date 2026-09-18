@@ -38,10 +38,6 @@
 </p>
 
 <p align="center">
-  <img alt="Une marée qui laisse un coquillage sur chaque commit" src="assets/commit-tide.svg" width="100%" />
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com/?user=zaderlyl&background=0D1117&ring=FF9100&fire=FF9100&currStreakLabel=FF9100&sideNums=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=8C8C84&border=FF9100" alt="Mes statistiques de contributions GitHub" />
 </p>
 
