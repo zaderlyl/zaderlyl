@@ -42,7 +42,7 @@ const weeks = json.data.user.contributionsCollection.contributionCalendar.weeks;
 
 // --- géométrie de la grille (mêmes proportions que la vraie grille GitHub) ---
 const CELL = 10, GAP = 3, PITCH = CELL + GAP;
-const PAD_TOP = 8, PAD_LEFT = 8, PAD_RIGHT = 8, PAD_BOTTOM = 8;
+const PAD_TOP = 8, PAD_LEFT = 20, PAD_RIGHT = 8, PAD_BOTTOM = 26;
 const cols = weeks.length;
 const gridWidth = cols * PITCH - GAP;
 const gridHeight = 7 * PITCH - GAP;
@@ -138,11 +138,19 @@ activeDays.forEach((d, i) => {
 // autour de son propre pivot local, donc n'a pas besoin de translation).
 const cannonSvg = `
 <g transform="translate(${CANNON_X},${CANNON_Y})">
-  <circle cx="0" cy="0" r="5" fill="#0d1117" stroke="#ff9100" stroke-width="1.4"/>
+  <!-- affût : deux roues + essieu -->
+  <line x1="-7" y1="4" x2="7" y2="4" stroke="#ff9100" stroke-width="2"/>
+  <circle cx="-7" cy="4" r="5.5" fill="#0d1117" stroke="#ff9100" stroke-width="1.6"/>
+  <circle cx="-7" cy="4" r="1.4" fill="#ff9100"/>
+  <circle cx="7" cy="4" r="5.5" fill="#0d1117" stroke="#ff9100" stroke-width="1.6"/>
+  <circle cx="7" cy="4" r="1.4" fill="#ff9100"/>
+  <!-- pivot central -->
+  <circle cx="0" cy="0" r="4.4" fill="#0d1117" stroke="#ff9100" stroke-width="1.6"/>
+  <!-- tourelle : canon fuselé qui pivote autour du pivot -->
   <g class="turret" style="animation: turretAim ${CYCLE}s linear infinite; transform-origin: 0px 0px;">
-    <rect x="0" y="-1.6" width="10" height="3.2" rx="1.4" fill="#ff9100"/>
+    <polygon points="-1,-4.5 -1,4.5 15,2.6 17,0 15,-2.6" fill="#ff9100"/>
+    <circle cx="-1" cy="0" r="2.6" fill="#ffb84d"/>
   </g>
-  <circle cx="0" cy="0" r="2" fill="#ffb84d"/>
 </g>`;
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
