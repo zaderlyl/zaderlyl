@@ -76,10 +76,10 @@ const activeDays = days.filter((d) => d.count > 0);
 const totalActive = Math.max(activeDays.length, 1);
 
 // --- calage temporel ---
-const CYCLE = 26;                 // durée totale d'une boucle, en secondes
+const CYCLE = 12;                 // durée totale d'une boucle, en secondes
 const ACTIVE_SPAN = CYCLE * 0.9;  // le tir s'arrête un peu avant la fin (pause avant relance)
 const EPS = 0.05;                 // marge en % pour simuler un "saut" instantané
-const SHOT_LEAD = 0.24;           // temps de vol d'un obus, en secondes
+const SHOT_LEAD = 0.12;           // temps de vol d'un obus, en secondes
 
 activeDays.forEach((d, i) => {
   d.t = (i / totalActive) * ACTIVE_SPAN;
