@@ -587,6 +587,7 @@ rect { shape-rendering: crispEdges; }
 <rect x="684" y="47" width="10" height="10" rx="2" fill="#161b22"/>
 <rect x="684" y="60" width="10" height="10" rx="2" fill="#161b22"/>
 <rect x="684" y="73" width="10" height="10" rx="2" fill="#161b22"/>
+<rect x="684" y="86" width="10" height="10" rx="2" fill="#161b22"/>
 
 <circle cx="663" cy="78" r="0" fill="none" stroke="#ff3b30" stroke-width="1.2" style="animation: ringPulse 6s ease-out 0.00s infinite;"/>
 <circle cx="663" cy="78" r="0" fill="none" stroke="#ff3b30" stroke-width="1.2" style="animation: ringPulse 6s ease-out -2.00s infinite;"/>
