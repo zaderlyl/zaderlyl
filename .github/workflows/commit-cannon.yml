@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Générer l'animation
-        uses: zaderlyl/contribution-board@garden
+        uses: zaderlyl/contribution-board@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           username: ${{ github.repository_owner }}
