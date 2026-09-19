@@ -15,11 +15,11 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Générer l'animation
-        uses: zaderlyl/contribution-board@main
+        uses: zaderlyl/contribution-board@garden
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           username: ${{ github.repository_owner }}
-          style: sonar
+          style: garden
           output: assets/commit-cannon.svg
 
       - name: Commit si le SVG a changé
