@@ -15,6 +15,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant0 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   0.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  0.770% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   1.100% { opacity: 1; transform: scale(1) rotate(0deg); }
   21.792% { transform: scale(1) rotate(5deg); }
   42.484% { transform: scale(1) rotate(-4deg); }
@@ -26,6 +27,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant1 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   1.375% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  2.145% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   2.475% { opacity: 1; transform: scale(1) rotate(0deg); }
   22.922% { transform: scale(1) rotate(5deg); }
   43.369% { transform: scale(1) rotate(-4deg); }
@@ -37,6 +39,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant2 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   2.750% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  3.520% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   3.850% { opacity: 1; transform: scale(1) rotate(0deg); }
   24.052% { transform: scale(1) rotate(5deg); }
   44.254% { transform: scale(1) rotate(-4deg); }
@@ -48,6 +51,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant3 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   4.125% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  4.895% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   5.225% { opacity: 1; transform: scale(1) rotate(0deg); }
   25.182% { transform: scale(1) rotate(5deg); }
   45.139% { transform: scale(1) rotate(-4deg); }
@@ -59,6 +63,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant4 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   5.500% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  6.270% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   6.600% { opacity: 1; transform: scale(1) rotate(0deg); }
   26.312% { transform: scale(1) rotate(5deg); }
   46.024% { transform: scale(1) rotate(-4deg); }
@@ -70,6 +75,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant5 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   6.875% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  7.645% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   7.975% { opacity: 1; transform: scale(1) rotate(0deg); }
   27.442% { transform: scale(1) rotate(5deg); }
   46.909% { transform: scale(1) rotate(-4deg); }
@@ -81,6 +87,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant6 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   8.250% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  9.020% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   9.350% { opacity: 1; transform: scale(1) rotate(0deg); }
   28.572% { transform: scale(1) rotate(5deg); }
   47.794% { transform: scale(1) rotate(-4deg); }
@@ -92,6 +99,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant7 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   9.625% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  10.395% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   10.725% { opacity: 1; transform: scale(1) rotate(0deg); }
   29.702% { transform: scale(1) rotate(5deg); }
   48.679% { transform: scale(1) rotate(-4deg); }
@@ -103,6 +111,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant8 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   11.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  11.770% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   12.100% { opacity: 1; transform: scale(1) rotate(0deg); }
   30.832% { transform: scale(1) rotate(5deg); }
   49.564% { transform: scale(1) rotate(-4deg); }
@@ -114,6 +123,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant9 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   12.375% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  13.145% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   13.475% { opacity: 1; transform: scale(1) rotate(0deg); }
   31.962% { transform: scale(1) rotate(5deg); }
   50.449% { transform: scale(1) rotate(-4deg); }
@@ -125,6 +135,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant10 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   13.750% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  14.520% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   14.850% { opacity: 1; transform: scale(1) rotate(0deg); }
   33.092% { transform: scale(1) rotate(5deg); }
   51.334% { transform: scale(1) rotate(-4deg); }
@@ -136,6 +147,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant11 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   15.125% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  15.895% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   16.225% { opacity: 1; transform: scale(1) rotate(0deg); }
   34.222% { transform: scale(1) rotate(5deg); }
   52.219% { transform: scale(1) rotate(-4deg); }
@@ -147,6 +159,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant12 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   16.500% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  17.270% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   17.600% { opacity: 1; transform: scale(1) rotate(0deg); }
   35.352% { transform: scale(1) rotate(5deg); }
   53.104% { transform: scale(1) rotate(-4deg); }
@@ -158,6 +171,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant13 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   17.875% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  18.645% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   18.975% { opacity: 1; transform: scale(1) rotate(0deg); }
   36.482% { transform: scale(1) rotate(5deg); }
   53.989% { transform: scale(1) rotate(-4deg); }
@@ -169,6 +183,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant14 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   19.250% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  20.020% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   20.350% { opacity: 1; transform: scale(1) rotate(0deg); }
   37.612% { transform: scale(1) rotate(5deg); }
   54.874% { transform: scale(1) rotate(-4deg); }
@@ -180,6 +195,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant15 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   20.625% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  21.395% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   21.725% { opacity: 1; transform: scale(1) rotate(0deg); }
   38.742% { transform: scale(1) rotate(5deg); }
   55.759% { transform: scale(1) rotate(-4deg); }
@@ -191,6 +207,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant16 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   22.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  22.770% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   23.100% { opacity: 1; transform: scale(1) rotate(0deg); }
   39.872% { transform: scale(1) rotate(5deg); }
   56.644% { transform: scale(1) rotate(-4deg); }
@@ -202,6 +219,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant17 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   23.375% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  24.145% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   24.475% { opacity: 1; transform: scale(1) rotate(0deg); }
   41.002% { transform: scale(1) rotate(5deg); }
   57.529% { transform: scale(1) rotate(-4deg); }
@@ -213,6 +231,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant18 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   24.750% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  25.520% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   25.850% { opacity: 1; transform: scale(1) rotate(0deg); }
   42.132% { transform: scale(1) rotate(5deg); }
   58.414% { transform: scale(1) rotate(-4deg); }
@@ -224,6 +243,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant19 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   26.125% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  26.895% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   27.225% { opacity: 1; transform: scale(1) rotate(0deg); }
   43.262% { transform: scale(1) rotate(5deg); }
   59.299% { transform: scale(1) rotate(-4deg); }
@@ -235,6 +255,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant20 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   27.500% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  28.270% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   28.600% { opacity: 1; transform: scale(1) rotate(0deg); }
   44.392% { transform: scale(1) rotate(5deg); }
   60.184% { transform: scale(1) rotate(-4deg); }
@@ -246,6 +267,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant21 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   28.875% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  29.645% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   29.975% { opacity: 1; transform: scale(1) rotate(0deg); }
   45.522% { transform: scale(1) rotate(5deg); }
   61.069% { transform: scale(1) rotate(-4deg); }
@@ -257,6 +279,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant22 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   30.250% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  31.020% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   31.350% { opacity: 1; transform: scale(1) rotate(0deg); }
   46.652% { transform: scale(1) rotate(5deg); }
   61.954% { transform: scale(1) rotate(-4deg); }
@@ -268,6 +291,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant23 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   31.625% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  32.395% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   32.725% { opacity: 1; transform: scale(1) rotate(0deg); }
   47.782% { transform: scale(1) rotate(5deg); }
   62.839% { transform: scale(1) rotate(-4deg); }
@@ -279,6 +303,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant24 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   33.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  33.770% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   34.100% { opacity: 1; transform: scale(1) rotate(0deg); }
   48.912% { transform: scale(1) rotate(5deg); }
   63.724% { transform: scale(1) rotate(-4deg); }
@@ -290,6 +315,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant25 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   34.375% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  35.145% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   35.475% { opacity: 1; transform: scale(1) rotate(0deg); }
   50.042% { transform: scale(1) rotate(5deg); }
   64.609% { transform: scale(1) rotate(-4deg); }
@@ -301,6 +327,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant26 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   35.750% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  36.520% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   36.850% { opacity: 1; transform: scale(1) rotate(0deg); }
   51.172% { transform: scale(1) rotate(5deg); }
   65.494% { transform: scale(1) rotate(-4deg); }
@@ -312,6 +339,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant27 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   37.125% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  37.895% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   38.225% { opacity: 1; transform: scale(1) rotate(0deg); }
   52.302% { transform: scale(1) rotate(5deg); }
   66.379% { transform: scale(1) rotate(-4deg); }
@@ -323,6 +351,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant28 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   38.500% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  39.270% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   39.600% { opacity: 1; transform: scale(1) rotate(0deg); }
   53.432% { transform: scale(1) rotate(5deg); }
   67.264% { transform: scale(1) rotate(-4deg); }
@@ -334,6 +363,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant29 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   39.875% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  40.645% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   40.975% { opacity: 1; transform: scale(1) rotate(0deg); }
   54.562% { transform: scale(1) rotate(5deg); }
   68.149% { transform: scale(1) rotate(-4deg); }
@@ -345,6 +375,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant30 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   41.250% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  42.020% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   42.350% { opacity: 1; transform: scale(1) rotate(0deg); }
   55.692% { transform: scale(1) rotate(5deg); }
   69.034% { transform: scale(1) rotate(-4deg); }
@@ -356,6 +387,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant31 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   42.625% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  43.395% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   43.725% { opacity: 1; transform: scale(1) rotate(0deg); }
   56.822% { transform: scale(1) rotate(5deg); }
   69.919% { transform: scale(1) rotate(-4deg); }
@@ -367,6 +399,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant32 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   44.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  44.770% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   45.100% { opacity: 1; transform: scale(1) rotate(0deg); }
   57.952% { transform: scale(1) rotate(5deg); }
   70.804% { transform: scale(1) rotate(-4deg); }
@@ -378,6 +411,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant33 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   45.375% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  46.145% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   46.475% { opacity: 1; transform: scale(1) rotate(0deg); }
   59.082% { transform: scale(1) rotate(5deg); }
   71.689% { transform: scale(1) rotate(-4deg); }
@@ -389,6 +423,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant34 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   46.750% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  47.520% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   47.850% { opacity: 1; transform: scale(1) rotate(0deg); }
   60.212% { transform: scale(1) rotate(5deg); }
   72.574% { transform: scale(1) rotate(-4deg); }
@@ -400,6 +435,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant35 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   48.125% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  48.895% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   49.225% { opacity: 1; transform: scale(1) rotate(0deg); }
   61.342% { transform: scale(1) rotate(5deg); }
   73.459% { transform: scale(1) rotate(-4deg); }
@@ -411,6 +447,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant36 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   49.500% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  50.270% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   50.600% { opacity: 1; transform: scale(1) rotate(0deg); }
   62.472% { transform: scale(1) rotate(5deg); }
   74.344% { transform: scale(1) rotate(-4deg); }
@@ -422,6 +459,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant37 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   50.875% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  51.645% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   51.975% { opacity: 1; transform: scale(1) rotate(0deg); }
   63.602% { transform: scale(1) rotate(5deg); }
   75.229% { transform: scale(1) rotate(-4deg); }
@@ -433,6 +471,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant38 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   52.250% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  53.020% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   53.350% { opacity: 1; transform: scale(1) rotate(0deg); }
   64.732% { transform: scale(1) rotate(5deg); }
   76.114% { transform: scale(1) rotate(-4deg); }
@@ -444,6 +483,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 @keyframes plant39 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   53.625% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  54.395% { opacity: 1; transform: scale(1.18) rotate(0deg); }
   54.725% { opacity: 1; transform: scale(1) rotate(0deg); }
   65.862% { transform: scale(1) rotate(5deg); }
   76.999% { transform: scale(1) rotate(-4deg); }
