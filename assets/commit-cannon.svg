@@ -5,491 +5,488 @@
     <stop offset="55%" stop-color="#4a3320"/>
     <stop offset="100%" stop-color="#2c1e11"/>
   </linearGradient>
-  <filter id="plantShadow" x="-50%" y="-50%" width="200%" height="200%">
-    <feDropShadow dx="0" dy="0.6" stdDeviation="0.5" flood-color="#000000" flood-opacity="0.4"/>
-  </filter>
 </defs>
 <style>
 rect { shape-rendering: crispEdges; }
 text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-serif; transform-box: fill-box; transform-origin: center; }
 @keyframes plant0 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  0.000% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  0.980% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  1.400% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  22.008% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  42.616% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  61.752% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  75.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  76.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  26.442% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  28.542% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  29.442% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  44.891% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  60.339% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  74.684% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  84.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  87.615% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant1 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  1.375% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  2.355% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  2.775% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  23.138% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  43.501% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  62.409% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  75.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  76.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  26.442% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  28.542% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  29.442% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  44.891% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  60.339% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  74.684% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  84.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  87.615% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant2 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  2.750% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  3.730% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  4.150% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  24.268% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  44.386% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  63.067% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  76.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  77.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  29.615% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  31.715% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  32.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  47.498% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  62.382% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  76.202% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  85.769% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  88.769% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant3 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  4.125% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  5.105% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  5.525% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  25.398% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  45.271% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  63.724% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  76.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  77.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  29.615% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  31.715% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  32.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  47.498% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  62.382% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  76.202% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  85.769% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  88.769% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant4 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  5.500% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  6.480% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  6.900% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  26.528% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  46.156% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  64.382% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  77.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  78.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  29.615% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  31.715% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  32.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  47.498% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  62.382% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  76.202% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  85.769% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  88.769% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant5 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  6.875% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  7.855% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  8.275% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  27.658% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  47.041% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  65.039% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  77.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  78.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  29.615% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  31.715% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  32.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  47.498% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  62.382% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  76.202% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  85.769% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  88.769% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant6 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  8.250% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  9.230% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  9.650% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  28.788% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  47.926% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  65.697% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  78.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  79.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  29.615% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  31.715% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  32.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  47.498% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  62.382% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  76.202% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  85.769% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  88.769% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant7 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  9.625% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  10.605% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  11.025% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  29.918% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  48.811% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  66.354% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  78.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  79.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  30.673% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  32.773% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  33.673% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  48.368% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  63.062% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  76.707% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  86.154% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  89.154% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant8 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  11.000% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  11.980% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  12.400% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  31.048% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  49.696% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  67.012% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  79.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  80.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  30.673% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  32.773% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  33.673% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  48.368% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  63.062% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  76.707% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  86.154% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  89.154% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant9 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  12.375% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  13.355% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  13.775% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  32.178% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  50.581% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  67.669% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  79.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  80.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  33.846% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  35.946% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  36.846% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  50.975% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  65.105% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  78.225% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  87.308% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  90.308% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant10 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  13.750% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  14.730% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  15.150% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  33.308% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  51.466% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  68.327% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  80.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  81.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  38.077% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  40.177% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  41.077% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  54.452% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  67.828% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  80.248% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  88.846% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  91.846% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant11 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  15.125% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  16.105% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  16.525% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  34.438% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  52.351% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  68.984% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  80.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  81.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  38.077% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  40.177% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  41.077% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  54.452% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  67.828% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  80.248% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  88.846% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  91.846% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant12 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  16.500% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  17.480% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  17.900% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  35.568% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  53.236% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  69.642% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  81.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  82.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  38.077% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  40.177% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  41.077% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  54.452% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  67.828% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  80.248% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  88.846% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  91.846% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant13 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  17.875% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  18.855% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  19.275% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  36.698% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  54.121% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  70.300% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  81.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  82.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  39.135% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  41.235% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  42.135% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  55.322% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  68.508% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  80.753% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  89.231% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  92.231% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant14 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  19.250% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  20.230% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  20.650% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  37.828% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  55.006% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  70.957% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  82.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  83.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  40.192% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  42.292% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  43.192% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  56.191% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  69.189% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  81.259% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  89.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  92.615% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant15 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  20.625% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  21.605% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  22.025% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  38.958% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  55.891% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  71.614% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  82.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  83.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  40.192% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  42.292% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  43.192% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  56.191% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  69.189% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  81.259% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  89.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  92.615% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant16 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  22.000% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  22.980% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  23.400% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  40.088% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  56.776% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  72.272% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  83.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  84.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  40.192% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  42.292% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  43.192% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  56.191% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  69.189% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  81.259% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  89.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  92.615% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant17 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  23.375% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  24.355% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  24.775% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  41.218% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  57.661% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  72.930% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  83.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  84.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  40.192% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  42.292% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  43.192% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  56.191% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  69.189% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  81.259% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  89.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  92.615% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant18 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  24.750% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  25.730% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  26.150% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  42.348% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  58.546% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  73.587% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  84.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  85.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  41.250% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  43.350% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  44.250% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  57.060% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  69.870% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  81.765% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  90.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  93.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant19 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  26.125% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  27.105% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  27.525% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  43.478% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  59.431% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  74.245% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  84.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  85.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  41.250% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  43.350% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  44.250% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  57.060% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  69.870% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  81.765% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  90.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  93.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant20 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  27.500% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  28.480% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  28.900% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  44.608% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  60.316% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  74.902% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  85.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  86.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  41.250% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  43.350% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  44.250% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  57.060% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  69.870% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  81.765% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  90.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  93.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant21 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  28.875% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  29.855% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  30.275% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  45.738% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  61.201% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  75.559% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  85.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  86.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  41.250% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  43.350% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  44.250% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  57.060% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  69.870% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  81.765% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  90.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  93.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant22 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  30.250% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  31.230% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  31.650% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  46.868% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  62.086% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  76.217% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  86.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  87.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  41.250% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  43.350% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  44.250% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  57.060% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  69.870% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  81.765% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  90.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  93.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant23 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  31.625% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  32.605% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  33.025% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  47.998% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  62.971% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  76.874% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  86.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  87.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  41.250% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  43.350% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  44.250% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  57.060% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  69.870% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  81.765% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  90.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  93.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant24 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  33.000% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  33.980% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  34.400% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  49.128% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  63.856% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  77.532% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  87.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  88.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  43.365% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  45.465% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  46.365% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  58.798% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  71.232% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  82.777% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  90.769% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  93.769% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant25 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  34.375% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  35.355% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  35.775% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  50.258% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  64.741% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  78.189% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  87.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  88.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  50.769% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  52.869% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  53.769% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  64.883% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  75.997% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  86.317% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  93.462% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  96.462% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant26 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  35.750% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  36.730% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  37.150% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  51.388% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  65.626% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  78.847% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  88.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  89.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  52.885% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  54.985% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  55.885% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  66.622% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  77.358% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  87.328% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  94.231% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  97.231% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant27 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  37.125% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  38.105% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  38.525% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  52.518% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  66.511% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  79.505% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  88.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  89.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  52.885% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  54.985% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  55.885% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  66.622% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  77.358% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  87.328% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  94.231% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  97.231% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant28 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  38.500% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  39.480% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  39.900% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  53.648% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  67.396% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  80.162% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  89.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  90.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  52.885% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  54.985% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  55.885% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  66.622% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  77.358% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  87.328% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  94.231% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  97.231% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant29 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  39.875% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  40.855% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  41.275% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  54.778% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  68.281% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  80.820% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  89.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  90.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  53.942% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  56.042% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  56.942% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  67.491% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  78.039% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  87.834% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  94.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  97.615% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant30 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  41.250% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  42.230% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  42.650% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  55.908% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  69.166% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  81.477% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  90.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  91.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  53.942% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  56.042% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  56.942% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  67.491% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  78.039% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  87.834% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  94.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  97.615% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant31 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  42.625% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  43.605% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  44.025% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  57.038% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  70.051% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  82.135% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  90.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  91.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  53.942% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  56.042% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  56.942% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  67.491% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  78.039% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  87.834% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  94.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  97.615% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant32 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  44.000% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  44.980% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  45.400% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  58.168% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  70.936% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  82.792% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  91.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  92.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  53.942% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  56.042% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  56.942% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  67.491% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  78.039% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  87.834% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  94.615% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  97.615% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant33 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  45.375% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  46.355% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  46.775% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  59.298% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  71.821% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  83.450% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  91.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  92.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  55.000% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  57.100% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  58.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  68.360% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  78.720% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  88.340% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  95.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  98.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant34 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  46.750% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  47.730% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  48.150% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  60.428% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  72.706% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  84.107% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  92.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  93.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  55.000% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  57.100% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  58.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  68.360% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  78.720% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  88.340% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  95.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  98.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant35 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  48.125% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  49.105% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  49.525% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  61.558% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  73.591% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  84.764% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  92.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  93.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  55.000% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  57.100% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  58.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  68.360% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  78.720% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  88.340% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  95.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  98.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant36 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  49.500% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  50.480% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  50.900% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  62.688% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  74.476% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  85.422% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  93.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  94.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  55.000% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  57.100% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  58.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  68.360% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  78.720% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  88.340% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  95.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  98.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant37 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  50.875% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  51.855% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  52.275% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  63.818% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  75.361% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  86.079% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  93.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  94.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  55.000% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  57.100% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  58.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  68.360% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  78.720% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  88.340% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  95.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  98.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant38 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  52.250% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  53.230% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  53.650% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  64.948% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  76.246% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  86.737% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  94.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  95.400% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  55.000% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  57.100% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  58.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  68.360% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  78.720% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  88.340% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  95.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  98.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 @keyframes plant39 {
   0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
-  53.625% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
-  54.605% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
-  55.025% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
-  66.078% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
-  77.131% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
-  87.394% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
-  94.500% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
-  95.900% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  55.000% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  57.100% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  58.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  68.360% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  78.720% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  88.340% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  95.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  98.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
 
@@ -870,45 +867,45 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 <rect x="684" y="73" width="10" height="10" rx="2.5" fill="#fff" opacity="0.12"/>
 <rect x="684" y="86" width="10" height="10" rx="2.5" fill="#fff" opacity="0.11"/>
 
-<text x="338" y="26" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant0 16s linear infinite; opacity:0;">🌿</text>
-<text x="338" y="65" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant1 16s linear infinite; opacity:0;">🌿</text>
-<text x="377" y="26" font-size="9.5" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant2 16s linear infinite; opacity:0;">🌷</text>
-<text x="377" y="39" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant3 16s linear infinite; opacity:0;">🌿</text>
-<text x="377" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant4 16s linear infinite; opacity:0;">🌿</text>
-<text x="377" y="65" font-size="11.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant5 16s linear infinite; opacity:0;">🌻</text>
-<text x="377" y="78" font-size="9.5" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant6 16s linear infinite; opacity:0;">🌷</text>
-<text x="390" y="13" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant7 16s linear infinite; opacity:0;">🌿</text>
-<text x="390" y="39" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant8 16s linear infinite; opacity:0;">🌿</text>
-<text x="429" y="13" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant9 16s linear infinite; opacity:0;">🌿</text>
-<text x="481" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant10 16s linear infinite; opacity:0;">🌿</text>
-<text x="481" y="78" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant11 16s linear infinite; opacity:0;">🌿</text>
-<text x="481" y="91" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant12 16s linear infinite; opacity:0;">🌿</text>
-<text x="494" y="13" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant13 16s linear infinite; opacity:0;">🌿</text>
-<text x="507" y="26" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant14 16s linear infinite; opacity:0;">🌿</text>
-<text x="507" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant15 16s linear infinite; opacity:0;">🌿</text>
-<text x="507" y="65" font-size="9.5" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant16 16s linear infinite; opacity:0;">🌷</text>
-<text x="507" y="91" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant17 16s linear infinite; opacity:0;">🌿</text>
-<text x="520" y="13" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant18 16s linear infinite; opacity:0;">🌿</text>
-<text x="520" y="26" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant19 16s linear infinite; opacity:0;">🌿</text>
-<text x="520" y="39" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant20 16s linear infinite; opacity:0;">🌿</text>
-<text x="520" y="52" font-size="9.5" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant21 16s linear infinite; opacity:0;">🌷</text>
-<text x="520" y="65" font-size="9.5" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant22 16s linear infinite; opacity:0;">🌷</text>
-<text x="520" y="78" font-size="9.5" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant23 16s linear infinite; opacity:0;">🌷</text>
-<text x="546" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant24 16s linear infinite; opacity:0;">🌿</text>
-<text x="637" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant25 16s linear infinite; opacity:0;">🌿</text>
-<text x="663" y="65" font-size="13.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant26 16s linear infinite; opacity:0;">🌳</text>
-<text x="663" y="78" font-size="13.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant27 16s linear infinite; opacity:0;">🌳</text>
-<text x="663" y="91" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant28 16s linear infinite; opacity:0;">🌿</text>
-<text x="676" y="39" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant29 16s linear infinite; opacity:0;">🌿</text>
-<text x="676" y="52" font-size="9.5" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant30 16s linear infinite; opacity:0;">🌷</text>
-<text x="676" y="65" font-size="9.5" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant31 16s linear infinite; opacity:0;">🌷</text>
-<text x="676" y="78" font-size="13.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant32 16s linear infinite; opacity:0;">🌳</text>
-<text x="689" y="13" font-size="11.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant33 16s linear infinite; opacity:0;">🌻</text>
-<text x="689" y="26" font-size="9.5" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant34 16s linear infinite; opacity:0;">🌷</text>
-<text x="689" y="39" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant35 16s linear infinite; opacity:0;">🌿</text>
-<text x="689" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant36 16s linear infinite; opacity:0;">🌿</text>
-<text x="689" y="65" font-size="9.5" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant37 16s linear infinite; opacity:0;">🌷</text>
-<text x="689" y="78" font-size="13.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant38 16s linear infinite; opacity:0;">🌳</text>
-<text x="689" y="91" font-size="8.0" text-anchor="middle" dominant-baseline="central" filter="url(#plantShadow)" style="animation: plant39 16s linear infinite; opacity:0;">🌿</text>
+<text x="338" y="26" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant0 16s linear infinite; opacity:0;">🌿</text>
+<text x="338" y="65" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant1 16s linear infinite; opacity:0;">🌿</text>
+<text x="377" y="26" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant2 16s linear infinite; opacity:0;">🌷</text>
+<text x="377" y="39" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant3 16s linear infinite; opacity:0;">🌿</text>
+<text x="377" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant4 16s linear infinite; opacity:0;">🌿</text>
+<text x="377" y="65" font-size="11.0" text-anchor="middle" dominant-baseline="central" style="animation: plant5 16s linear infinite; opacity:0;">🌻</text>
+<text x="377" y="78" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant6 16s linear infinite; opacity:0;">🌷</text>
+<text x="390" y="13" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant7 16s linear infinite; opacity:0;">🌿</text>
+<text x="390" y="39" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant8 16s linear infinite; opacity:0;">🌿</text>
+<text x="429" y="13" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant9 16s linear infinite; opacity:0;">🌿</text>
+<text x="481" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant10 16s linear infinite; opacity:0;">🌿</text>
+<text x="481" y="78" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant11 16s linear infinite; opacity:0;">🌿</text>
+<text x="481" y="91" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant12 16s linear infinite; opacity:0;">🌿</text>
+<text x="494" y="13" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant13 16s linear infinite; opacity:0;">🌿</text>
+<text x="507" y="26" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant14 16s linear infinite; opacity:0;">🌿</text>
+<text x="507" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant15 16s linear infinite; opacity:0;">🌿</text>
+<text x="507" y="65" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant16 16s linear infinite; opacity:0;">🌷</text>
+<text x="507" y="91" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant17 16s linear infinite; opacity:0;">🌿</text>
+<text x="520" y="13" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant18 16s linear infinite; opacity:0;">🌿</text>
+<text x="520" y="26" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant19 16s linear infinite; opacity:0;">🌿</text>
+<text x="520" y="39" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant20 16s linear infinite; opacity:0;">🌿</text>
+<text x="520" y="52" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant21 16s linear infinite; opacity:0;">🌷</text>
+<text x="520" y="65" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant22 16s linear infinite; opacity:0;">🌷</text>
+<text x="520" y="78" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant23 16s linear infinite; opacity:0;">🌷</text>
+<text x="546" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant24 16s linear infinite; opacity:0;">🌿</text>
+<text x="637" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant25 16s linear infinite; opacity:0;">🌿</text>
+<text x="663" y="65" font-size="13.0" text-anchor="middle" dominant-baseline="central" style="animation: plant26 16s linear infinite; opacity:0;">🌳</text>
+<text x="663" y="78" font-size="13.0" text-anchor="middle" dominant-baseline="central" style="animation: plant27 16s linear infinite; opacity:0;">🌳</text>
+<text x="663" y="91" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant28 16s linear infinite; opacity:0;">🌿</text>
+<text x="676" y="39" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant29 16s linear infinite; opacity:0;">🌿</text>
+<text x="676" y="52" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant30 16s linear infinite; opacity:0;">🌷</text>
+<text x="676" y="65" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant31 16s linear infinite; opacity:0;">🌷</text>
+<text x="676" y="78" font-size="11.0" text-anchor="middle" dominant-baseline="central" style="animation: plant32 16s linear infinite; opacity:0;">🌻</text>
+<text x="689" y="13" font-size="11.0" text-anchor="middle" dominant-baseline="central" style="animation: plant33 16s linear infinite; opacity:0;">🌻</text>
+<text x="689" y="26" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant34 16s linear infinite; opacity:0;">🌷</text>
+<text x="689" y="39" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant35 16s linear infinite; opacity:0;">🌿</text>
+<text x="689" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant36 16s linear infinite; opacity:0;">🌿</text>
+<text x="689" y="65" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant37 16s linear infinite; opacity:0;">🌷</text>
+<text x="689" y="78" font-size="13.0" text-anchor="middle" dominant-baseline="central" style="animation: plant38 16s linear infinite; opacity:0;">🌳</text>
+<text x="689" y="91" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant39 16s linear infinite; opacity:0;">🌷</text>
 
 </svg>
