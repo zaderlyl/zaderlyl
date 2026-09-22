@@ -1,14 +1,14 @@
-<img src="https://my-badges.github.io/my-badges/favorite-word.png" alt="My favorite word is &quot;de&quot;." title="My favorite word is &quot;de&quot;." width="128">
-<strong>My favorite word is &quot;de&quot;.</strong>
+<img src="https://my-badges.github.io/my-badges/favorite-word.png" alt="My favorite word is &quot;du&quot;." title="My favorite word is &quot;du&quot;." width="128">
+<strong>My favorite word is &quot;du&quot;.</strong>
 <br><br>
 
 My favorite commit message words are:
 
-1. de (used 1426 times)
-2. le (used 887 times)
-3. la (used 766 times)
-4. en (used 560 times)
-5. les (used 504 times)
+1. du (used 507 times)
+2. 5 (used 479 times)
+3. des (used 279 times)
+4. plus (used 256 times)
+5. via (used 204 times)
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
