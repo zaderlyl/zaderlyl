@@ -1,4 +1,4 @@
-<img align="center" width="150" src="assets/imgforgithub.png" alt="">
+<img align="right" width="150" src="assets/imgforgithub.png" alt="">
 
 # Salut, moi c'est Lilian 👋
 
