@@ -513,6 +513,18 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
   98.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
   100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
 }
+@keyframes plant42 {
+  0% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  55.000% { opacity: 0; transform: scale(0.25) rotate(0deg); animation-timing-function: ease-out; }
+  57.100% { opacity: 1; transform: scale(1.18) rotate(0deg); animation-timing-function: ease-in-out; }
+  58.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in-out; }
+  68.360% { transform: scale(1) rotate(5deg); animation-timing-function: ease-in-out; }
+  78.720% { transform: scale(1) rotate(-4deg); animation-timing-function: ease-in-out; }
+  88.340% { transform: scale(1) rotate(3deg); animation-timing-function: ease-in; }
+  95.000% { opacity: 1; transform: scale(1) rotate(0deg); animation-timing-function: ease-in; }
+  98.000% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+  100% { opacity: 0; transform: scale(0.25) rotate(0deg); }
+}
 
 </style>
 <rect width="702" height="104" fill="#0d1117"/>
@@ -885,6 +897,7 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 <rect x="671" y="86" width="10" height="10" rx="2.5" fill="#fff" opacity="0.07"/>
 <rect x="684" y="8" width="10" height="10" rx="2.5" fill="#fff" opacity="0.11"/>
 <rect x="684" y="21" width="10" height="10" rx="2.5" fill="#000" opacity="0.07"/>
+<rect x="684" y="34" width="10" height="10" rx="2.5" fill="#000" opacity="0.06"/>
 
 <text x="325" y="26" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant0 16s linear infinite; opacity:0;">🌿</text>
 <text x="325" y="65" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant1 16s linear infinite; opacity:0;">🌿</text>
@@ -902,13 +915,13 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 <text x="481" y="13" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant13 16s linear infinite; opacity:0;">🌿</text>
 <text x="494" y="26" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant14 16s linear infinite; opacity:0;">🌿</text>
 <text x="494" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant15 16s linear infinite; opacity:0;">🌿</text>
-<text x="494" y="65" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant16 16s linear infinite; opacity:0;">🌷</text>
+<text x="494" y="65" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant16 16s linear infinite; opacity:0;">🌿</text>
 <text x="494" y="91" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant17 16s linear infinite; opacity:0;">🌿</text>
 <text x="507" y="13" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant18 16s linear infinite; opacity:0;">🌿</text>
 <text x="507" y="26" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant19 16s linear infinite; opacity:0;">🌿</text>
 <text x="507" y="39" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant20 16s linear infinite; opacity:0;">🌿</text>
-<text x="507" y="52" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant21 16s linear infinite; opacity:0;">🌷</text>
-<text x="507" y="65" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant22 16s linear infinite; opacity:0;">🌷</text>
+<text x="507" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant21 16s linear infinite; opacity:0;">🌿</text>
+<text x="507" y="65" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant22 16s linear infinite; opacity:0;">🌿</text>
 <text x="507" y="78" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant23 16s linear infinite; opacity:0;">🌷</text>
 <text x="533" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant24 16s linear infinite; opacity:0;">🌿</text>
 <text x="624" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant25 16s linear infinite; opacity:0;">🌿</text>
@@ -921,12 +934,13 @@ text { font-family: -apple-system, "Apple Color Emoji", "Segoe UI Emoji", sans-s
 <text x="663" y="78" font-size="11.0" text-anchor="middle" dominant-baseline="central" style="animation: plant32 16s linear infinite; opacity:0;">🌻</text>
 <text x="676" y="13" font-size="11.0" text-anchor="middle" dominant-baseline="central" style="animation: plant33 16s linear infinite; opacity:0;">🌻</text>
 <text x="676" y="26" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant34 16s linear infinite; opacity:0;">🌷</text>
-<text x="676" y="39" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant35 16s linear infinite; opacity:0;">🌿</text>
+<text x="676" y="39" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant35 16s linear infinite; opacity:0;">🌷</text>
 <text x="676" y="52" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant36 16s linear infinite; opacity:0;">🌿</text>
 <text x="676" y="65" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant37 16s linear infinite; opacity:0;">🌷</text>
 <text x="676" y="78" font-size="13.0" text-anchor="middle" dominant-baseline="central" style="animation: plant38 16s linear infinite; opacity:0;">🌳</text>
 <text x="676" y="91" font-size="11.0" text-anchor="middle" dominant-baseline="central" style="animation: plant39 16s linear infinite; opacity:0;">🌻</text>
 <text x="689" y="13" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant40 16s linear infinite; opacity:0;">🌷</text>
-<text x="689" y="26" font-size="9.5" text-anchor="middle" dominant-baseline="central" style="animation: plant41 16s linear infinite; opacity:0;">🌷</text>
+<text x="689" y="26" font-size="13.0" text-anchor="middle" dominant-baseline="central" style="animation: plant41 16s linear infinite; opacity:0;">🌳</text>
+<text x="689" y="39" font-size="8.0" text-anchor="middle" dominant-baseline="central" style="animation: plant42 16s linear infinite; opacity:0;">🌿</text>
 
 </svg>
