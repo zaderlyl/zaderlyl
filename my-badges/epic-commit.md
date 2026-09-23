@@ -4,6 +4,38 @@
 
 Commits:
 
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/ea15df2ac3ae9c3b00004141723749f3b9b7d4ef">ea15df2</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/0424cfdfd32e96b0e04cd0633629b6d7a87cbbbb">0424cfd</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/2b7ec1267656cc47f8f1080a360a474748b7ca63">2b7ec12</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/6c713f5df0dae04134bc44dbe0812b3b7eff3e84">6c713f5</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/d9a577661519149c50f71fa6b429702e448cde76">d9a5776</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/6035586fafb182ba4b723bc688e4696e590b63fe">6035586</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/c6796de4bd2412d250f036c6e9aa083c1f30dd01">c6796de</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/6228fed563cfcb63a9a44f9542b8aedfd890a545">6228fed</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/3a1c03e73cc9e4a5f051005b8869fa652c29bd53">3a1c03e</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/1f61348f241daf11df4a1564385f1da2d456581d">1f61348</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/e2ab8b8db71ed9d4187d1e602dfe8eba0f4ca405">e2ab8b8</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/76490ca4aef721e010feff063bb97ab935e4961e">76490ca</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/88ccb89fbad7ea7c39f8d462eea55ef28b15a37e">88ccb89</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/6fad04be52c09346d7e6d454d9ce74623ec2c3f8">6fad04b</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/daca3c94cce457381c56b71970b0ca5d2571b8d3">daca3c9</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/4fe95bde2eaf5ab2400222bd1d081549f65e63b1">4fe95bd</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/b6d74601efc2fde070859a62ee82a251086686fe">b6d7460</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/f5589f002d1fbf3202c23012e8d6cbf60945169f">f5589f0</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/b0a911ec3b40089e7a2ab044ca90867016386804">b0a911e</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/5a9667c5528a02d1da1efaca3280bbacb852c3d6">5a9667c</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/aa78ba2a346903ece41657d599123769037f1d6c">aa78ba2</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/e3c23ca45e1bd5e3abc447dc632bd93e372b309f">e3c23ca</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/3e6dc805684c7ce792b6ce24112a2daca58177e8">3e6dc80</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/746de24d7b13eb28bb85efeaaa44599392d1b5a2">746de24</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/dcdfd0ea3b589e87089ca387276f441f27f7680c">dcdfd0e</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/915cdc07bde31eb4ab07aaf1c4a7fc451730ee3b">915cdc0</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/e91a2c688b4d47270d52375f78014358637a95ae">e91a2c6</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/dc50fe462368882ee57e8cf31e564478b32eaf4d">dc50fe4</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/3aef76e37752bf4cdbcd52e262d63230d675497a">3aef76e</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/ccd780504832f17e1178c978c7105819992de5d8">ccd7805</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/343b07156199cdfdcc927e953e084cf769247f45">343b071</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/4099da8eaeef7e2256da60fba8b507538b8fc69b">4099da8</a>
 - <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/de41623b7b3f48b9255fabf5bd7181778db03bdd">de41623</a>
 - <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/453adb41ab1cd9e52c33c7082eb8fa801e71d850">453adb4</a>
 - <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/2dbdca0aa4a885668190defd751e93438d8e3ddc">2dbdca0</a>
