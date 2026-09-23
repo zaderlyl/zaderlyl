@@ -37,7 +37,7 @@
 ## Activité
 
 <p align="center">
-  <img alt="Un canon qui tire un obus sur chaque commit de ma grille de contributions" src="assets/commit-cannon.svg" width="100%" />
+  <img alt="Un casse-brique qui casse chaque commit de ma grille de contributions" src="assets/commit-cannon.svg" width="100%" />
 </p>
 
 <p align="center">
