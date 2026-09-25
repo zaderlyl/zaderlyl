@@ -4,12 +4,13 @@
 
 Commits:
 
-- <a href="https://github.com/Bebbou/Musee--FABI/commit/fb237b1d9f2818c4341401a072cfaccfcd45711b">fb237b1</a>: chore: add .gitignore, remove .DS_Store from tracking
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/f1e1350cec1c3a11c4235204f5a73cf6757b4b25">f1e1350</a>: chore: remove stray window.__debugGame/__debugScene hooks
 
-Exclut les fichiers .DS_Store (métadonnées macOS inutiles)
-et les dossiers d'éditeurs du suivi Git.
+Leftover debug hooks from an earlier session, exposing the live Phaser
+Game/Scene on window unconditionally in production code. Flagged during
+this branch's own testing and cleaned up now that the branch is done.
 
-Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
