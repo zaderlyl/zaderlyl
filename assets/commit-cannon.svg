@@ -1173,6 +1173,7 @@ rect { shape-rendering: crispEdges; }
 <rect x="684" y="34" width="10" height="10" rx="2" fill="#161b22"/>
 <rect x="684" y="47" width="10" height="10" rx="2" fill="#161b22"/>
 <rect x="684" y="60" width="10" height="10" rx="2" fill="#161b22"/>
+<rect x="684" y="73" width="10" height="10" rx="2" fill="#161b22"/>
 
 <rect x="320" y="21" width="10" height="10" rx="2" fill="#4a2e0f" style="animation: brick0 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
 <circle cx="325" cy="26" r="0.5" fill="#4a2e0f" style="animation: flash0 31.41s linear infinite;"/>
@@ -1247,7 +1248,7 @@ rect { shape-rendering: crispEdges; }
 <rect x="684" y="21" width="10" height="10" rx="2" fill="#ffb84d"/>
 <rect x="684" y="34" width="10" height="10" rx="2" fill="#ff9100"/>
 <rect x="684" y="47" width="10" height="10" rx="2" fill="#4a2e0f"/>
-<rect x="684" y="60" width="10" height="10" rx="2" fill="#4a2e0f"/>
+<rect x="684" y="60" width="10" height="10" rx="2" fill="#ffb84d"/>
 
 <circle cx="8.0" cy="44.5" r="0.5" fill="#ff9100" style="animation: phit0 31.41s linear infinite;"/>
 <circle cx="8.0" cy="82.5" r="0.5" fill="#ff9100" style="animation: phit1 31.41s linear infinite;"/>
