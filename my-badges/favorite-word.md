@@ -7,8 +7,8 @@ My favorite commit message words are:
 1. de (used 1817 times)
 2. le (used 1173 times)
 3. la (used 1016 times)
-4. en (used 732 times)
-5. les (used 646 times)
+4. en (used 735 times)
+5. les (used 648 times)
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

@@ -4,6 +4,16 @@
 
 Commits:
 
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/821750bb975ad5292969956913ae88d1d400fab8">821750b</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/2e39737df0a8d41ae2769e3feddd454b9ec24288">2e39737</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/2c10b590ac5fc97e9ddabcffb5f795a04df1b04d">2c10b59</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/610654799bed465beab2797964f4215853c022a3">6106547</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/50958cc1f70d792ccdace1aac830ccd4f97b1296">50958cc</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/55a0716d94c3202379ebd04783182b319741dd99">55a0716</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/8233cc3b0efce1138ea2273de0e25aa1db31361f">8233cc3</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/c3b97b08ae6c4c6c439e548a7349f155964ca99c">c3b97b0</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/4a20e1d899f3357c91a8127f2e7f0e6a3f341ba6">4a20e1d</a>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/e4be25956dfa1cb7f04fe6aa22bca37135af05cb">e4be259</a>
 - <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/b14e423a8380c5dea1262d437b41fe9d145ba5ea">b14e423</a>
 - <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/b3c87f03dd291d8074d1e73146dcfac36f5a0bb6">b3c87f0</a>
 - <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/a3b84cca4495e59dbd4df3aa090aa2640909eea0">a3b84cc</a>

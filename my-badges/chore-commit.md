@@ -4,13 +4,7 @@
 
 Commits:
 
-- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/f1e1350cec1c3a11c4235204f5a73cf6757b4b25">f1e1350</a>: chore: remove stray window.__debugGame/__debugScene hooks
-
-Leftover debug hooks from an earlier session, exposing the live Phaser
-Game/Scene on window unconditionally in production code. Flagged during
-this branch's own testing and cleaned up now that the branch is done.
-
-Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>
+- <a href="https://github.com/zaderlyl/phaser-ui-editor/commit/b5266069c2b767c0bdc82b6f68fe14ad709e5e7c">b526606</a>: chore: complete package-lock.json entry for polygon-clipping
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
