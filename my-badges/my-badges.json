@@ -38,7 +38,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"de\".",
-    "body": "My favorite commit message words are:\n\n1. de (used 1817 times)\n2. le (used 1173 times)\n3. la (used 1016 times)\n4. en (used 735 times)\n5. les (used 648 times)",
+    "body": "My favorite commit message words are:\n\n1. de (used 1828 times)\n2. le (used 1185 times)\n3. la (used 1023 times)\n4. en (used 736 times)\n5. les (used 653 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -73,14 +73,14 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/phaser-ui-editor/commit/4a20e1d899f3357c91a8127f2e7f0e6a3f341ba6\">4a20e1d</a>\n- <a href=\"https://github.com/zaderlyl/phaser-ui-editor/commit/e4be25956dfa1cb7f04fe6aa22bca37135af05cb\">e4be259</a>\n- <a href=\"https://github.com/zaderlyl/phaser-ui-editor/commit/43f7f41c2979371ab9528a52d474fc07e97f6279\">43f7f41</a>\n- <a href=\"https://github.com/zaderlyl/phaser-ui-editor/commit/b14e423a8380c5dea1262d437b41fe9d145ba5ea\">b14e423</a>\n- <a href=\"https://github.com/zaderlyl/phaser-ui-editor/commit/b3c87f03dd291d8074d1e73146dcfac36f5a0bb6\">b3c87f0</a>\n- <a href=\"https://github.com/zaderlyl/phaser-ui-editor/commit/a3b84cca4495e59dbd4df3aa090aa2640909eea0\">a3b84cc</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/953b9376b475544fee990f7c8cc1cfafb6eae63d\">953b937</a>\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/601de213864f56e47a5cb1a459e44ee03443378f\">601de21</a>\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/40968ab5666a109eea64a56868a1dd7ec5a19481\">40968ab</a>\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/851b1e3e0799519ad00d6e8965b21ac29421dca4\">851b1e3</a>\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/1b652b2cd478763c2e462b3b580920ac6b562e17\">1b652b2</a>\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/40c60a5035f11136ff9368dd6d25478dfc9a682c\">40c60a5</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
     "id": "midnight-commits",
     "tier": 0,
     "desc": "I commit at midnight.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/phaser-ui-editor/commit/904bed7b93bdf5b0e9c9cfb661cee65abfe95cb6\">904bed7</a>\n- <a href=\"https://github.com/zaderlyl/zaderlyl/commit/7e6f8008580f6ba0018faee20d36993c8e61b8d2\">7e6f800</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/985943fd858c1058f281d749e9faf8d6623f759d\">985943f</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/5642792eccb9e07151758093e60434c921b38ba6\">5642792</a>\n- <a href=\"https://github.com/Bebbou/Musee--FABI/commit/60e14a34a5442fac0bc24103065ecc2694497162\">60e14a3</a>\n- <a href=\"https://github.com/zaderlyl/PortfolioV1/commit/3760f4b756042e8414c8e52016207db952052ec0\">3760f4b</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/4e9208e57fb56dec531e99afdda8948c01d77168\">4e9208e</a>\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/cf15eef05f95fff30e14fa56e2390d989a7b9f3e\">cf15eef</a>\n- <a href=\"https://github.com/zaderlyl/phaser-ui-editor/commit/904bed7b93bdf5b0e9c9cfb661cee65abfe95cb6\">904bed7</a>\n- <a href=\"https://github.com/zaderlyl/zaderlyl/commit/7e6f8008580f6ba0018faee20d36993c8e61b8d2\">7e6f800</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/985943fd858c1058f281d749e9faf8d6623f759d\">985943f</a>\n- <a href=\"https://github.com/zaderlyl/Nothing-OS/commit/5642792eccb9e07151758093e60434c921b38ba6\">5642792</a>",
     "image": "https://my-badges.github.io/my-badges/midnight-commits.png"
   },
   {
