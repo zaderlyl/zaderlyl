@@ -1097,6 +1097,7 @@ rect { shape-rendering: crispEdges; }
 <rect x="684" y="21" width="10" height="10" rx="2" fill="#161b22"/>
 <rect x="684" y="34" width="10" height="10" rx="2" fill="#161b22"/>
 <rect x="684" y="47" width="10" height="10" rx="2" fill="#161b22"/>
+<rect x="684" y="60" width="10" height="10" rx="2" fill="#161b22"/>
 
 <rect x="307" y="21" width="10" height="10" rx="2" fill="#4a2e0f" style="animation: brick0 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
 <circle cx="312" cy="26" r="0.5" fill="#4a2e0f" style="animation: flash0 31.41s linear infinite;"/>
@@ -1107,8 +1108,8 @@ rect { shape-rendering: crispEdges; }
 <rect x="346" y="34" width="10" height="10" rx="2" fill="#4a2e0f" style="animation: brick3 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
 <circle cx="351" cy="39" r="0.5" fill="#4a2e0f" style="animation: flash3 31.41s linear infinite;"/>
 <rect x="346" y="47" width="10" height="10" rx="2" fill="#4a2e0f"/>
-<rect x="346" y="60" width="10" height="10" rx="2" fill="#ff9100" style="animation: brick5 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
-<circle cx="351" cy="65" r="0.5" fill="#ff9100" style="animation: flash5 31.41s linear infinite;"/>
+<rect x="346" y="60" width="10" height="10" rx="2" fill="#8a4d0d" style="animation: brick5 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
+<circle cx="351" cy="65" r="0.5" fill="#8a4d0d" style="animation: flash5 31.41s linear infinite;"/>
 <rect x="346" y="73" width="10" height="10" rx="2" fill="#8a4d0d" style="animation: brick6 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
 <circle cx="351" cy="78" r="0.5" fill="#8a4d0d" style="animation: flash6 31.41s linear infinite;"/>
 <rect x="359" y="8" width="10" height="10" rx="2" fill="#4a2e0f" style="animation: brick7 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
@@ -1143,8 +1144,8 @@ rect { shape-rendering: crispEdges; }
 <rect x="515" y="47" width="10" height="10" rx="2" fill="#4a2e0f"/>
 <rect x="606" y="47" width="10" height="10" rx="2" fill="#4a2e0f" style="animation: brick25 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
 <circle cx="611" cy="52" r="0.5" fill="#4a2e0f" style="animation: flash25 31.41s linear infinite;"/>
-<rect x="632" y="60" width="10" height="10" rx="2" fill="#ffb84d" style="animation: brick26 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
-<circle cx="637" cy="65" r="0.5" fill="#ffb84d" style="animation: flash26 31.41s linear infinite;"/>
+<rect x="632" y="60" width="10" height="10" rx="2" fill="#ff9100" style="animation: brick26 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
+<circle cx="637" cy="65" r="0.5" fill="#ff9100" style="animation: flash26 31.41s linear infinite;"/>
 <rect x="632" y="73" width="10" height="10" rx="2" fill="#ffb84d"/>
 <rect x="632" y="86" width="10" height="10" rx="2" fill="#4a2e0f"/>
 <rect x="645" y="34" width="10" height="10" rx="2" fill="#4a2e0f"/>
@@ -1161,7 +1162,7 @@ rect { shape-rendering: crispEdges; }
 <circle cx="663" cy="52" r="0.5" fill="#4a2e0f" style="animation: flash36 31.41s linear infinite;"/>
 <rect x="658" y="60" width="10" height="10" rx="2" fill="#8a4d0d"/>
 <rect x="658" y="73" width="10" height="10" rx="2" fill="#ffb84d"/>
-<rect x="658" y="86" width="10" height="10" rx="2" fill="#ff9100"/>
+<rect x="658" y="86" width="10" height="10" rx="2" fill="#8a4d0d"/>
 <rect x="671" y="8" width="10" height="10" rx="2" fill="#8a4d0d"/>
 <rect x="671" y="21" width="10" height="10" rx="2" fill="#ffb84d"/>
 <rect x="671" y="34" width="10" height="10" rx="2" fill="#ff9100"/>
@@ -1169,7 +1170,8 @@ rect { shape-rendering: crispEdges; }
 <rect x="671" y="60" width="10" height="10" rx="2" fill="#ffb84d"/>
 <rect x="671" y="73" width="10" height="10" rx="2" fill="#8a4d0d"/>
 <rect x="684" y="34" width="10" height="10" rx="2" fill="#8a4d0d"/>
-<rect x="684" y="47" width="10" height="10" rx="2" fill="#4a2e0f"/>
+<rect x="684" y="47" width="10" height="10" rx="2" fill="#ffb84d"/>
+<rect x="684" y="60" width="10" height="10" rx="2" fill="#4a2e0f"/>
 
 <circle cx="8.0" cy="26.4" r="0.5" fill="#ff9100" style="animation: phit0 31.41s linear infinite;"/>
 <circle cx="8.0" cy="28.7" r="0.5" fill="#ff9100" style="animation: phit1 31.41s linear infinite;"/>
