@@ -65,6 +65,7 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 
 | Projet | Description | Stack |
 |---|---|---|
+| **[portfolio-v2](https://github.com/zaderlyl/portfolio-v2)** | Portfolio de Lilian Cornet — étudiant BUT MMI, développeur web et designer d'interfaces | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
 | **[DevTober](https://github.com/zaderlyl/DevTober)** | DevTober 2026 ( variante du Inktober pour les dévelopeur ) | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> ![★](https://img.shields.io/badge/★%201-0D1117?style=flat-square&labelColor=0D1117&color=FF9100) |
 | **[glass_garden](https://github.com/zaderlyl/glass_garden)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[phaser-ui-editor](https://github.com/zaderlyl/phaser-ui-editor)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
@@ -73,7 +74,6 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 | **[loup-garou-mj](https://github.com/zaderlyl/loup-garou-mj)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[backtrace](https://github.com/zaderlyl/backtrace)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[test](https://github.com/zaderlyl/test)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
-| **[portfolio-v2](https://github.com/zaderlyl/portfolio-v2)** | Portfolio de Lilian Cornet — étudiant BUT MMI, développeur web et designer d'interfaces | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
 | **[Note-2-](https://github.com/zaderlyl/Note-2-)** | Application de prise de notes partagées à deux en temps réel (Firebase), packagée en app Android avec Capacitor. Design inspiré du Nothing Phone. | <img src="https://cdn.simpleicons.org/openjdk/FF9100" width="28" height="28" alt="openjdk" title="openjdk"> <img src="https://cdn.simpleicons.org/firebase/FF9100" width="28" height="28" alt="firebase" title="firebase"> |
 | **[pc-pet](https://github.com/zaderlyl/pc-pet)** | Compagnon flottant desktop (Asti / PC Pet) — moteur du compagnon de Nothing OS | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[Nothing-OS](https://github.com/zaderlyl/Nothing-OS)** | Noyau x86_64 bare-metal écrit en Rust, bootable dans QEMU : système de fichiers persistant, pilotes ATA/PCI, partage de dossier hôte via virtio-9p, interface entièrement au clavier. | <img src="https://cdn.simpleicons.org/rust/FF9100" width="28" height="28" alt="rust" title="rust"> |
