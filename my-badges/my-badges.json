@@ -117,5 +117,12 @@
     "desc": "I've starred 1 my own repositories.",
     "body": "- <a href=\"https://github.com/zaderlyl/DevTober\">zaderlyl/DevTober</a>",
     "image": "https://my-badges.github.io/my-badges/self-star.png"
+  },
+  {
+    "id": "revert-revert-commit",
+    "tier": 0,
+    "desc": "I reverted a revert commit.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/zaderlyl/commit/16f0ba379cbdd8c74b16b53c0e70605c6b3d92ad\">16f0ba3</a>",
+    "image": "https://my-badges.github.io/my-badges/revert-revert-commit.png"
   }
 ]
