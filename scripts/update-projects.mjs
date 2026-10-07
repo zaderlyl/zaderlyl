@@ -1,6 +1,7 @@
 // Régénère le tableau "Projets" du README.
 // - liste TOUS les repos publics de l'utilisateur (+ ceux de config.include)
 // - triés par date de dernière modification, le plus récent en haut
+// - les 5 plus récents sont visibles, les autres sont dans un <details> replié
 // - un repo créé ou modifié remonte donc automatiquement au prochain passage
 // - la colonne Stack affiche des logos (badges shields.io teintés en orange),
 //   pas du texte — voir ICON_MAP et overrides[...].stackIcons
@@ -123,11 +124,13 @@ for (const r of repos) {
   console.log(`ok   ${r.full_name}`);
 }
 
-const table = [
-  "| Projet | Description | Stack |",
-  "|---|---|---|",
-  ...rows,
-].join("\n");
+const VISIBLE = 5;
+const header = ["| Projet | Description | Stack |", "|---|---|---|"];
+const recent = [...header, ...rows.slice(0, VISIBLE)].join("\n");
+const older = rows.length > VISIBLE
+  ? `\n\n<details>\n<summary><b>Voir les ${rows.length - VISIBLE} autres projets</b></summary>\n\n${[...header, ...rows.slice(VISIBLE)].join("\n")}\n\n</details>`
+  : "";
+const table = `${recent}${older}`;
 
 const block = `${START}\n<!-- Généré automatiquement — voir projects.config.json -->\n\n${table}\n\n${END}`;
 

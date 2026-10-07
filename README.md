@@ -71,6 +71,12 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 | **[portfolio](https://github.com/zaderlyl/portfolio)** | Portfolio de Lilian Cornet — étudiant BUT MMI, développeur web et designer d'interfaces | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
 | **[glass_garden](https://github.com/zaderlyl/glass_garden)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[phaser-ui-editor](https://github.com/zaderlyl/phaser-ui-editor)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
+
+<details>
+<summary><b>Voir les 12 autres projets</b></summary>
+
+| Projet | Description | Stack |
+|---|---|---|
 | **[contribution-board](https://github.com/zaderlyl/contribution-board)** | Animations SVG originales pour ta grille de contributions GitHub (canon, et d'autres à venir) — s'utilise comme une GitHub Action | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[loup-garou-mj](https://github.com/zaderlyl/loup-garou-mj)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[backtrace](https://github.com/zaderlyl/backtrace)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
@@ -83,6 +89,8 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 | **[WebGPU-test](https://github.com/zaderlyl/WebGPU-test)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
 | **[PortfolioV1](https://github.com/zaderlyl/PortfolioV1)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/css/FF9100" width="28" height="28" alt="css" title="css"> |
 | **[SAE105](https://github.com/zaderlyl/SAE105)** | Site de visite virtuelle des Halles de Béziers : parcours 360° du marché couvert en A-Frame (WebVR), présentation des commerçants, pages À propos et contact. Projet SAÉ 105 — BUT MMI. HTML / CSS / JS. | <img src="https://cdn.simpleicons.org/css/FF9100" width="28" height="28" alt="css" title="css"> |
+
+</details>
 
 <!-- PROJECTS:END -->
 
