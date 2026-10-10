@@ -1077,6 +1077,7 @@ rect { shape-rendering: crispEdges; }
 <rect x="684" y="47" width="10" height="10" rx="2" fill="#161b22"/>
 <rect x="684" y="60" width="10" height="10" rx="2" fill="#161b22"/>
 <rect x="684" y="73" width="10" height="10" rx="2" fill="#161b22"/>
+<rect x="684" y="86" width="10" height="10" rx="2" fill="#161b22"/>
 
 <rect x="294" y="21" width="10" height="10" rx="2" fill="#4a2e0f" style="animation: brick0 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
 <circle cx="299" cy="26" r="0.5" fill="#4a2e0f" style="animation: flash0 31.41s linear infinite;"/>
