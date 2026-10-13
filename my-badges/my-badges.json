@@ -38,7 +38,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"de\".",
-    "body": "My favorite commit message words are:\n\n1. de (used 2021 times)\n2. le (used 1353 times)\n3. la (used 1176 times)\n4. en (used 769 times)\n5. les (used 736 times)",
+    "body": "My favorite commit message words are:\n\n1. de (used 2035 times)\n2. le (used 1369 times)\n3. la (used 1176 times)\n4. en (used 769 times)\n5. les (used 742 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -101,7 +101,7 @@
     "id": "fix-2",
     "tier": 1,
     "desc": "I did 2 sequential fixes.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/654478c14a7bc68e5a11ffe4ebac99639521985a\">654478c</a>: fix: Renomme main.js en index.js et ajoute le baseURL pour le lanceur de la borne\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/401b042006fe68c73933fa2e6c43e2730c8f7b52\">401b042</a>: fix: Corrige le chemin du fichier main.js dans index.html",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/claude-config/commit/724222108cccc8d30cd74f72dd6c4be3909387ba\">7242221</a>: fix: Retire le dépôt imbriqué Sans titre\n\nfix: Retire le dépôt imbriqué Sans titre\n- <a href=\"https://github.com/zaderlyl/claude-config/commit/baef37d81691cd2e1370cb1589717c38e28770c4\">baef37d</a>: fix: Retire le dépôt imbriqué Sans titre",
     "image": "https://my-badges.github.io/my-badges/fix-2.png"
   },
   {

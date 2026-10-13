@@ -4,8 +4,10 @@
 
 Commits:
 
-- <a href="https://github.com/zaderlyl/glass_garden/commit/654478c14a7bc68e5a11ffe4ebac99639521985a">654478c</a>: fix: Renomme main.js en index.js et ajoute le baseURL pour le lanceur de la borne
-- <a href="https://github.com/zaderlyl/glass_garden/commit/401b042006fe68c73933fa2e6c43e2730c8f7b52">401b042</a>: fix: Corrige le chemin du fichier main.js dans index.html
+- <a href="https://github.com/zaderlyl/claude-config/commit/724222108cccc8d30cd74f72dd6c4be3909387ba">7242221</a>: fix: Retire le dépôt imbriqué Sans titre
+
+fix: Retire le dépôt imbriqué Sans titre
+- <a href="https://github.com/zaderlyl/claude-config/commit/baef37d81691cd2e1370cb1589717c38e28770c4">baef37d</a>: fix: Retire le dépôt imbriqué Sans titre
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
