@@ -4,7 +4,7 @@
 
 Commits:
 
-- <a href="https://github.com/zaderlyl/glass_garden/commit/85f1e3e82cf9b471ca485d3432d3f0be581f7bf0">85f1e3e</a>: chore: Retire une copie parasite du tileset
+- <a href="https://github.com/zaderlyl/glass_garden/commit/8f6b7eb8f6cef796c0b67a8781b33cc880e5424b">8f6b7eb</a>: chore: Range la forêt en échantillon de vrais arbres et complète les coins du bas
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
