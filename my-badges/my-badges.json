@@ -3,7 +3,7 @@
     "id": "a-commit",
     "tier": 1,
     "desc": "One of my commit sha starts with \"a\".",
-    "body": "- <a href=\"https://github.com/zaderlyl/PortfolioV1/commit/a21e8e0951c19c39af5694b794fbf67ee2314901\"><strong>a</strong>21e8e0951c19c39af5694b794fbf67ee2314901</a>",
+    "body": "- <a href=\"https://github.com/bdarties/arcade/commit/ad822e899e118c29803c90e56de9933265ff0bd8\"><strong>a</strong>d822e899e118c29803c90e56de9933265ff0bd8</a>",
     "image": "https://my-badges.github.io/my-badges/a-commit.png"
   },
   {
@@ -24,7 +24,7 @@
     "id": "chore-commit",
     "tier": 0,
     "desc": "I did a little housekeeping! 🧹",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/8f6b7eb8f6cef796c0b67a8781b33cc880e5424b\">8f6b7eb</a>: chore: Range la forêt en échantillon de vrais arbres et complète les coins du bas",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/6c42c18ef612c34cc09175db0e818dafec9e950c\">6c42c18</a>: chore: Ajoute une page d'essai des transitions entre les mondes",
     "image": "https://my-badges.github.io/my-badges/chore-commit.png"
   },
   {
@@ -38,7 +38,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"de\".",
-    "body": "My favorite commit message words are:\n\n1. de (used 2091 times)\n2. le (used 1396 times)\n3. la (used 1213 times)\n4. les (used 777 times)\n5. en (used 776 times)",
+    "body": "My favorite commit message words are:\n\n1. de (used 2105 times)\n2. le (used 1416 times)\n3. la (used 1221 times)\n4. les (used 799 times)\n5. en (used 781 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -131,5 +131,12 @@
     "desc": "I pushed a commit with \"cafe\" once.",
     "body": "- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/2a90156e31513dcafe6f3160c74c2a292ef5e6ce\">2a90156e31513d<strong>cafe</strong>6f3160c74c2a292ef5e6ce</a>",
     "image": "https://my-badges.github.io/my-badges/cafe-commit.png"
+  },
+  {
+    "id": "fix-3",
+    "tier": 2,
+    "desc": "I did 3 sequential fixes.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/4d489f3dc7c923a86f1f662b157eaf722cf09949\">4d489f3</a>: fix: Resynchronise monde_1.tmx avec monde_1.json (lac, calque foret_zone)\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/61f01d50d1eceec231fb781b37c78402312956ca\">61f01d5</a>: fix: Resynchronise hub_test_arbres.tmx avec hub_test_arbres.json (tuiles et objets)\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/183ace58afe5d34d46ac172c1187e76b4a67643b\">183ace5</a>: fix: Resynchronise hub_test.tmx avec hub_test.json (tuiles, objets, calque foret_zone)",
+    "image": "https://my-badges.github.io/my-badges/fix-3.png"
   }
 ]

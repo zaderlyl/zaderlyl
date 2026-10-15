@@ -4,7 +4,7 @@
 
 Commits:
 
-- <a href="https://github.com/zaderlyl/glass_garden/commit/8f6b7eb8f6cef796c0b67a8781b33cc880e5424b">8f6b7eb</a>: chore: Range la forêt en échantillon de vrais arbres et complète les coins du bas
+- <a href="https://github.com/zaderlyl/glass_garden/commit/6c42c18ef612c34cc09175db0e818dafec9e950c">6c42c18</a>: chore: Ajoute une page d'essai des transitions entre les mondes
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
