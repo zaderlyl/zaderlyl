@@ -1,10 +1,8 @@
 <img align="right" width="150" src="assets/imgforgithub.png" alt="">
 
-# Salut, moi c'est Lilian 👋
+# Lilian Cornet
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=IBM+Plex+Mono&size=18&pause=1000&color=FF9100&center=false&vCenter=true&width=480&height=40&lines=Interfaces+au+pixel+pr%C3%A8s;%C3%89tudiant+en+MMI+%C3%A0+B%C3%A9ziers;Design+d%27identit%C3%A9+%26+applications+web;Jeux+pixel+art+%26+petits+outils;Ouvert+aux+projets+en+collaboration)](https://github.com/zaderlyl)
-
-![Recherche](https://img.shields.io/badge/Recherche-alternance%20%2F%20stage-FF9100?style=for-the-badge&labelColor=0D1117)
+Étudiant en BUT MMI à Béziers, développeur web et designer d'interfaces. À la recherche d'une alternance.
 
 <br clear="right">
 
@@ -14,45 +12,10 @@
 [![CodePen](https://img.shields.io/badge/CodePen-1a1a1a?style=flat-square&logo=codepen&logoColor=white)](https://codepen.io/lilian-cornet)
 [![Email](https://img.shields.io/badge/lcornet38@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:lcornet38@gmail.com)
 
-## Badges
- 
-<details>
-<summary><b>Voir mes badges</b></summary>
-
-<!-- my-badges start -->
-<a href="my-badges/a-commit.md"><img src="https://my-badges.github.io/my-badges/a-commit.png" alt="One of my commit sha starts with &quot;a&quot;." title="One of my commit sha starts with &quot;a&quot;." width="64"></a>
-<a href="my-badges/ab-commit.md"><img src="https://my-badges.github.io/my-badges/ab-commit.png" alt="One of my commit sha starts with &quot;ab&quot;." title="One of my commit sha starts with &quot;ab&quot;." width="64"></a>
-<a href="my-badges/alien-day.md"><img src="https://my-badges.github.io/my-badges/alien-day.png" alt="I committed on the day when the crew of the USCSS Nostromo made their fateful landing and discovered the Xenomorph on LV-426!" title="I committed on the day when the crew of the USCSS Nostromo made their fateful landing and discovered the Xenomorph on LV-426!" width="64"></a>
-<a href="my-badges/chore-commit.md"><img src="https://my-badges.github.io/my-badges/chore-commit.png" alt="I did a little housekeeping! 🧹" title="I did a little housekeeping! 🧹" width="64"></a>
-<a href="my-badges/epic-commit.md"><img src="https://my-badges.github.io/my-badges/epic-commit.png" alt="I made an epic commit with a message over 500 chars." title="I made an epic commit with a message over 500 chars." width="64"></a>
-<a href="my-badges/favorite-word.md"><img src="https://my-badges.github.io/my-badges/favorite-word.png" alt="My favorite word is &quot;de&quot;." title="My favorite word is &quot;de&quot;." width="64"></a>
-<a href="my-badges/github-anniversary-5.md"><img src="https://my-badges.github.io/my-badges/github-anniversary-5.png" alt="I joined GitHub 5 years ago." title="I joined GitHub 5 years ago." width="64"></a>
-<a href="my-badges/mass-delete-commit.md"><img src="https://my-badges.github.io/my-badges/mass-delete-commit.png" alt="When I delete code, I delete a lot." title="When I delete code, I delete a lot." width="64"></a>
-<a href="my-badges/programmers-day.md"><img src="https://my-badges.github.io/my-badges/programmers-day.png" alt="Happy Programmers Day! I committed on a 256 Day of Year!" title="Happy Programmers Day! I committed on a 256 Day of Year!" width="64"></a>
-<a href="my-badges/morning-commits.md"><img src="https://my-badges.github.io/my-badges/morning-commits.png" alt="I commit in the morning." title="I commit in the morning." width="64"></a>
-<a href="my-badges/evening-commits.md"><img src="https://my-badges.github.io/my-badges/evening-commits.png" alt="I commit in the evening." title="I commit in the evening." width="64"></a>
-<a href="my-badges/midnight-commits.md"><img src="https://my-badges.github.io/my-badges/midnight-commits.png" alt="I commit at midnight." title="I commit at midnight." width="64"></a>
-<a href="my-badges/mass-delete-commit-10k.md"><img src="https://my-badges.github.io/my-badges/mass-delete-commit-10k.png" alt="When I delete code, I delete a lot." title="When I delete code, I delete a lot." width="64"></a>
-<a href="my-badges/dead-commit.md"><img src="https://my-badges.github.io/my-badges/dead-commit.png" alt="I pushed a commit with &quot;dead&quot; once." title="I pushed a commit with &quot;dead&quot; once." width="64"></a>
-<a href="my-badges/fix-2.md"><img src="https://my-badges.github.io/my-badges/fix-2.png" alt="I did 2 sequential fixes." title="I did 2 sequential fixes." width="64"></a>
-<a href="my-badges/cosmetic-commit.md"><img src="https://my-badges.github.io/my-badges/cosmetic-commit.png" alt="I made cosmetic commit." title="I made cosmetic commit." width="64"></a>
-<a href="my-badges/self-star.md"><img src="https://my-badges.github.io/my-badges/self-star.png" alt="I&apos;ve starred 1 my own repositories." title="I&apos;ve starred 1 my own repositories." width="64"></a>
-<a href="my-badges/revert-revert-commit.md"><img src="https://my-badges.github.io/my-badges/revert-revert-commit.png" alt="I reverted a revert commit." title="I reverted a revert commit." width="64"></a>
-<a href="my-badges/cafe-commit.md"><img src="https://my-badges.github.io/my-badges/cafe-commit.png" alt="I pushed a commit with &quot;cafe&quot; once." title="I pushed a commit with &quot;cafe&quot; once." width="64"></a>
-<a href="my-badges/fix-3.md"><img src="https://my-badges.github.io/my-badges/fix-3.png" alt="I did 3 sequential fixes." title="I did 3 sequential fixes." width="64"></a>
-<a href="my-badges/the-ultimate-question.md"><img src="https://my-badges.github.io/my-badges/the-ultimate-question.png" alt="I found the answer to the ultimate question of life, the universe, and everything!" title="I found the answer to the ultimate question of life, the universe, and everything!" width="64"></a>
-<!-- my-badges end -->
-
-</details>
-
 ## Activité
 
 <p align="center">
   <img alt="Un casse-brique qui casse chaque commit de ma grille de contributions" src="assets/commit-cannon.svg" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=zaderlyl&background=0D1117&ring=FF9100&fire=FF9100&currStreakLabel=FF9100&sideNums=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=8C8C84&border=FF9100" alt="Mes statistiques de contributions GitHub" />
 </p>
 
 ## Compétences
@@ -60,18 +23,6 @@
 [![Compétences](https://skillicons.dev/icons?i=js,ts,php,mysql,swift,html,css,nodejs,firebase,threejs,alpinejs,bootstrap,git,figma,obsidian)](https://skillicons.dev)
 
 ## Projets
-
-<p align="center">
-  <img src="assets/carousel.svg" alt="Projets phares : Nothing-OS, contribution-board, portfolio, SAE105, survivor" width="100%" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/zaderlyl/Nothing-OS">Nothing-OS</a> ·
-  <a href="https://github.com/zaderlyl/contribution-board">contribution-board</a> ·
-  <a href="https://github.com/zaderlyl/portfolio">portfolio</a> ·
-  <a href="https://github.com/zaderlyl/SAE105">SAE105</a> ·
-  <a href="https://github.com/zaderlyl/survivor">survivor</a>
-</p>
 
 <img align="left" width="180" src="assets/imgforgithub2.png" alt="">
 
@@ -118,3 +69,34 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 <!-- PROJECTS:END -->
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FF9100&height=4&width=100%25" width="100%" height="4" alt="">
+
+## Badges
+ 
+<details>
+<summary><b>Voir mes badges</b></summary>
+
+<!-- my-badges start -->
+<a href="my-badges/a-commit.md"><img src="https://my-badges.github.io/my-badges/a-commit.png" alt="One of my commit sha starts with &quot;a&quot;." title="One of my commit sha starts with &quot;a&quot;." width="64"></a>
+<a href="my-badges/ab-commit.md"><img src="https://my-badges.github.io/my-badges/ab-commit.png" alt="One of my commit sha starts with &quot;ab&quot;." title="One of my commit sha starts with &quot;ab&quot;." width="64"></a>
+<a href="my-badges/alien-day.md"><img src="https://my-badges.github.io/my-badges/alien-day.png" alt="I committed on the day when the crew of the USCSS Nostromo made their fateful landing and discovered the Xenomorph on LV-426!" title="I committed on the day when the crew of the USCSS Nostromo made their fateful landing and discovered the Xenomorph on LV-426!" width="64"></a>
+<a href="my-badges/chore-commit.md"><img src="https://my-badges.github.io/my-badges/chore-commit.png" alt="I did a little housekeeping! 🧹" title="I did a little housekeeping! 🧹" width="64"></a>
+<a href="my-badges/epic-commit.md"><img src="https://my-badges.github.io/my-badges/epic-commit.png" alt="I made an epic commit with a message over 500 chars." title="I made an epic commit with a message over 500 chars." width="64"></a>
+<a href="my-badges/favorite-word.md"><img src="https://my-badges.github.io/my-badges/favorite-word.png" alt="My favorite word is &quot;de&quot;." title="My favorite word is &quot;de&quot;." width="64"></a>
+<a href="my-badges/github-anniversary-5.md"><img src="https://my-badges.github.io/my-badges/github-anniversary-5.png" alt="I joined GitHub 5 years ago." title="I joined GitHub 5 years ago." width="64"></a>
+<a href="my-badges/mass-delete-commit.md"><img src="https://my-badges.github.io/my-badges/mass-delete-commit.png" alt="When I delete code, I delete a lot." title="When I delete code, I delete a lot." width="64"></a>
+<a href="my-badges/programmers-day.md"><img src="https://my-badges.github.io/my-badges/programmers-day.png" alt="Happy Programmers Day! I committed on a 256 Day of Year!" title="Happy Programmers Day! I committed on a 256 Day of Year!" width="64"></a>
+<a href="my-badges/morning-commits.md"><img src="https://my-badges.github.io/my-badges/morning-commits.png" alt="I commit in the morning." title="I commit in the morning." width="64"></a>
+<a href="my-badges/evening-commits.md"><img src="https://my-badges.github.io/my-badges/evening-commits.png" alt="I commit in the evening." title="I commit in the evening." width="64"></a>
+<a href="my-badges/midnight-commits.md"><img src="https://my-badges.github.io/my-badges/midnight-commits.png" alt="I commit at midnight." title="I commit at midnight." width="64"></a>
+<a href="my-badges/mass-delete-commit-10k.md"><img src="https://my-badges.github.io/my-badges/mass-delete-commit-10k.png" alt="When I delete code, I delete a lot." title="When I delete code, I delete a lot." width="64"></a>
+<a href="my-badges/dead-commit.md"><img src="https://my-badges.github.io/my-badges/dead-commit.png" alt="I pushed a commit with &quot;dead&quot; once." title="I pushed a commit with &quot;dead&quot; once." width="64"></a>
+<a href="my-badges/fix-2.md"><img src="https://my-badges.github.io/my-badges/fix-2.png" alt="I did 2 sequential fixes." title="I did 2 sequential fixes." width="64"></a>
+<a href="my-badges/cosmetic-commit.md"><img src="https://my-badges.github.io/my-badges/cosmetic-commit.png" alt="I made cosmetic commit." title="I made cosmetic commit." width="64"></a>
+<a href="my-badges/self-star.md"><img src="https://my-badges.github.io/my-badges/self-star.png" alt="I&apos;ve starred 1 my own repositories." title="I&apos;ve starred 1 my own repositories." width="64"></a>
+<a href="my-badges/revert-revert-commit.md"><img src="https://my-badges.github.io/my-badges/revert-revert-commit.png" alt="I reverted a revert commit." title="I reverted a revert commit." width="64"></a>
+<a href="my-badges/cafe-commit.md"><img src="https://my-badges.github.io/my-badges/cafe-commit.png" alt="I pushed a commit with &quot;cafe&quot; once." title="I pushed a commit with &quot;cafe&quot; once." width="64"></a>
+<a href="my-badges/fix-3.md"><img src="https://my-badges.github.io/my-badges/fix-3.png" alt="I did 3 sequential fixes." title="I did 3 sequential fixes." width="64"></a>
+<a href="my-badges/the-ultimate-question.md"><img src="https://my-badges.github.io/my-badges/the-ultimate-question.png" alt="I found the answer to the ultimate question of life, the universe, and everything!" title="I found the answer to the ultimate question of life, the universe, and everything!" width="64"></a>
+<!-- my-badges end -->
+
+</details>
