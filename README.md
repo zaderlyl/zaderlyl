@@ -61,6 +61,18 @@
 
 ## Projets
 
+<p align="center">
+  <img src="assets/carousel.svg" alt="Projets phares : Nothing-OS, contribution-board, portfolio, SAE105, survivor" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/zaderlyl/Nothing-OS">Nothing-OS</a> ·
+  <a href="https://github.com/zaderlyl/contribution-board">contribution-board</a> ·
+  <a href="https://github.com/zaderlyl/portfolio">portfolio</a> ·
+  <a href="https://github.com/zaderlyl/SAE105">SAE105</a> ·
+  <a href="https://github.com/zaderlyl/survivor">survivor</a>
+</p>
+
 <img align="left" width="180" src="assets/imgforgithub2.png" alt="">
 
 Tous mes dépôts publics, triés par dernière modification. Se met à jour tout seul (toutes les 6h) — voir [`projects.config.json`](projects.config.json).
