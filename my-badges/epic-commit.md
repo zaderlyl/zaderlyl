@@ -244,9 +244,6 @@ Commits:
 - <a href="https://github.com/zaderlyl/Nothing-OS/commit/f9a05e11cbac7101002344b66854114be2c09147">f9a05e1</a>
 - <a href="https://github.com/zaderlyl/Nothing-OS/commit/43de55dc6056a3eaafc83daaebafa9bccf1ec77a">43de55d</a>
 - <a href="https://github.com/zaderlyl/Nothing-OS/commit/460ecc2c4ff9a7a0eb6239e51e5b0e7eacae4fed">460ecc2</a>
-- <a href="https://github.com/zaderlyl/Note-2-/commit/800f3aba7a5d9aec00cfb09eaba74c7dbc62d77b">800f3ab</a>
-- <a href="https://github.com/zaderlyl/Note-2-/commit/24ab1461cfa38fbefc37095d49a258bfc6a7b249">24ab146</a>
-- <a href="https://github.com/zaderlyl/Note-2-/commit/4611a92242c1a3d9ee7a03df7f87f286447aef37">4611a92</a>
 - <a href="https://github.com/Bebbou/Musee--FABI/commit/075480af3977e39e2c42bc32c61b25a0e6cdb07e">075480a</a>
 - <a href="https://github.com/Bebbou/Musee--FABI/commit/cbd185375f9159e2f7ac5fce615ad8cbc937db6e">cbd1853</a>
 - <a href="https://github.com/Bebbou/Musee--FABI/commit/4a4ebde7fc0af87e6cb8907663b0246b5e3746e6">4a4ebde</a>
