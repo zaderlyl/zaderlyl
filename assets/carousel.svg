@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 210" width="100%" role="img" aria-label="Projets phares : Nothing-OS, contribution-board, portfolio, SAE105, survivor">
+<style>
+text{font-family:'IBM Plex Mono','SFMono-Regular',Consolas,monospace}
+.num{font-size:13px;fill:#FF9100;letter-spacing:2px}
+.ttl{font-size:30px;font-weight:700;fill:#F0F6FC;letter-spacing:1px}
+.dsc{font-size:15px;fill:#C9D1D9}
+.stk{font-size:12px;fill:#8B949E;letter-spacing:2px}
+@keyframes c0{0%,17.50%{opacity:1}20.00%,100%{opacity:0}}
+@keyframes d0{0%,17.50%{fill:#FF9100}20.00%,100%{fill:#30363D}}
+.c0{animation:c0 20s infinite;opacity:0} .d0{animation:d0 20s infinite;fill:#30363D}
+@keyframes c1{0%,20.00%{opacity:0}22.50%,37.50%{opacity:1}40.00%,100%{opacity:0}}
+@keyframes d1{0%,20.00%{fill:#30363D}22.50%,37.50%{fill:#FF9100}40.00%,100%{fill:#30363D}}
+.c1{animation:c1 20s infinite;opacity:0} .d1{animation:d1 20s infinite;fill:#30363D}
+@keyframes c2{0%,40.00%{opacity:0}42.50%,57.50%{opacity:1}60.00%,100%{opacity:0}}
+@keyframes d2{0%,40.00%{fill:#30363D}42.50%,57.50%{fill:#FF9100}60.00%,100%{fill:#30363D}}
+.c2{animation:c2 20s infinite;opacity:0} .d2{animation:d2 20s infinite;fill:#30363D}
+@keyframes c3{0%,60.00%{opacity:0}62.50%,77.50%{opacity:1}80.00%,100%{opacity:0}}
+@keyframes d3{0%,60.00%{fill:#30363D}62.50%,77.50%{fill:#FF9100}80.00%,100%{fill:#30363D}}
+.c3{animation:c3 20s infinite;opacity:0} .d3{animation:d3 20s infinite;fill:#30363D}
+@keyframes c4{0%,80.00%{opacity:0}82.50%,97.50%{opacity:1}100.00%,100%{opacity:0}}
+@keyframes d4{0%,80.00%{fill:#30363D}82.50%,97.50%{fill:#FF9100}100.00%,100%{fill:#30363D}}
+.c4{animation:c4 20s infinite;opacity:0} .d4{animation:d4 20s infinite;fill:#30363D}
+</style>
+<rect x=".5" y=".5" width="999" height="209" rx="8" fill="#0D1117" stroke="#30363D"/>
+<rect x=".5" y=".5" width="6" height="209" rx="3" fill="#FF9100"/>
+  <g class="c0">
+    <text x="48" y="58" class="num">01 / 05</text>
+    <text x="48" y="104" class="ttl">Nothing-OS</text>
+    <rect x="48" y="118" width="48" height="3" fill="#FF9100"/>
+    <text x="48" y="150" class="dsc">Noyau x86_64 bare-metal en Rust, bootable dans QEMU : système de fichiers persistant, interface au clavier.</text>
+    <text x="48" y="178" class="stk">RUST · QEMU</text>
+  </g>
+  <g class="c1">
+    <text x="48" y="58" class="num">02 / 05</text>
+    <text x="48" y="104" class="ttl">contribution-board</text>
+    <rect x="48" y="118" width="48" height="3" fill="#FF9100"/>
+    <text x="48" y="150" class="dsc">Animations SVG de ta grille de contributions GitHub, utilisables comme une GitHub Action.</text>
+    <text x="48" y="178" class="stk">JAVASCRIPT · GITHUB ACTIONS</text>
+  </g>
+  <g class="c2">
+    <text x="48" y="58" class="num">03 / 05</text>
+    <text x="48" y="104" class="ttl">portfolio</text>
+    <rect x="48" y="118" width="48" height="3" fill="#FF9100"/>
+    <text x="48" y="150" class="dsc">Portfolio statique : projets de développement web et de design d'interfaces.</text>
+    <text x="48" y="178" class="stk">HTML · CSS · JAVASCRIPT</text>
+  </g>
+  <g class="c3">
+    <text x="48" y="58" class="num">04 / 05</text>
+    <text x="48" y="104" class="ttl">SAE105</text>
+    <rect x="48" y="118" width="48" height="3" fill="#FF9100"/>
+    <text x="48" y="150" class="dsc">Visite virtuelle 360° des Halles de Béziers, avec présentation des commerçants.</text>
+    <text x="48" y="178" class="stk">HTML · CSS · A-FRAME</text>
+  </g>
+  <g class="c4">
+    <text x="48" y="58" class="num">05 / 05</text>
+    <text x="48" y="104" class="ttl">survivor</text>
+    <rect x="48" y="118" width="48" height="3" fill="#FF9100"/>
+    <text x="48" y="150" class="dsc">Survivor-like en navigateur : vagues d'ennemis, XP et choix de pouvoirs.</text>
+    <text x="48" y="178" class="stk">JAVASCRIPT</text>
+  </g>
+<circle class="d0" cx="900" cy="180" r="4"/>
+<circle class="d1" cx="916" cy="180" r="4"/>
+<circle class="d2" cx="932" cy="180" r="4"/>
+<circle class="d3" cx="948" cy="180" r="4"/>
+<circle class="d4" cx="964" cy="180" r="4"/>
+</svg>
