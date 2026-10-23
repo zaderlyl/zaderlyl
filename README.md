@@ -1,10 +1,10 @@
-<img align="right" width="150" src="assets/imgforgithub.png" alt="">
+<p align="center">
+  <img src="assets/banniere.png" alt="Bannière : illustration manga en noir et blanc" width="100%" />
+</p>
 
-# Lilian Cornet
-
-Étudiant en BUT MMI à Béziers, développeur web et designer d'interfaces. À la recherche d'une alternance.
-
-<br clear="right">
+<p align="center">
+  <img src="assets/profile-card.svg" alt="Lilian Cornet — étudiant BUT MMI à Béziers, développeur web et designer d'interfaces, en recherche d'alternance" width="100%" />
+</p>
 
 ## Contact
 
