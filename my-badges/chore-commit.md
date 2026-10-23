@@ -4,7 +4,7 @@
 
 Commits:
 
-- <a href="https://github.com/zaderlyl/glass_garden/commit/4a9b02fa9e0f0e20da5054bc3577a57e8b62bc71">4a9b02f</a>: chore: Supprime les scripts Python des outils
+- <a href="https://github.com/zaderlyl/repolink/commit/7c34faafd85e04fde47ac2d46562dd045b3594e5">7c34faa</a>: chore: Ajoute les polices Inter et Space Grotesk
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

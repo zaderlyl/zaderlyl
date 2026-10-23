@@ -24,7 +24,7 @@
     "id": "chore-commit",
     "tier": 0,
     "desc": "I did a little housekeeping! 🧹",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/4a9b02fa9e0f0e20da5054bc3577a57e8b62bc71\">4a9b02f</a>: chore: Supprime les scripts Python des outils",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/repolink/commit/7c34faafd85e04fde47ac2d46562dd045b3594e5\">7c34faa</a>: chore: Ajoute les polices Inter et Space Grotesk",
     "image": "https://my-badges.github.io/my-badges/chore-commit.png"
   },
   {
@@ -38,7 +38,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"de\".",
-    "body": "My favorite commit message words are:\n\n1. de (used 2081 times)\n2. le (used 1457 times)\n3. la (used 1227 times)\n4. les (used 808 times)\n5. en (used 789 times)",
+    "body": "My favorite commit message words are:\n\n1. de (used 2084 times)\n2. le (used 1464 times)\n3. la (used 1229 times)\n4. les (used 811 times)\n5. en (used 789 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
