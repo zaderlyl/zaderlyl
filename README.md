@@ -6,23 +6,33 @@
   <img src="assets/profile-card.svg" alt="Lilian Cornet — étudiant BUT MMI à Béziers, développeur web et designer d'interfaces, en recherche d'alternance" width="100%" />
 </p>
 
-## Contact
+<details>
+<summary><b>Contact</b></summary>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lilian-cornet-8923bb3b2/)
 [![CodePen](https://img.shields.io/badge/CodePen-1a1a1a?style=flat-square&logo=codepen&logoColor=white)](https://codepen.io/lilian-cornet)
 [![Email](https://img.shields.io/badge/lcornet38@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:lcornet38@gmail.com)
 
-## Activité
+</details>
+
+<details>
+<summary><b>Activité</b></summary>
 
 <p align="center">
   <img alt="Un casse-brique qui casse chaque commit de ma grille de contributions" src="assets/commit-cannon.svg" width="100%" />
 </p>
 
-## Compétences
+</details>
+
+<details>
+<summary><b>Compétences</b></summary>
 
 [![Compétences](https://skillicons.dev/icons?i=js,ts,php,mysql,swift,html,css,nodejs,firebase,threejs,alpinejs,bootstrap,git,figma,obsidian)](https://skillicons.dev)
 
-## Projets
+</details>
+
+<details>
+<summary><b>Projets</b></summary>
 
 <img align="left" width="180" src="assets/imgforgithub2.png" alt="">
 
@@ -67,11 +77,12 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FF9100&height=4&width=100%25" width="100%" height="4" alt="">
 
-## Badges
- 
-<details>
-<summary><b>Voir mes badges</b></summary>
+</details>
 
+<details>
+<summary><b>Badges</b></summary>
+
+ 
 <!-- my-badges start -->
 <a href="my-badges/a-commit.md"><img src="https://my-badges.github.io/my-badges/a-commit.png" alt="One of my commit sha starts with &quot;a&quot;." title="One of my commit sha starts with &quot;a&quot;." width="64"></a>
 <a href="my-badges/ab-commit.md"><img src="https://my-badges.github.io/my-badges/ab-commit.png" alt="One of my commit sha starts with &quot;ab&quot;." title="One of my commit sha starts with &quot;ab&quot;." width="64"></a>
