@@ -37,17 +37,18 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 
 | Projet | Description | Stack |
 |---|---|---|
+| **[repolink](https://github.com/zaderlyl/repolink)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/css/FF9100" width="28" height="28" alt="css" title="css"> |
 | **[survivor](https://github.com/zaderlyl/survivor)** | Survivor-like en navigateur : tenir face à des vagues d'ennemis, gagner de l'XP et choisir ses pouvoirs. Basé sur 07-Swarm de Lino Volle. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[glass_garden](https://github.com/zaderlyl/glass_garden)** | Jeu d'aventure/exploration : traverse les miroirs d'un jardin, survis à cinq versions de la réalité, rapporte cinq étoiles et bats le chronomètre. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[nettoyeur-pc](https://github.com/zaderlyl/nettoyeur-pc)** | Outil pour trier, noter et nettoyer les fichiers et projets de son Mac. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[claude-config](https://github.com/zaderlyl/claude-config)** | Ma configuration Claude Code versionnée : règles globales, commandes /commit /push /merge, hooks git et modèle de projet. | <img src="https://cdn.simpleicons.org/gnubash/FF9100" width="28" height="28" alt="gnubash" title="gnubash"> |
-| **[DevTober](https://github.com/zaderlyl/DevTober)** | DevTober 2026 (variante de l'Inktober pour les développeurs) | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> ![★](https://img.shields.io/badge/★%201-0D1117?style=flat-square&labelColor=0D1117&color=FF9100) |
 
 <details>
-<summary><b>Voir les 11 autres projets</b></summary>
+<summary><b>Voir les 12 autres projets</b></summary>
 
 | Projet | Description | Stack |
 |---|---|---|
+| **[DevTober](https://github.com/zaderlyl/DevTober)** | DevTober 2026 (variante de l'Inktober pour les développeurs) | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> ![★](https://img.shields.io/badge/★%201-0D1117?style=flat-square&labelColor=0D1117&color=FF9100) |
 | **[sans-couleurs](https://github.com/zaderlyl/sans-couleurs)** | Jeu de plateforme 2D pixel art (Phaser 3). Cartes, PNJ et dialogues définis dans Tiled plutôt que codés en dur. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[contribution-board](https://github.com/zaderlyl/contribution-board)** | Animations SVG originales pour ta grille de contributions GitHub (canon, et d'autres à venir) — s'utilise comme une GitHub Action | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[portfolio](https://github.com/zaderlyl/portfolio)** | Portfolio de Lilian Cornet — étudiant BUT MMI, développeur web et designer d'interfaces | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
