@@ -48,8 +48,8 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 | Projet | Description | Stack |
 |---|---|---|
 | **[repolink](https://github.com/zaderlyl/repolink)** | Site pour trouver des repos GitHub à sa portée et rencontrer des créateurs : recherche simplifiée, good first issues, mise en relation débutants/experts. | <img src="https://cdn.simpleicons.org/typescript/FF9100" width="28" height="28" alt="typescript" title="typescript"> |
-| **[portfolio](https://github.com/zaderlyl/portfolio)** | Portfolio de Lilian Cornet — étudiant BUT MMI, développeur web et designer d'interfaces | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
 | **[survivor](https://github.com/zaderlyl/survivor)** | Survivor-like en navigateur : tenir face à des vagues d'ennemis, gagner de l'XP et choisir ses pouvoirs. Basé sur 07-Swarm de Lino Volle. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
+| **[portfolio](https://github.com/zaderlyl/portfolio)** | Portfolio de Lilian Cornet — étudiant BUT MMI, développeur web et designer d'interfaces | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
 | **[glass_garden](https://github.com/zaderlyl/glass_garden)** | Jeu d'aventure/exploration : traverse les miroirs d'un jardin, survis à cinq versions de la réalité, rapporte cinq étoiles et bats le chronomètre. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[nettoyeur-pc](https://github.com/zaderlyl/nettoyeur-pc)** | Outil pour trier, noter et nettoyer les fichiers et projets de son Mac. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 
