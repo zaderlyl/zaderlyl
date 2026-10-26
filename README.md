@@ -47,21 +47,21 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 
 | Projet | Description | Stack |
 |---|---|---|
-| **[repolink](https://github.com/zaderlyl/repolink)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/typescript/FF9100" width="28" height="28" alt="typescript" title="typescript"> |
+| **[repolink](https://github.com/zaderlyl/repolink)** | Site pour trouver des repos GitHub à sa portée et rencontrer des créateurs : recherche simplifiée, good first issues, mise en relation débutants/experts. | <img src="https://cdn.simpleicons.org/typescript/FF9100" width="28" height="28" alt="typescript" title="typescript"> |
+| **[portfolio](https://github.com/zaderlyl/portfolio)** | Portfolio de Lilian Cornet — étudiant BUT MMI, développeur web et designer d'interfaces | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
 | **[survivor](https://github.com/zaderlyl/survivor)** | Survivor-like en navigateur : tenir face à des vagues d'ennemis, gagner de l'XP et choisir ses pouvoirs. Basé sur 07-Swarm de Lino Volle. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[glass_garden](https://github.com/zaderlyl/glass_garden)** | Jeu d'aventure/exploration : traverse les miroirs d'un jardin, survis à cinq versions de la réalité, rapporte cinq étoiles et bats le chronomètre. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[nettoyeur-pc](https://github.com/zaderlyl/nettoyeur-pc)** | Outil pour trier, noter et nettoyer les fichiers et projets de son Mac. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
-| **[claude-config](https://github.com/zaderlyl/claude-config)** | Ma configuration Claude Code versionnée : règles globales, commandes /commit /push /merge, hooks git et modèle de projet. | <img src="https://cdn.simpleicons.org/gnubash/FF9100" width="28" height="28" alt="gnubash" title="gnubash"> |
 
 <details>
 <summary><b>Voir les 12 autres projets</b></summary>
 
 | Projet | Description | Stack |
 |---|---|---|
+| **[claude-config](https://github.com/zaderlyl/claude-config)** | Ma configuration Claude Code versionnée : règles globales, commandes /commit /push /merge, hooks git et modèle de projet. | <img src="https://cdn.simpleicons.org/gnubash/FF9100" width="28" height="28" alt="gnubash" title="gnubash"> |
 | **[DevTober](https://github.com/zaderlyl/DevTober)** | DevTober 2026 (variante de l'Inktober pour les développeurs) | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> ![★](https://img.shields.io/badge/★%201-0D1117?style=flat-square&labelColor=0D1117&color=FF9100) |
 | **[sans-couleurs](https://github.com/zaderlyl/sans-couleurs)** | Jeu de plateforme 2D pixel art (Phaser 3). Cartes, PNJ et dialogues définis dans Tiled plutôt que codés en dur. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[contribution-board](https://github.com/zaderlyl/contribution-board)** | Animations SVG originales pour ta grille de contributions GitHub (canon, et d'autres à venir) — s'utilise comme une GitHub Action | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
-| **[portfolio](https://github.com/zaderlyl/portfolio)** | Portfolio de Lilian Cornet — étudiant BUT MMI, développeur web et designer d'interfaces | <img src="https://cdn.simpleicons.org/html5/FF9100" width="28" height="28" alt="html5" title="html5"> |
 | **[phaser-ui-editor](https://github.com/zaderlyl/phaser-ui-editor)** | Éditeur web façon Figma pour Phaser : construire des écrans d'UI à la souris et générer le code Phaser correspondant. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[loup-garou-mj](https://github.com/zaderlyl/loup-garou-mj)** | Panel web pour le Maître du Jeu d'une partie de Loup-Garou de Thiercelieux, utilisable depuis son téléphone et sans backend. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[backtrace](https://github.com/zaderlyl/backtrace)** | Thriller pour développeurs jouable dans le navigateur : une enquête faite d'énigmes techniques (HTML, Base64, JavaScript, terminal). | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
