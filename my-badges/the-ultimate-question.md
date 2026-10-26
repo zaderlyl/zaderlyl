@@ -2,6 +2,7 @@
 <strong>I found the answer to the ultimate question of life, the universe, and everything!</strong>
 <br><br>
 
+- <a href="https://github.com/zaderlyl/repolink/issues/42">#42</a>
 - <a href="https://github.com/zaderlyl/glass_garden/issues/42">#42</a>
 
 

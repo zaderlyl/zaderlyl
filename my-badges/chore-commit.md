@@ -4,7 +4,7 @@
 
 Commits:
 
-- <a href="https://github.com/zaderlyl/repolink/commit/7c34faafd85e04fde47ac2d46562dd045b3594e5">7c34faa</a>: chore: Ajoute les polices Inter et Space Grotesk
+- <a href="https://github.com/zaderlyl/repolink/commit/0793e296c7788f272d1feb4e0907f7aa6fd80e43">0793e29</a>: chore: Ajoute la vérification des types et corrige les erreurs trouvées
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
