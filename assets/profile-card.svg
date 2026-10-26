@@ -1,42 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 374" width="100%" role="img" aria-label="Lilian Cornet — étudiant BUT MMI, développeur web et designer d'interfaces">
-<style>text{font-family:"IBM Plex Mono","SFMono-Regular",Consolas,monospace;white-space:pre}.a{font-size:9px;fill:#8B949E}.k{font-size:14px;fill:#FF9100}.v{font-size:14px;fill:#C9D1D9}.d{font-size:14px;fill:#30363D}.h{font-size:16px;font-weight:700;fill:#F0F6FC}</style>
-<rect x=".5" y=".5" width="899" height="373" rx="8" fill="#0D1117" stroke="#30363D"/>
-<text class="a" x="36" y="44" xml:space="preserve">              .-+#%@@@@%@@@@@@%*=.</text>
-<text class="a" x="36" y="53" xml:space="preserve">           -*%%#%%#*++==++++**#%@@%*-</text>
-<text class="a" x="36" y="62" xml:space="preserve">        .+%@%#=:.   :=*%%#+:     .-+##+.</text>
-<text class="a" x="36" y="71" xml:space="preserve">      .+@@*++:  :-=*@@@@@*-:         .-+=.</text>
-<text class="a" x="36" y="80" xml:space="preserve">     =@@@@+ :  :#@@@@@%**+:             .-.</text>
-<text class="a" x="36" y="89" xml:space="preserve">    *@@@@@@=    -+---==-:..</text>
-<text class="a" x="36" y="98" xml:space="preserve">   #@@@@*-::   =:=##+=:</text>
-<text class="a" x="36" y="107" xml:space="preserve">  #@@@@%+-=   =@%-.*@**+=.</text>
-<text class="a" x="36" y="116" xml:space="preserve"> =@@@@@@**-   @@@@+:.*=--+-</text>
-<text class="a" x="36" y="125" xml:space="preserve">.@@@@@@@%-=- :#*#@@#*::..#+=-:</text>
-<text class="a" x="36" y="134" xml:space="preserve">+@@@@@@@@++:  =--*@@@==###-:...</text>
-<text class="a" x="36" y="143" xml:space="preserve">%@@@@@@@@**.  ..+#%@@%#@@@@@+:.:</text>
-<text class="a" x="36" y="152" xml:space="preserve">@@@@@@@@%##:   -=:-%@@@@@@@@@=-:-</text>
-<text class="a" x="36" y="161" xml:space="preserve">@@@@@@@@#@%- .-+##*=##@@@@@@@+=-:.</text>
-<text class="a" x="36" y="170" xml:space="preserve">#%@#%@@%**- .+-++=-=*=*@@@@@@+=-</text>
-<text class="a" x="36" y="179" xml:space="preserve">-#@-#%@*    .##=#=.*=-#@@@@@#:.</text>
-<text class="a" x="36" y="188" xml:space="preserve"> ****+%+     +#*+%=+%+*@@%#=</text>
-<text class="a" x="36" y="197" xml:space="preserve"> :#%%#@*+... .=+:==:+---:.              -.</text>
-<text class="a" x="36" y="206" xml:space="preserve">  =++#@%*###.  -*#++*=##.              *+   :</text>
-<text class="a" x="36" y="215" xml:space="preserve">   :==*@+ ::.   .+####*##=:           +*  =#-</text>
-<text class="a" x="36" y="224" xml:space="preserve">    +@%%@#.      .+####+**=  ..    .+#=:+=*-</text>
-<text class="a" x="36" y="233" xml:space="preserve">     =@@@@@+.   :++-=-++===. .  .  *@%##@%.</text>
-<text class="a" x="36" y="242" xml:space="preserve">      .+@@%%%#=:  ::---:-::.  .....-@@@#=.</text>
-<text class="a" x="36" y="251" xml:space="preserve">        .=*@@@@@%*--%@#**=. .......:%=-.</text>
-<text class="a" x="36" y="260" xml:space="preserve">           -*%@@%@@#@%#*#+ .:--=:.  .</text>
-<text class="a" x="36" y="269" xml:space="preserve">              :=+++%%%###::..:-.</text>
-<text class="h" x="420" y="46">Lilian Cornet</text>
-<rect x="420" y="56" width="444" height="1" fill="#FF9100" opacity=".6"/>
-<text x="420" y="86" xml:space="preserve"><tspan class="k">Statut</tspan><tspan class="d"> ........ </tspan><tspan class="v">Étudiant BUT MMI · en recherche d'alternance</tspan></text>
-<text x="420" y="108" xml:space="preserve"><tspan class="k">Lieu</tspan><tspan class="d"> .......... </tspan><tspan class="v">Béziers, France</tspan></text>
-<text x="420" y="130" xml:space="preserve"><tspan class="k">Formation</tspan><tspan class="d"> ..... </tspan><tspan class="v">IUT de Béziers</tspan></text>
-<text x="420" y="152" xml:space="preserve"><tspan class="k">Langages</tspan><tspan class="d"> ...... </tspan><tspan class="v">JavaScript, TypeScript, PHP, SQL, Swift</tspan></text>
-<text x="420" y="174" xml:space="preserve"><tspan class="k">Web</tspan><tspan class="d"> ........... </tspan><tspan class="v">HTML, CSS, Node.js, Three.js, Firebase</tspan></text>
-<text x="420" y="196" xml:space="preserve"><tspan class="k">Outils</tspan><tspan class="d"> ........ </tspan><tspan class="v">Git, Figma</tspan></text>
-<text x="420" y="230" xml:space="preserve"><tspan class="k">Email</tspan><tspan class="d"> ......... </tspan><tspan class="v">lcornet38@gmail.com</tspan></text>
-<text x="420" y="252" xml:space="preserve"><tspan class="k">LinkedIn</tspan><tspan class="d"> ...... </tspan><tspan class="v">lilian-cornet</tspan></text>
-<text x="420" y="274" xml:space="preserve"><tspan class="k">CodePen</tspan><tspan class="d"> ....... </tspan><tspan class="v">lilian-cornet</tspan></text>
-<text x="420" y="308" xml:space="preserve"><tspan class="k">Repos</tspan><tspan class="d"> ......... </tspan><tspan class="v">22 publics</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 378" width="100%" role="img" aria-label="Lilian Cornet — étudiant BUT MMI à Béziers, développeur web et designer d'interfaces, en recherche d'alternance">
+<style>text{font-family:"IBM Plex Mono","SFMono-Regular",Consolas,monospace;white-space:pre}.a{font-size:8px;fill:#8B949E}.k{font-size:13px;fill:#FF9100}.v{font-size:13px;fill:#C9D1D9}.h{font-size:17px;font-weight:700;fill:#F0F6FC}</style>
+<rect x=".5" y=".5" width="619" height="377" rx="8" fill="#0D1117" stroke="#30363D"/>
+<text class="a" x="28" y="40" xml:space="preserve">         .-=*%@@%#%@@@@%*-.</text>
+<text class="a" x="28" y="48" xml:space="preserve">       -*%%+=-:-=+**=:-=+*#*-.</text>
+<text class="a" x="28" y="56" xml:space="preserve">     =%@*+. :-+%@@@+:      .-=-</text>
+<text class="a" x="28" y="64" xml:space="preserve">   :%@@@:. .*%#%%*=-          ..</text>
+<text class="a" x="28" y="72" xml:space="preserve">  -@@@#+=  .:++=:.</text>
+<text class="a" x="28" y="80" xml:space="preserve"> -@@@@=-  .@#-+#*=-</text>
+<text class="a" x="28" y="88" xml:space="preserve">.@@@@@*=: +@@@=-=:-*.:</text>
+<text class="a" x="28" y="96" xml:space="preserve">+@@@@@%== -=+@@#-+*+-:.</text>
+<text class="a" x="28" y="104" xml:space="preserve">%@@@@@%*:  .+*@@#@@@%+::</text>
+<text class="a" x="28" y="112" xml:space="preserve">@@@@@@%@=  =+=*%@@@@@@=-:</text>
+<text class="a" x="28" y="120" xml:space="preserve">#@%@@@**.:=+*==++@@@@@+-</text>
+<text class="a" x="28" y="128" xml:space="preserve">-%=*%*   :%+*-+++@@@@=.</text>
+<text class="a" x="28" y="136" xml:space="preserve"> *%#%*:   =*=+-*=++-.         .</text>
+<text class="a" x="28" y="144" xml:space="preserve"> :+*%%+**. -+*+++*.          =-  .</text>
+<text class="a" x="28" y="152" xml:space="preserve">  .+*%*..   .+%##*#=. .    .==.=*.</text>
+<text class="a" x="28" y="160" xml:space="preserve">   :%@@%-   .=++++++: .   -@#+@+</text>
+<text class="a" x="28" y="168" xml:space="preserve">     =%@@%*-.::==--:.  ...-@@#-</text>
+<text class="a" x="28" y="176" xml:space="preserve">       :*@@@@#+@%#*: ::::..=.</text>
+<text class="a" x="28" y="184" xml:space="preserve">          -+*#%%##*:..--</text>
+<text class="h" x="232" y="44">Lilian Cornet</text><rect x="232" y="54" width="364" height="1" fill="#FF9100" opacity=".6"/>
+<text x="232" y="84" xml:space="preserve"><tspan class="k">Statut    </tspan><tspan class="v">Étudiant BUT MMI</tspan></text>
+<text x="232" y="106" xml:space="preserve"><tspan class="k">Recherche </tspan><tspan class="v">Alternance</tspan></text>
+<text x="232" y="128" xml:space="preserve"><tspan class="k">Lieu      </tspan><tspan class="v">Béziers, France</tspan></text>
+<text x="232" y="150" xml:space="preserve"><tspan class="k">Formation </tspan><tspan class="v">IUT de Béziers</tspan></text>
+<text x="232" y="184" xml:space="preserve"><tspan class="k">Langages  </tspan><tspan class="v">JS, TS, PHP, SQL, Swift</tspan></text>
+<text x="232" y="206" xml:space="preserve"><tspan class="k">Web       </tspan><tspan class="v">HTML, CSS, Node.js, Three.js</tspan></text>
+<text x="232" y="228" xml:space="preserve"><tspan class="k">Outils    </tspan><tspan class="v">Git, Figma</tspan></text>
+<text x="232" y="262" xml:space="preserve"><tspan class="k">Email     </tspan><tspan class="v">lcornet38@gmail.com</tspan></text>
+<text x="232" y="284" xml:space="preserve"><tspan class="k">LinkedIn  </tspan><tspan class="v">lilian-cornet</tspan></text>
+<text x="232" y="306" xml:space="preserve"><tspan class="k">CodePen   </tspan><tspan class="v">lilian-cornet</tspan></text>
+<text x="232" y="340" xml:space="preserve"><tspan class="k">Repos     </tspan><tspan class="v">23 publics</tspan></text>
 </svg>
