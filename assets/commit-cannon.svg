@@ -1048,6 +1048,7 @@ rect { shape-rendering: crispEdges; }
 <rect x="671" y="86" width="10" height="10" rx="2" fill="#161b22"/>
 <rect x="684" y="8" width="10" height="10" rx="2" fill="#161b22"/>
 <rect x="684" y="21" width="10" height="10" rx="2" fill="#161b22"/>
+<rect x="684" y="34" width="10" height="10" rx="2" fill="#161b22"/>
 
 <rect x="255" y="21" width="10" height="10" rx="2" fill="#4a2e0f" style="animation: brick0 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
 <circle cx="260" cy="26" r="0.5" fill="#4a2e0f" style="animation: flash0 31.41s linear infinite;"/>
@@ -1086,30 +1087,30 @@ rect { shape-rendering: crispEdges; }
 <circle cx="442" cy="78" r="0.5" fill="#4a2e0f" style="animation: flash18 31.41s linear infinite;"/>
 <rect x="580" y="60" width="10" height="10" rx="2" fill="#8a4d0d" style="animation: brick19 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
 <circle cx="585" cy="65" r="0.5" fill="#8a4d0d" style="animation: flash19 31.41s linear infinite;"/>
-<rect x="580" y="73" width="10" height="10" rx="2" fill="#ff9100" style="animation: brick20 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
-<circle cx="585" cy="78" r="0.5" fill="#ff9100" style="animation: flash20 31.41s linear infinite;"/>
+<rect x="580" y="73" width="10" height="10" rx="2" fill="#8a4d0d" style="animation: brick20 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
+<circle cx="585" cy="78" r="0.5" fill="#8a4d0d" style="animation: flash20 31.41s linear infinite;"/>
 <rect x="580" y="86" width="10" height="10" rx="2" fill="#4a2e0f"/>
 <rect x="593" y="34" width="10" height="10" rx="2" fill="#4a2e0f" style="animation: brick22 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
 <circle cx="598" cy="39" r="0.5" fill="#4a2e0f" style="animation: flash22 31.41s linear infinite;"/>
 <rect x="593" y="47" width="10" height="10" rx="2" fill="#4a2e0f" style="animation: brick23 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
 <circle cx="598" cy="52" r="0.5" fill="#4a2e0f" style="animation: flash23 31.41s linear infinite;"/>
 <rect x="593" y="60" width="10" height="10" rx="2" fill="#4a2e0f"/>
-<rect x="593" y="73" width="10" height="10" rx="2" fill="#ff9100"/>
+<rect x="593" y="73" width="10" height="10" rx="2" fill="#8a4d0d"/>
 <rect x="606" y="8" width="10" height="10" rx="2" fill="#8a4d0d"/>
 <rect x="606" y="21" width="10" height="10" rx="2" fill="#4a2e0f" style="animation: brick27 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
 <circle cx="611" cy="26" r="0.5" fill="#4a2e0f" style="animation: flash27 31.41s linear infinite;"/>
 <rect x="606" y="34" width="10" height="10" rx="2" fill="#4a2e0f" style="animation: brick28 31.41s linear infinite; transform-box: fill-box; transform-origin: center;"/>
 <circle cx="611" cy="39" r="0.5" fill="#4a2e0f" style="animation: flash28 31.41s linear infinite;"/>
 <rect x="606" y="47" width="10" height="10" rx="2" fill="#4a2e0f"/>
-<rect x="606" y="60" width="10" height="10" rx="2" fill="#8a4d0d"/>
+<rect x="606" y="60" width="10" height="10" rx="2" fill="#4a2e0f"/>
 <rect x="606" y="73" width="10" height="10" rx="2" fill="#8a4d0d"/>
 <rect x="606" y="86" width="10" height="10" rx="2" fill="#8a4d0d"/>
-<rect x="619" y="8" width="10" height="10" rx="2" fill="#8a4d0d"/>
+<rect x="619" y="8" width="10" height="10" rx="2" fill="#4a2e0f"/>
 <rect x="619" y="21" width="10" height="10" rx="2" fill="#ff9100"/>
 <rect x="619" y="34" width="10" height="10" rx="2" fill="#8a4d0d"/>
 <rect x="619" y="47" width="10" height="10" rx="2" fill="#4a2e0f"/>
-<rect x="619" y="60" width="10" height="10" rx="2" fill="#ff9100"/>
-<rect x="619" y="73" width="10" height="10" rx="2" fill="#8a4d0d"/>
+<rect x="619" y="60" width="10" height="10" rx="2" fill="#8a4d0d"/>
+<rect x="619" y="73" width="10" height="10" rx="2" fill="#4a2e0f"/>
 <rect x="632" y="34" width="10" height="10" rx="2" fill="#8a4d0d"/>
 <rect x="632" y="47" width="10" height="10" rx="2" fill="#ff9100"/>
 <rect x="632" y="60" width="10" height="10" rx="2" fill="#ffb84d"/>
@@ -1121,19 +1122,22 @@ rect { shape-rendering: crispEdges; }
 <rect x="645" y="47" width="10" height="10" rx="2" fill="#4a2e0f"/>
 <rect x="645" y="60" width="10" height="10" rx="2" fill="#4a2e0f"/>
 <rect x="645" y="73" width="10" height="10" rx="2" fill="#4a2e0f"/>
-<rect x="658" y="8" width="10" height="10" rx="2" fill="#ffb84d"/>
+<rect x="658" y="8" width="10" height="10" rx="2" fill="#ff9100"/>
 <rect x="658" y="21" width="10" height="10" rx="2" fill="#8a4d0d"/>
-<rect x="658" y="34" width="10" height="10" rx="2" fill="#ffb84d"/>
+<rect x="658" y="34" width="10" height="10" rx="2" fill="#ff9100"/>
 <rect x="658" y="47" width="10" height="10" rx="2" fill="#ff9100"/>
 <rect x="658" y="60" width="10" height="10" rx="2" fill="#ffb84d"/>
 <rect x="658" y="73" width="10" height="10" rx="2" fill="#4a2e0f"/>
-<rect x="658" y="86" width="10" height="10" rx="2" fill="#4a2e0f"/>
+<rect x="658" y="86" width="10" height="10" rx="2" fill="#8a4d0d"/>
+<rect x="671" y="8" width="10" height="10" rx="2" fill="#8a4d0d"/>
+<rect x="671" y="21" width="10" height="10" rx="2" fill="#4a2e0f"/>
+<rect x="671" y="34" width="10" height="10" rx="2" fill="#4a2e0f"/>
 <rect x="671" y="47" width="10" height="10" rx="2" fill="#4a2e0f"/>
 <rect x="671" y="60" width="10" height="10" rx="2" fill="#4a2e0f"/>
-<rect x="671" y="73" width="10" height="10" rx="2" fill="#ffb84d"/>
+<rect x="671" y="73" width="10" height="10" rx="2" fill="#ff9100"/>
 <rect x="671" y="86" width="10" height="10" rx="2" fill="#4a2e0f"/>
 <rect x="684" y="8" width="10" height="10" rx="2" fill="#ff9100"/>
-<rect x="684" y="21" width="10" height="10" rx="2" fill="#4a2e0f"/>
+<rect x="684" y="21" width="10" height="10" rx="2" fill="#ffb84d"/>
 
 <circle cx="8.0" cy="74.6" r="0.5" fill="#ff9100" style="animation: phit0 31.41s linear infinite;"/>
 <circle cx="8.0" cy="64.6" r="0.5" fill="#ff9100" style="animation: phit1 31.41s linear infinite;"/>
