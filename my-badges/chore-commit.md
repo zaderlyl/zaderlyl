@@ -4,7 +4,7 @@
 
 Commits:
 
-- <a href="https://github.com/zaderlyl/repolink/commit/0793e296c7788f272d1feb4e0907f7aa6fd80e43">0793e29</a>: chore: Ajoute la vérification des types et corrige les erreurs trouvées
+- <a href="https://github.com/zaderlyl/repolink/commit/3cc65cb2b58319ea1614d33e81319fdf358abd5b">3cc65cb</a>: chore: Ajoute le fichier de vérification Google Search Console
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

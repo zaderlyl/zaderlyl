@@ -24,7 +24,7 @@
     "id": "chore-commit",
     "tier": 0,
     "desc": "I did a little housekeeping! 🧹",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/repolink/commit/0793e296c7788f272d1feb4e0907f7aa6fd80e43\">0793e29</a>: chore: Ajoute la vérification des types et corrige les erreurs trouvées",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/repolink/commit/3cc65cb2b58319ea1614d33e81319fdf358abd5b\">3cc65cb</a>: chore: Ajoute le fichier de vérification Google Search Console",
     "image": "https://my-badges.github.io/my-badges/chore-commit.png"
   },
   {
@@ -38,7 +38,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"de\".",
-    "body": "My favorite commit message words are:\n\n1. de (used 2115 times)\n2. le (used 1494 times)\n3. la (used 1276 times)\n4. les (used 862 times)\n5. et (used 819 times)",
+    "body": "My favorite commit message words are:\n\n1. de (used 2184 times)\n2. le (used 1551 times)\n3. la (used 1317 times)\n4. les (used 922 times)\n5. et (used 879 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -73,7 +73,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/0dfc165d3a06a79917b973540273a6d565017391\">0dfc165</a>\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/18ba9ea3c297226e9af1f033b8cb02af67a1dd2a\">18ba9ea</a>\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/a0633f9de6f053539a6601b39a7797dc82380327\">a0633f9</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/bb175998cc5dfad16dd92f3d49857a9d2e1b37b6\">bb17599</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/ceea9e11c5746a422c7a1a39964857e25332fb40\">ceea9e1</a>\n- <a href=\"https://github.com/zaderlyl/sans-couleurs/commit/2a90156e31513dcafe6f3160c74c2a292ef5e6ce\">2a90156</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/repolink/commit/8c54fda8be9ec967f1cb3db9f2b1313ab1f996cd\">8c54fda</a>\n- <a href=\"https://github.com/zaderlyl/repolink/commit/08c86fba0817acef6d56a4929acc43ddf6a8b1cc\">08c86fb</a>\n- <a href=\"https://github.com/zaderlyl/repolink/commit/5efa21c48a81d796ad70dc15bf1cb0e9ea08b340\">5efa21c</a>\n- <a href=\"https://github.com/zaderlyl/repolink/commit/9cc99a450a5c9b8ae6785fedd7fbf634a9351198\">9cc99a4</a>\n- <a href=\"https://github.com/zaderlyl/repolink/commit/1cd933e881ac298cf9220c3f71f8ce1b7abf802c\">1cd933e</a>\n- <a href=\"https://github.com/zaderlyl/repolink/commit/60fa5e07bcdff3e3448fa07d4bff7c0bc903c230\">60fa5e0</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
@@ -93,15 +93,15 @@
   {
     "id": "dead-commit",
     "tier": 0,
-    "desc": "I pushed a commit with \"dead\" once.",
-    "body": "- <a href=\"https://github.com/zaderlyl/loup-garou-mj/commit/7e4de41d42246378f909c93fb7c83568dead7151\">7e4de41d42246378f909c93fb7c83568<strong>dead</strong>7151</a>",
+    "desc": "I pushed a commit with \"dead\" 2 times.",
+    "body": "- <a href=\"https://github.com/zaderlyl/survivor/commit/3c8327bdead00602e0d81178dcea212fa71728b4\">3c8327b<strong>dead</strong>00602e0d81178dcea212fa71728b4</a>\n- <a href=\"https://github.com/zaderlyl/loup-garou-mj/commit/7e4de41d42246378f909c93fb7c83568dead7151\">7e4de41d42246378f909c93fb7c83568<strong>dead</strong>7151</a>",
     "image": "https://my-badges.github.io/my-badges/dead-commit.png"
   },
   {
     "id": "fix-2",
     "tier": 1,
     "desc": "I did 2 sequential fixes.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/claude-config/commit/724222108cccc8d30cd74f72dd6c4be3909387ba\">7242221</a>: fix: Retire le dépôt imbriqué Sans titre\n\nfix: Retire le dépôt imbriqué Sans titre\n- <a href=\"https://github.com/zaderlyl/claude-config/commit/baef37d81691cd2e1370cb1589717c38e28770c4\">baef37d</a>: fix: Retire le dépôt imbriqué Sans titre",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/survivor/commit/72928d4924947f2c703f029ec0fcb2ec44898781\">72928d4</a>: fix: Fait monter la vie des ennemis avec la puissance de feu du joueur\n- <a href=\"https://github.com/zaderlyl/survivor/commit/b860eb2b3eba92cbd073a4084d41f6215c19b3b6\">b860eb2</a>: fix: Fait monter les dégâts subis avec le monde et la vie maximale du joueur",
     "image": "https://my-badges.github.io/my-badges/fix-2.png"
   },
   {
