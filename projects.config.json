@@ -28,7 +28,7 @@
       "stackIcons": ["javascript"]
     },
     "zaderlyl/Spoti-Stat": {
-      "note": "Tableau de bord de statistiques d'écoute Spotify (API Spotify).",
+      "note": "Tableau de bord de statistiques d'écoute (Last.fm et Deezer), mis à jour automatiquement.",
       "stackIcons": ["javascript"]
     },
     "Bebbou/Musee--FABI": {
