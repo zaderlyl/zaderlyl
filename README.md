@@ -47,17 +47,18 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 
 | Projet | Description | Stack |
 |---|---|---|
+| **[piscine](https://github.com/zaderlyl/piscine)** | _(pas encore de description)_ |  |
 | **[Spoti-Stat](https://github.com/zaderlyl/Spoti-Stat)** | Tableau de bord de statistiques d'écoute (Last.fm et Deezer), mis à jour automatiquement. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[DevTober](https://github.com/zaderlyl/DevTober)** | DevTober 2026 (variante de l'Inktober pour les développeurs) | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> ![★](https://img.shields.io/badge/★%201-0D1117?style=flat-square&labelColor=0D1117&color=FF9100) |
 | **[survivor](https://github.com/zaderlyl/survivor)** | Survivor-like en navigateur : tenir face à des vagues d'ennemis, gagner de l'XP et choisir ses pouvoirs. Basé sur 07-Swarm de Lino Volle. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[phaser-ui-editor](https://github.com/zaderlyl/phaser-ui-editor)** | Éditeur web façon Figma pour Phaser : construire des écrans d'UI à la souris et générer le code Phaser correspondant. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
-| **[Nothing-OS](https://github.com/zaderlyl/Nothing-OS)** | Noyau x86_64 bare-metal écrit en Rust, bootable dans QEMU : système de fichiers persistant, pilotes ATA/PCI, partage de dossier hôte via virtio-9p, interface entièrement au clavier. | <img src="https://cdn.simpleicons.org/rust/FF9100" width="28" height="28" alt="rust" title="rust"> |
 
 <details>
-<summary><b>Voir les 13 autres projets</b></summary>
+<summary><b>Voir les 14 autres projets</b></summary>
 
 | Projet | Description | Stack |
 |---|---|---|
+| **[Nothing-OS](https://github.com/zaderlyl/Nothing-OS)** | Noyau x86_64 bare-metal écrit en Rust, bootable dans QEMU : système de fichiers persistant, pilotes ATA/PCI, partage de dossier hôte via virtio-9p, interface entièrement au clavier. | <img src="https://cdn.simpleicons.org/rust/FF9100" width="28" height="28" alt="rust" title="rust"> |
 | **[claude-config](https://github.com/zaderlyl/claude-config)** | Ma configuration Claude Code versionnée : règles globales, commandes /commit /push /merge, hooks git et modèle de projet. | <img src="https://cdn.simpleicons.org/gnubash/FF9100" width="28" height="28" alt="gnubash" title="gnubash"> |
 | **[phaser-new](https://github.com/zaderlyl/phaser-new)** | Génère en une commande la base d'un jeu Phaser 3 en JavaScript, sans Vite ni outil de build (npm create phaser-base). | <img src="https://cdn.simpleicons.org/gnubash/FF9100" width="28" height="28" alt="gnubash" title="gnubash"> |
 | **[repolink](https://github.com/zaderlyl/repolink)** | Site pour trouver des repos GitHub à sa portée et rencontrer des créateurs : recherche simplifiée, good first issues, mise en relation débutants/experts. | <img src="https://cdn.simpleicons.org/typescript/FF9100" width="28" height="28" alt="typescript" title="typescript"> |
