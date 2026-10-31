@@ -47,8 +47,8 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 
 | Projet | Description | Stack |
 |---|---|---|
+| **[piscine](https://github.com/zaderlyl/piscine)** | _(pas encore de description)_ | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[Spoti-Stat](https://github.com/zaderlyl/Spoti-Stat)** | Tableau de bord de statistiques d'écoute (Last.fm et Deezer), mis à jour automatiquement. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
-| **[piscine](https://github.com/zaderlyl/piscine)** | _(pas encore de description)_ |  |
 | **[DevTober](https://github.com/zaderlyl/DevTober)** | DevTober 2026 (variante de l'Inktober pour les développeurs) | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> ![★](https://img.shields.io/badge/★%201-0D1117?style=flat-square&labelColor=0D1117&color=FF9100) |
 | **[survivor](https://github.com/zaderlyl/survivor)** | Survivor-like en navigateur : tenir face à des vagues d'ennemis, gagner de l'XP et choisir ses pouvoirs. Basé sur 07-Swarm de Lino Volle. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
 | **[phaser-ui-editor](https://github.com/zaderlyl/phaser-ui-editor)** | Éditeur web façon Figma pour Phaser : construire des écrans d'UI à la souris et générer le code Phaser correspondant. | <img src="https://cdn.simpleicons.org/javascript/FF9100" width="28" height="28" alt="javascript" title="javascript"> |
