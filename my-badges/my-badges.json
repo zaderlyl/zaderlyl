@@ -24,7 +24,7 @@
     "id": "chore-commit",
     "tier": 0,
     "desc": "I did a little housekeeping! 🧹",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/phaser-new/commit/bbd71417652af9feb7bdb0f07af86838fb453478\">bbd7141</a>: chore: Ajoute la licence MIT",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/5f12d6dc7f7b888b8cd81661a622e988fb1045d1\">5f12d6d</a>: chore: Ajoute la structure du projet et le CLAUDE.md",
     "image": "https://my-badges.github.io/my-badges/chore-commit.png"
   },
   {
@@ -38,7 +38,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"de\".",
-    "body": "My favorite commit message words are:\n\n1. de (used 2193 times)\n2. le (used 1574 times)\n3. la (used 1348 times)\n4. les (used 940 times)\n5. et (used 892 times)",
+    "body": "My favorite commit message words are:\n\n1. de (used 2194 times)\n2. le (used 1578 times)\n3. la (used 1353 times)\n4. les (used 941 times)\n5. et (used 896 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -73,7 +73,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/repolink/commit/08f8eadfe874f4d361bb63c7b6c5796237e13906\">08f8ead</a>\n- <a href=\"https://github.com/zaderlyl/repolink/commit/e32a22a1a028d257a115153501b9869ffaff43cf\">e32a22a</a>\n- <a href=\"https://github.com/zaderlyl/repolink/commit/a13a2e529eda3c9e7193e4323a977fab57d406ce\">a13a2e5</a>\n- <a href=\"https://github.com/zaderlyl/repolink/commit/2125a3181b2258280fa9249a1259734745405851\">2125a31</a>\n- <a href=\"https://github.com/zaderlyl/repolink/commit/c8af49f9e1d85b3540deef00b0f8189480737b70\">c8af49f</a>\n- <a href=\"https://github.com/zaderlyl/repolink/commit/8c54fda8be9ec967f1cb3db9f2b1313ab1f996cd\">8c54fda</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/58c315824f82f9037665474c7e8353f936c79ac7\">58c3158</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/3cea0b4ca6ff5a3cf55d8f2854c6492363b6f265\">3cea0b4</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/a463e5681ca440d3b0093d0f386730a478dcc4c7\">a463e56</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/c7bf66c8f827af2bba6665da379cb3cb96f90da2\">c7bf66c</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/e537647a3d0e2910d6c6ae3ac5a22a8fbb852d92\">e537647</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/17ed2bc277253ee1eeb286ccfc428e169fa56fcc\">17ed2bc</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
@@ -152,5 +152,12 @@
     "desc": "I am a rebel coder.",
     "body": "I do not use words like \"thanks\" and \"please\" in my issues.\nStraight to the point!",
     "image": "https://my-badges.github.io/my-badges/rebel-coder.png"
+  },
+  {
+    "id": "spooky-commit",
+    "tier": 0,
+    "desc": "I committed on the Halloween! Boo!",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/58c315824f82f9037665474c7e8353f936c79ac7\">58c3158</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/3cea0b4ca6ff5a3cf55d8f2854c6492363b6f265\">3cea0b4</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/a463e5681ca440d3b0093d0f386730a478dcc4c7\">a463e56</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/c7bf66c8f827af2bba6665da379cb3cb96f90da2\">c7bf66c</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/e537647a3d0e2910d6c6ae3ac5a22a8fbb852d92\">e537647</a>",
+    "image": "https://my-badges.github.io/my-badges/spooky-commit.png"
   }
 ]
