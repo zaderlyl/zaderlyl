@@ -38,7 +38,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"de\".",
-    "body": "My favorite commit message words are:\n\n1. de (used 2194 times)\n2. le (used 1578 times)\n3. la (used 1353 times)\n4. les (used 941 times)\n5. et (used 896 times)",
+    "body": "My favorite commit message words are:\n\n1. de (used 2203 times)\n2. le (used 1589 times)\n3. la (used 1376 times)\n4. les (used 949 times)\n5. et (used 910 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -73,7 +73,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/58c315824f82f9037665474c7e8353f936c79ac7\">58c3158</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/3cea0b4ca6ff5a3cf55d8f2854c6492363b6f265\">3cea0b4</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/a463e5681ca440d3b0093d0f386730a478dcc4c7\">a463e56</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/c7bf66c8f827af2bba6665da379cb3cb96f90da2\">c7bf66c</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/e537647a3d0e2910d6c6ae3ac5a22a8fbb852d92\">e537647</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/17ed2bc277253ee1eeb286ccfc428e169fa56fcc\">17ed2bc</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/35bb712fd9c938531792495e93b8a845a9f0e143\">35bb712</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/58c315824f82f9037665474c7e8353f936c79ac7\">58c3158</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/3cea0b4ca6ff5a3cf55d8f2854c6492363b6f265\">3cea0b4</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/a463e5681ca440d3b0093d0f386730a478dcc4c7\">a463e56</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/c7bf66c8f827af2bba6665da379cb3cb96f90da2\">c7bf66c</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/e537647a3d0e2910d6c6ae3ac5a22a8fbb852d92\">e537647</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
@@ -101,7 +101,7 @@
     "id": "fix-2",
     "tier": 1,
     "desc": "I did 2 sequential fixes.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/survivor/commit/72928d4924947f2c703f029ec0fcb2ec44898781\">72928d4</a>: fix: Fait monter la vie des ennemis avec la puissance de feu du joueur\n- <a href=\"https://github.com/zaderlyl/survivor/commit/b860eb2b3eba92cbd073a4084d41f6215c19b3b6\">b860eb2</a>: fix: Fait monter les dégâts subis avec le monde et la vie maximale du joueur",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/dcbae29946bcf29e1d1fa7d708b9316a4059bd4d\">dcbae29</a>: fix: Corrige la casse de la fonction lireExo\n- <a href=\"https://github.com/zaderlyl/piscine/commit/efc893c576a24f6e2808c6f8fe3c9c94f88b1bed\">efc893c</a>: fix: Corrige des erreurs typographiques et améliore la fonction de lecture des sections",
     "image": "https://my-badges.github.io/my-badges/fix-2.png"
   },
   {
@@ -157,7 +157,7 @@
     "id": "spooky-commit",
     "tier": 0,
     "desc": "I committed on the Halloween! Boo!",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/58c315824f82f9037665474c7e8353f936c79ac7\">58c3158</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/3cea0b4ca6ff5a3cf55d8f2854c6492363b6f265\">3cea0b4</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/a463e5681ca440d3b0093d0f386730a478dcc4c7\">a463e56</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/c7bf66c8f827af2bba6665da379cb3cb96f90da2\">c7bf66c</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/e537647a3d0e2910d6c6ae3ac5a22a8fbb852d92\">e537647</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/35bb712fd9c938531792495e93b8a845a9f0e143\">35bb712</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/58c315824f82f9037665474c7e8353f936c79ac7\">58c3158</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/3cea0b4ca6ff5a3cf55d8f2854c6492363b6f265\">3cea0b4</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/a463e5681ca440d3b0093d0f386730a478dcc4c7\">a463e56</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/c7bf66c8f827af2bba6665da379cb3cb96f90da2\">c7bf66c</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/e537647a3d0e2910d6c6ae3ac5a22a8fbb852d92\">e537647</a>",
     "image": "https://my-badges.github.io/my-badges/spooky-commit.png"
   }
 ]
