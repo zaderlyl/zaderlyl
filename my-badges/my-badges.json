@@ -38,7 +38,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"de\".",
-    "body": "My favorite commit message words are:\n\n1. de (used 2203 times)\n2. le (used 1589 times)\n3. la (used 1376 times)\n4. les (used 949 times)\n5. et (used 910 times)",
+    "body": "My favorite commit message words are:\n\n1. de (used 2213 times)\n2. le (used 1600 times)\n3. la (used 1385 times)\n4. les (used 952 times)\n5. et (used 919 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -73,7 +73,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/35bb712fd9c938531792495e93b8a845a9f0e143\">35bb712</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/58c315824f82f9037665474c7e8353f936c79ac7\">58c3158</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/3cea0b4ca6ff5a3cf55d8f2854c6492363b6f265\">3cea0b4</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/a463e5681ca440d3b0093d0f386730a478dcc4c7\">a463e56</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/c7bf66c8f827af2bba6665da379cb3cb96f90da2\">c7bf66c</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/e537647a3d0e2910d6c6ae3ac5a22a8fbb852d92\">e537647</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/f31305a04fd3280e0f6c8a5230fc70dae274bbff\">f31305a</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/088e5576331d02739ef4bd9ce70e12704c766a81\">088e557</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/c8a706f38775d12583d708b754c28027e4d2b293\">c8a706f</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/35bb712fd9c938531792495e93b8a845a9f0e143\">35bb712</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/58c315824f82f9037665474c7e8353f936c79ac7\">58c3158</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/3cea0b4ca6ff5a3cf55d8f2854c6492363b6f265\">3cea0b4</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
@@ -159,5 +159,12 @@
     "desc": "I committed on the Halloween! Boo!",
     "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/35bb712fd9c938531792495e93b8a845a9f0e143\">35bb712</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/58c315824f82f9037665474c7e8353f936c79ac7\">58c3158</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/3cea0b4ca6ff5a3cf55d8f2854c6492363b6f265\">3cea0b4</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/a463e5681ca440d3b0093d0f386730a478dcc4c7\">a463e56</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/c7bf66c8f827af2bba6665da379cb3cb96f90da2\">c7bf66c</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/e537647a3d0e2910d6c6ae3ac5a22a8fbb852d92\">e537647</a>",
     "image": "https://my-badges.github.io/my-badges/spooky-commit.png"
+  },
+  {
+    "id": "sleepy-coder",
+    "tier": 0,
+    "desc": "I am a sleepy coder.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/328b72caae4dfdded83acf2970daf8fc12a61638\">328b72c</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/1733234b22245e402bc68281e256a6852aee9955\">1733234</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/2aa45ecbf0dfe46bf1dcd66b21b714ec340a9fd5\">2aa45ec</a>",
+    "image": "https://my-badges.github.io/my-badges/sleepy-coder.png"
   }
 ]

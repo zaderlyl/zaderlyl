@@ -109,6 +109,7 @@ Tous mes dépôts publics, triés par dernière modification. Se met à jour tou
 <a href="my-badges/the-ultimate-question.md"><img src="https://my-badges.github.io/my-badges/the-ultimate-question.png" alt="I found the answer to the ultimate question of life, the universe, and everything!" title="I found the answer to the ultimate question of life, the universe, and everything!" width="64"></a>
 <a href="my-badges/rebel-coder.md"><img src="https://my-badges.github.io/my-badges/rebel-coder.png" alt="I am a rebel coder." title="I am a rebel coder." width="64"></a>
 <a href="my-badges/spooky-commit.md"><img src="https://my-badges.github.io/my-badges/spooky-commit.png" alt="I committed on the Halloween! Boo!" title="I committed on the Halloween! Boo!" width="64"></a>
+<a href="my-badges/sleepy-coder.md"><img src="https://my-badges.github.io/my-badges/sleepy-coder.png" alt="I am a sleepy coder." title="I am a sleepy coder." width="64"></a>
 <!-- my-badges end -->
 
 </details>
