@@ -3,6 +3,7 @@
 <br><br>
 
 - <a href="https://github.com/zaderlyl/repolink/issues/42">#42</a>
+- <a href="https://github.com/zaderlyl/piscine/issues/42">#42</a>
 - <a href="https://github.com/zaderlyl/glass_garden/issues/42">#42</a>
 
 

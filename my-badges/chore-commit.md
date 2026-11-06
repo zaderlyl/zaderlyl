@@ -4,7 +4,7 @@
 
 Commits:
 
-- <a href="https://github.com/zaderlyl/piscine/commit/5f12d6dc7f7b888b8cd81661a622e988fb1045d1">5f12d6d</a>: chore: Ajoute la structure du projet et le CLAUDE.md
+- <a href="https://github.com/zaderlyl/piscine/commit/ea71f94b6d63b7ba3e5e0f38ccb8c1ba267b2922">ea71f94</a>: chore: Présente le débrief Discord en carte structurée
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
