@@ -4,9 +4,9 @@
 
 Commits:
 
-- <a href="https://github.com/zaderlyl/glass_garden/commit/4d489f3dc7c923a86f1f662b157eaf722cf09949">4d489f3</a>: fix: Resynchronise monde_1.tmx avec monde_1.json (lac, calque foret_zone)
-- <a href="https://github.com/zaderlyl/glass_garden/commit/61f01d50d1eceec231fb781b37c78402312956ca">61f01d5</a>: fix: Resynchronise hub_test_arbres.tmx avec hub_test_arbres.json (tuiles et objets)
-- <a href="https://github.com/zaderlyl/glass_garden/commit/183ace58afe5d34d46ac172c1187e76b4a67643b">183ace5</a>: fix: Resynchronise hub_test.tmx avec hub_test.json (tuiles, objets, calque foret_zone)
+- <a href="https://github.com/zaderlyl/piscine/commit/8a909485fdb84faa8f2413d8975ec868edebefc1">8a90948</a>: fix: Clarifie l'utilisation des niveaux de titres dans le cours HTML
+- <a href="https://github.com/zaderlyl/piscine/commit/342721b731d53dd6b0b4649c11861c0b8e13fc98">342721b</a>: fix: Corrige les notions et simplifie l'énoncé de l'exercice sur le squelette HTML
+- <a href="https://github.com/zaderlyl/piscine/commit/93a25b5c8d7b2ce7db4e255716ff2d6a9a61fe58">93a25b5</a>: fix: Corrige des erreurs de syntaxe et améliore les commentaires dans le code
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

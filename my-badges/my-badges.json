@@ -38,7 +38,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"de\".",
-    "body": "My favorite commit message words are:\n\n1. de (used 2268 times)\n2. le (used 1632 times)\n3. la (used 1453 times)\n4. les (used 989 times)\n5. et (used 968 times)",
+    "body": "My favorite commit message words are:\n\n1. de (used 2273 times)\n2. le (used 1635 times)\n3. la (used 1456 times)\n4. les (used 997 times)\n5. et (used 972 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -73,7 +73,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/26ce361aea2c1a54bfc6a806f5f04ace6062312f\">26ce361</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/f31305a04fd3280e0f6c8a5230fc70dae274bbff\">f31305a</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/088e5576331d02739ef4bd9ce70e12704c766a81\">088e557</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/c8a706f38775d12583d708b754c28027e4d2b293\">c8a706f</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/35bb712fd9c938531792495e93b8a845a9f0e143\">35bb712</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/58c315824f82f9037665474c7e8353f936c79ac7\">58c3158</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/05b5df413ae6d0a276af78c2f4ee79949b888407\">05b5df4</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/e576493398bc435e5b50dbaa9b2412482cf24bf9\">e576493</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/7c65521fdad63a61402291dca6316e7bd0247b1e\">7c65521</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/26ce361aea2c1a54bfc6a806f5f04ace6062312f\">26ce361</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/f31305a04fd3280e0f6c8a5230fc70dae274bbff\">f31305a</a>\n- <a href=\"https://github.com/zaderlyl/piscine/commit/088e5576331d02739ef4bd9ce70e12704c766a81\">088e557</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
@@ -136,7 +136,7 @@
     "id": "fix-3",
     "tier": 2,
     "desc": "I did 3 sequential fixes.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/4d489f3dc7c923a86f1f662b157eaf722cf09949\">4d489f3</a>: fix: Resynchronise monde_1.tmx avec monde_1.json (lac, calque foret_zone)\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/61f01d50d1eceec231fb781b37c78402312956ca\">61f01d5</a>: fix: Resynchronise hub_test_arbres.tmx avec hub_test_arbres.json (tuiles et objets)\n- <a href=\"https://github.com/zaderlyl/glass_garden/commit/183ace58afe5d34d46ac172c1187e76b4a67643b\">183ace5</a>: fix: Resynchronise hub_test.tmx avec hub_test.json (tuiles, objets, calque foret_zone)",
+    "body": "Commits:\n\n- <a href=\"https://github.com/zaderlyl/piscine/commit/8a909485fdb84faa8f2413d8975ec868edebefc1\">8a90948</a>: fix: Clarifie l'utilisation des niveaux de titres dans le cours HTML\n- <a href=\"https://github.com/zaderlyl/piscine/commit/342721b731d53dd6b0b4649c11861c0b8e13fc98\">342721b</a>: fix: Corrige les notions et simplifie l'énoncé de l'exercice sur le squelette HTML\n- <a href=\"https://github.com/zaderlyl/piscine/commit/93a25b5c8d7b2ce7db4e255716ff2d6a9a61fe58\">93a25b5</a>: fix: Corrige des erreurs de syntaxe et améliore les commentaires dans le code",
     "image": "https://my-badges.github.io/my-badges/fix-3.png"
   },
   {

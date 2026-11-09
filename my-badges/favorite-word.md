@@ -4,11 +4,11 @@
 
 My favorite commit message words are:
 
-1. de (used 2268 times)
-2. le (used 1632 times)
-3. la (used 1453 times)
-4. les (used 989 times)
-5. et (used 968 times)
+1. de (used 2273 times)
+2. le (used 1635 times)
+3. la (used 1456 times)
+4. les (used 997 times)
+5. et (used 972 times)
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
