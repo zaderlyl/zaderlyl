@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/zaderlyl/piscine/commit/05b5df413ae6d0a276af78c2f4ee79949b888407">05b5df4</a>
-- <a href="https://github.com/zaderlyl/piscine/commit/e576493398bc435e5b50dbaa9b2412482cf24bf9">e576493</a>
-- <a href="https://github.com/zaderlyl/piscine/commit/7c65521fdad63a61402291dca6316e7bd0247b1e">7c65521</a>
-- <a href="https://github.com/zaderlyl/piscine/commit/26ce361aea2c1a54bfc6a806f5f04ace6062312f">26ce361</a>
-- <a href="https://github.com/zaderlyl/piscine/commit/f31305a04fd3280e0f6c8a5230fc70dae274bbff">f31305a</a>
-- <a href="https://github.com/zaderlyl/piscine/commit/088e5576331d02739ef4bd9ce70e12704c766a81">088e557</a>
+- <a href="https://github.com/zaderlyl/piscine/commit/c2c77854a409262d9fa816d3f1695747b2602731">c2c7785</a>
+- <a href="https://github.com/zaderlyl/piscine/commit/a74acde8d7430a4c6e456f8882c2bb996a85b97b">a74acde</a>
+- <a href="https://github.com/zaderlyl/piscine/commit/9031a92906b25b04529a1be0746c5341ef9b81c3">9031a92</a>
+- <a href="https://github.com/zaderlyl/piscine/commit/3517b93396d0751c2a1698652b9ac9eddd6962a1">3517b93</a>
+- <a href="https://github.com/zaderlyl/piscine/commit/762c1ca6ff09108f4b9383dc0e68ad3529768734">762c1ca</a>
+- <a href="https://github.com/zaderlyl/piscine/commit/1d3f54789d95ce59f2445e2430222266899d4d1e">1d3f547</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
