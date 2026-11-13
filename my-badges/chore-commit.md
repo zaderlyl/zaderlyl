@@ -4,7 +4,7 @@
 
 Commits:
 
-- <a href="https://github.com/zaderlyl/piscine/commit/ea71f94b6d63b7ba3e5e0f38ccb8c1ba267b2922">ea71f94</a>: chore: Présente le débrief Discord en carte structurée
+- <a href="https://github.com/zaderlyl/piscine/commit/d6f7f99e9d17f026bc0149118031d9fc04da688e">d6f7f99</a>: chore: Ajoute sql.js en devDependency pour que la CI exécute les solutions SQL
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
