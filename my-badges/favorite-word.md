@@ -4,9 +4,9 @@
 
 My favorite commit message words are:
 
-1. de (used 2339 times)
+1. de (used 2337 times)
 2. le (used 1705 times)
-3. la (used 1502 times)
+3. la (used 1499 times)
 4. les (used 1072 times)
 5. et (used 1043 times)
 
