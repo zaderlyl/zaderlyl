@@ -4,7 +4,7 @@
 
 Commits:
 
-- <a href="https://github.com/zaderlyl/piscine/commit/d6f7f99e9d17f026bc0149118031d9fc04da688e">d6f7f99</a>: chore: Ajoute sql.js en devDependency pour que la CI exécute les solutions SQL
+- <a href="https://github.com/zaderlyl/piscine/commit/3166e31575c5f3c69f7e583d4384b5fc3e7f519a">3166e31</a>: chore: Fusionne main dans feature/cours-00
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
