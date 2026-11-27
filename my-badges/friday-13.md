@@ -4,8 +4,11 @@
 
 Commits:
 
+- <a href="https://github.com/Bebbou/R.308---Multimedia/commit/addad2fa61814b8f0e2621e17e66bff9218f8cf1">addad2f</a>
 - <a href="https://github.com/Bebbou/R.308---Multimedia/commit/6f28f88845352d2cfd7e5432e4d686db40a4138a">6f28f88</a>
 - <a href="https://github.com/Bebbou/R.308---Multimedia/commit/2b755da2dec50270562cc22f54d49682538d6493">2b755da</a>
+- <a href="https://github.com/zaderlyl/piscine/commit/777dc24d727fc43bcf4f68e2d43f093e1ca3037d">777dc24</a>
+- <a href="https://github.com/zaderlyl/piscine/commit/90d489e16b0fc0cbff55d8a45a8d113e01430f8c">90d489e</a>
 - <a href="https://github.com/Bebbou/R.308---Multimedia/commit/61eeba9b4db4a4dd672dfc1cebdd01d46fee0e39">61eeba9</a>
 - <a href="https://github.com/Bebbou/R.308---Multimedia/commit/6bf3c90265dcc87bf13ca0fa0e3f307ac4438ea0">6bf3c90</a>
 - <a href="https://github.com/Bebbou/R.308---Multimedia/commit/70267f59df5b447eb7846e80508948c7689d3a0c">70267f5</a>
